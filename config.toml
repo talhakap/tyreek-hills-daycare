@@ -13,7 +13,7 @@ private = true              # private leagues need ESPN_S2 and ESPN_SWID (see RE
 [site]
 timezone = "America/Toronto"
 hide_from_search_engines = true
-custom_domain = ""          # e.g. "fantasy.example.com" — leave blank for none
+custom_domain = "fantasy.aethdigital.com"   # leave "" for none (README section 8)
 
 # Colors (Aeth Digital palette). Any CSS hex color works.
 [colors]
