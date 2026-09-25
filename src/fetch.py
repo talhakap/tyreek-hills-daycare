@@ -76,12 +76,21 @@ def _played_weeks(matchups: list) -> list[int]:
     return sorted({m["week"] for m in matchups if m["final"] or m["home_score"] or m["away_score"]})
 
 
-def _fetch_lineups(league, raw: dict, matchups: list, year: int, in_progress: bool) -> list | None:
-    """One request per scoring period. Returns None if ESPN has no lineup data."""
+def _fetch_lineups(league, raw: dict, matchups: list, year: int, in_progress: bool) -> tuple[list | None, dict]:
+    """One request per scoring period, for every played week plus the week in progress.
+
+    Returns (lineups or None if ESPN has no lineup data, live scores). ESPN keeps a
+    game's totalPoints at 0 until the week is final (Tuesday); the running score is
+    totalPointsLive, so live = {matchup id: {"home": pts, "away": pts}} for undecided games.
+    """
     periods = raw.get("settings", {}).get("scheduleSettings", {}).get("matchupPeriods", {})
     latest = league.scoringPeriodId
-    lineups = []
-    for week in _played_weeks(matchups):
+    weeks = set(_played_weeks(matchups))
+    current = raw.get("status", {}).get("currentMatchupPeriod")
+    if in_progress and current in {m["week"] for m in matchups}:
+        weeks.add(current)
+    lineups, live = [], {}
+    for week in sorted(weeks):
         for sp in periods.get(str(week), [week]):
             if in_progress and sp > latest:
                 continue
@@ -90,18 +99,32 @@ def _fetch_lineups(league, raw: dict, matchups: list, year: int, in_progress: bo
             headers = {"x-fantasy-filter": json.dumps(filters)}
             data = _with_retries(f"load {year} week {week} lineups",
                                  lambda: league.espn_request.league_get(params=params, headers=headers))
+            for m in data.get("schedule", []):
+                if m.get("winner") == "UNDECIDED" and "id" in m:
+                    live[m["id"]] = {side: m[side].get("totalPointsLive") for side in ("home", "away") if side in m}
             try:
                 boxes = [BoxScore(m, {}, {}, sp, year) for m in data.get("schedule", [])]
                 week_lineups = normalize.normalize_lineups(boxes, week, sp)
             except (KeyError, TypeError, ValueError) as e:
                 if not lineups:
                     log.info("  No lineup data available for %s (%s: %s).", year, type(e).__name__, e)
-                    return None
+                    return None, live
                 log.warning("  Warning: couldn't read %s week %s lineups (%s); skipping that week.",
                             year, week, type(e).__name__)
                 continue
             lineups.extend(week_lineups)
-    return lineups or None
+    return lineups or None, live
+
+
+def _apply_live_scores(raw: dict, live: dict) -> None:
+    """Use live running totals for games that aren't final yet (final games keep ESPN's totals)."""
+    for m in raw.get("schedule", []):
+        scores = live.get(m.get("id"))
+        if not scores or m.get("winner") != "UNDECIDED":
+            continue
+        for side, pts in scores.items():
+            if pts is not None and side in m:
+                m[side]["totalPoints"] = pts
 
 
 def _fetch_transactions(league, year: int) -> list | None:
@@ -149,7 +172,8 @@ def fetch_season(cfg: dict, year: int, s2, swid, is_current: bool) -> dict:
         raise FetchError(f"Couldn't read the {year} season ({type(e).__name__}: {e}).\n{UPGRADE_HINT}") from None
 
     in_progress = any(not m["final"] and not m["is_bye"] for m in matchups)
-    lineups = _fetch_lineups(league, raw, matchups, year, in_progress)
+    lineups, live = _fetch_lineups(league, raw, matchups, year, in_progress)
+    _apply_live_scores(raw, live)
     rosters = transactions = None
     if is_current:
         rosters = {str(t.team_id): normalize.normalize_roster(t) for t in league.teams}

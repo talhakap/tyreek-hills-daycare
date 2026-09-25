@@ -88,3 +88,17 @@ def test_config_can_use_raw_ids_or_codes():
     ov = load_overrides(cfg, offline=False)
     assert ov[code] == {"display_name": "Pat"}
     assert ov["m-000000000000"]["merge_into"] == code
+
+
+def test_live_scores_fill_unfinished_games_only():
+    from src.fetch import _apply_live_scores
+    raw = {"schedule": [
+        {"id": 1, "matchupPeriodId": 3, "winner": "UNDECIDED",
+         "home": {"teamId": 1, "totalPoints": 0.0}, "away": {"teamId": 2, "totalPoints": 0.0}},
+        {"id": 2, "matchupPeriodId": 2, "winner": "HOME",
+         "home": {"teamId": 3, "totalPoints": 110.0}, "away": {"teamId": 4, "totalPoints": 90.0}},
+    ]}
+    _apply_live_scores(raw, {1: {"home": 38.9, "away": None}, 2: {"home": 1.0, "away": 1.0}})
+    live, final = normalize.normalize_matchups(raw["schedule"])
+    assert (live["home_score"], live["away_score"], live["final"]) == (38.9, 0.0, False)
+    assert (final["home_score"], final["away_score"]) == (110.0, 90.0)     # final games keep ESPN's totals
