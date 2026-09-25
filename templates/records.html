@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+
+{% macro game_link(e) -%}
+<a href="{{ root }}weeks/{{ e.season }}-{{ e.week }}.html">{{ e.season }} wk {{ e.week }}</a>{% if e.kind == "playoff" %} <span class="tag">Playoffs</span>{% endif %}
+{%- endmacro %}
+
+{% macro season_link(year) -%}
+<a href="{{ ui.season_href(year, current_year) }}">{{ year }}</a>
+{%- endmacro %}
+
+{% macro opp(e) -%}
+{% if e.get("opp_team") %}vs {{ e.opp_team.name }}{% endif %}
+{%- endmacro %}
+
+{# One leaderboard row. t picks what to show; every row fits a phone screen. #}
+{% macro rec_item(e, t, rank, icon, fmt) -%}
+<li class="rec-row{% if rank == 1 %} rec-first{% endif %}">
+  <span class="rec-rank">{{ "" if t == "position" else rank }}</span>
+  <div class="rec-main">
+    {% if t in ("streak", "count", "career") %}{{ ui.unit_link(e.unit_v) }}
+    {% elif t in ("player", "player_season", "position") %}<span class="rec-player">{% if t == "position" %}<span class="tag">{{ e.position }}</span> {% endif %}{{ e.player }}</span>{% if t != "position" %} <span class="muted">{{ e.position }}</span>{% endif %}
+    {% else %}{{ ui.team_link(e.team) }}{% endif %}
+  </div>
+  <div class="rec-val">
+    {%- if t == "score" %}{{ e.score|pts }}
+    {%- elif t == "margin" %}{{ e.margin|pts }}
+    {%- elif t == "total" %}{{ e.total|pts }}
+    {%- elif t == "close" %}{{ e.margin|pts }}
+    {%- elif t == "bench" %}{{ e.bench_left|pts }}
+    {%- elif t == "season_pf" %}{{ e.pf|pts }}
+    {%- elif t == "season_pa" %}{{ e.pa|pts }}
+    {%- elif t == "record" %}{{ record(e.wins, e.losses, e.ties) }}
+    {%- elif t == "allplay" %}{{ record(e.ap_wins, e.ap_losses, e.ap_ties) }}
+    {%- elif t == "luck" %}{{ e.luck|signed }}
+    {%- elif t == "streak" %}{{ e.length }}
+    {%- elif t == "count" %}{% if icon %}<span aria-hidden="true">{% for _ in range(e.count) %}{{ icon }}{% endfor %}</span> {% endif %}{{ e.count }}
+    {%- elif t == "career" %}{{ e.value|pts if fmt == "pts" else e.value }}
+    {%- else %}{{ e.points|pts }}{% endif -%}
+  </div>
+  <div class="rec-sub">
+    {% if t == "score" %}{{ game_link(e) }} {{ opp(e) }}
+    {% elif t == "margin" %}{{ e.score|pts }}–{{ e.opp_score|pts }} {{ opp(e) }} · {{ game_link(e) }}
+    {% elif t in ("total", "close") %}{{ "tied" if e.tie else "beat" }} {{ e.opp_team.name if e.get("opp_team") else "" }}, {{ e.score|pts }}–{{ e.opp_score|pts }} · {{ game_link(e) }}
+    {% elif t == "bench" %}started {{ e.actual|pts }}, best possible {{ e.optimal|pts }} · {{ game_link(e) }}
+    {% elif t in ("season_pf", "season_pa") %}{{ season_link(e.season) }} · {{ e.games }} games
+    {% elif t == "record" %}{{ e.pf|pts }} PF · {{ season_link(e.season) }}
+    {% elif t == "allplay" %}actual record {{ record(e.wins, e.losses, e.ties) }} · {{ season_link(e.season) }}
+    {% elif t == "luck" %}went {{ record(e.wins, e.losses, e.ties) }} · {{ season_link(e.season) }}
+    {% elif t == "streak" %}<a href="{{ root }}weeks/{{ e.start[0] }}-{{ e.start[1] }}.html">{{ e.start[0] }} wk {{ e.start[1] }}</a> → <a href="{{ root }}weeks/{{ e.end[0] }}-{{ e.end[1] }}.html">{{ e.end[0] }} wk {{ e.end[1] }}</a>
+    {% elif t == "count" %}{% for y in e.seasons %}{{ season_link(y) }}{% if not loop.last %}, {% endif %}{% endfor %}
+    {% elif t == "career" %}{{ e.detail }}
+    {% elif t == "player_season" %}for {{ e.team.name }} · {{ season_link(e.season) }} · {{ e.starts }} starts
+    {% else %}for {{ e.team.name }} · {{ game_link(e) }}{% endif %}
+  </div>
+</li>
+{%- endmacro %}
+
+{% macro rec_card(title, entries, t, note="", icon="", fmt="pts", show=5) -%}
+<section class="rec-card">
+  <h3>{{ title }}</h3>
+  {% if note %}<p class="note">{{ note }}</p>{% endif %}
+  {% if entries %}
+  <ol class="rec-list">{% for e in entries[:show] %}{{ rec_item(e, t, loop.index, icon, fmt) }}{% endfor %}</ol>
+  {% if entries|length > show %}
+  <details class="rec-more">
+    <summary>Show {{ show + 1 }}–{{ entries|length }}</summary>
+    <ol class="rec-list" start="{{ show + 1 }}">{% for e in entries[show:] %}{{ rec_item(e, t, loop.index + show, icon, fmt) }}{% endfor %}</ol>
+  </details>
+  {% endif %}
+  {% else %}<p class="note">No data yet.</p>{% endif %}
+</section>
+{%- endmacro %}
+
+{% block content %}
+<h1>Records</h1>
+<p class="lede">Top 10 all-time since 2018. Tap a game to open that week.</p>
+<details class="fine-print">
+  <summary>How records are counted</summary>
+  <p>Game records count the regular season and the championship playoffs; consolation games and byes don't count. Season records are regular season only. Player records use starting lineups (bench and IR don't count as starts).</p>
+</details>
+
+<nav class="pills rec-tabs" aria-label="Record categories">
+  <a href="#single-game">Games</a>
+  <a href="#players">Players</a>
+  <a href="#season">Seasons</a>
+  <a href="#careers">Careers</a>
+  <a href="#shame">Shame</a>
+</nav>
+
+<section class="rec-group" id="single-game">
+  <h2>Single game</h2>
+  <div class="records-grid">
+    {{ rec_card("Highest score", rec.highest_week, "score") }}
+    {{ rec_card("Biggest win", rec.biggest_margin, "margin") }}
+    {{ rec_card("Highest-scoring game", rec.highest_combined, "total", "Both teams combined.") }}
+    {{ rec_card("Closest games", rec.closest_games, "close") }}
+    {{ rec_card("Heartbreakers", rec.highest_losing, "score", "Most points in a loss.") }}
+  </div>
+</section>
+
+<section class="rec-group" id="players">
+  <h2>Players</h2>
+  <div class="records-grid">
+    {{ rec_card("Best single-week performance", rec.best_player_week, "player", "Points by one player in your starting lineup.") }}
+    {{ rec_card("Best week at each position", rec.position_bests, "position", show=10) }}
+    {{ rec_card("Best season for one team", rec.best_player_season, "player_season", "A player's total points as a starter for one team in one season.") }}
+    {{ rec_card("Should've started him", rec.best_bench_week, "player", "Most points scored by a player sitting on the bench.") }}
+  </div>
+</section>
+
+<section class="rec-group" id="season">
+  <h2>Season</h2>
+  <div class="records-grid">
+    {{ rec_card("Most points", rec.most_pf_season, "season_pf") }}
+    {{ rec_card("Best record", rec.best_record, "record") }}
+    {{ rec_card("Best all-play record", rec.best_all_play, "allplay", "Record if you'd played every team every week.") }}
+    {{ rec_card("Luckiest season", rec.luckiest_season, "luck", "Real win % minus all-play win %.") }}
+  </div>
+</section>
+
+<section class="rec-group" id="careers">
+  <h2>Careers</h2>
+  <div class="records-grid">
+    {{ rec_card("Most championships", rec.championships, "count", icon="🏆") }}
+    {{ rec_card("Most playoff appearances", rec.playoff_appearances, "count") }}
+    {{ rec_card("Most playoff wins", rec.playoff_wins, "career", fmt="int") }}
+    {{ rec_card("Most weekly high scores", rec.most_weekly_highs, "career", "Regular-season weeks with the league's top score.", fmt="int") }}
+    {{ rec_card("Most career points", rec.career_points, "career", "Regular season, all-time.") }}
+    {{ rec_card("Best points per game", rec.career_ppg, "career", "Regular season, all-time.") }}
+    {{ rec_card("Longest winning streak", rec.longest_win_streak, "streak", "Streaks carry across seasons.") }}
+  </div>
+</section>
+
+<section class="rec-group" id="shame">
+  <h2 class="shame-title">Hall of Shame</h2>
+  <div class="records-grid shame">
+    {{ rec_card("Lowest score", rec.lowest_week, "score") }}
+    {{ rec_card("Ugliest wins", rec.lowest_winning, "score", "Fewest points in a win.") }}
+    {{ rec_card("Most points left on the bench", rec.most_bench_left, "bench", "Best possible lineup minus the one that started, in one week.") }}
+    {{ rec_card("Lowest score each season", rec.lowest_by_season, "score", show=10) }}
+    {{ rec_card("Fewest points in a season", rec.fewest_pf_season, "season_pf", "Seasons were 13 or 14 games.") }}
+    {{ rec_card("Worst record", rec.worst_record, "record") }}
+    {{ rec_card("Toughest schedule", rec.most_pa_season, "season_pa", "Most points scored against you in a season.") }}
+    {{ rec_card("Unluckiest season", rec.unluckiest_season, "luck") }}
+    {{ rec_card("Most weekly low scores", rec.most_weekly_lows, "career", "Regular-season weeks with the league's lowest score.", fmt="int") }}
+    {{ rec_card("Longest losing streak", rec.longest_losing_streak, "streak") }}
+    {{ rec_card("Most last-place finishes", rec.last_places, "count", icon="🚽") }}
+  </div>
+</section>
+{% endblock %}

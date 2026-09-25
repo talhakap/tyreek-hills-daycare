@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Build output (deployed by GitHub Actions, never committed)
+site/
+
+# Current season is refetched every build
+data/current.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

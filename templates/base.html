@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if noindex %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+{% if base_href %}
+<base href="{{ base_href }}">
+{% endif %}
+<title>{% if page != "home" %}{{ title }} · {% endif %}{{ league_name }}</title>
+<link rel="icon" href="{{ root }}static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="{{ root }}static/style.css?v={{ asset_version }}">
+<style>:root{--brand-primary:{{ colors.primary }};--brand-secondary:{{ colors.secondary }};--brand-secondary-text:{{ colors.secondary_text }};--brand-cream:{{ colors.cream }}}</style>
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{% set nav = [("home", "Home", "index.html"), ("weeks", "Weeks", "weeks/index.html"), ("power", "Power", "power.html"),
+              ("teams", "Teams", "teams/index.html"), ("history", "History", "history.html"),
+              ("h2h", "Head-to-head", "h2h.html"), ("records", "Records", "records.html")] %}
+{% if show_transactions %}{% set nav = nav + [("transactions", "Transactions", "transactions.html")] %}{% endif %}
+<header class="site-header">
+  <div class="wrap header-bar">
+    <a class="brand" href="{{ root }}index.html"><span class="brand-ball" aria-hidden="true">🏈</span><span class="brand-name">{{ league_name }}</span></a>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch between light and dark mode">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm0 16V5a7 7 0 0 1 0 14z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+        <span class="sr-only">Menu</span>
+      </button>
+    </div>
+  </div>
+  <nav id="site-nav" class="site-nav" aria-label="Main">
+    <ul class="wrap">
+      {% for key, label, href in nav %}
+      <li><a href="{{ root }}{{ href }}"{% if page == key %} aria-current="page"{% endif %}>{{ label }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+<main id="main" class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Last updated: <time datetime="{{ updated_iso }}" data-local-time data-tz="{{ timezone }}">{{ updated_text }}</time></p>
+    <p><a href="{{ espn_url }}" rel="noopener">League on ESPN</a>{% if offline %} · Preview built from fake test data{% endif %}</p>
+  </div>
+</footer>
+<script src="{{ root }}static/app.js?v={{ asset_version }}" defer></script>
+</body>
+</html>

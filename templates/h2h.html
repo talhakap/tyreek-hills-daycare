@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+<h1>Head-to-head</h1>
+<p class="lede">All-time records between every pair of managers: regular season plus championship playoffs (consolation games don't count).</p>
+
+<section class="h2h-picker" data-h2h>
+  <div class="picker-row">
+    <label>Manager <select data-h2h-a>
+      {% for u in units %}<option value="{{ u.key }}">{{ u.name }}</option>{% endfor %}
+    </select></label>
+    <span class="vs">vs</span>
+    <label>Opponent <select data-h2h-b>
+      {% for u in units %}<option value="{{ u.key }}"{% if loop.index == 2 %} selected{% endif %}>{{ u.name }}</option>{% endfor %}
+    </select></label>
+  </div>
+  <div class="h2h-result" data-h2h-result aria-live="polite"><p class="muted">Pick two managers to see their rivalry.</p></div>
+</section>
+
+<div class="h2h-grid-wrap">
+  <h2>The grid</h2>
+  <p class="note">Read across: each row is that manager's record against the column. Click a cell for game-by-game details.</p>
+  <div class="table-wrap">
+  <table class="data h2h-grid">
+    <thead><tr><th scope="col"><span class="sr-only">Manager</span></th>
+      {% for b in units %}<th scope="col" class="h2h-col" title="{{ b.name }}"><span>{{ b.name }}</span></th>{% endfor %}
+    </tr></thead>
+    <tbody>
+    {% for a in units %}
+    <tr>
+      <th scope="row">{{ ui.unit_link(a) }}</th>
+      {% for b in units %}
+        {% if a.key == b.key %}<td class="h2h-self" aria-label="same manager">—</td>
+        {% elif (a.key, b.key) in grid %}{% set r = grid[(a.key, b.key)] %}
+          <td class="h2h-cell {% if r.wins > r.losses %}pos{% elif r.wins < r.losses %}neg{% endif %}"><button type="button" data-a="{{ a.key }}" data-b="{{ b.key }}" aria-label="{{ a.name }} vs {{ b.name }}: {{ record(r.wins, r.losses, r.ties) }}">{{ record(r.wins, r.losses, r.ties) }}</button></td>
+        {% else %}<td class="h2h-none">–</td>{% endif %}
+      {% endfor %}
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</div>
+<script type="application/json" id="h2h-data">{{ h2h_json|tojson }}</script>
+{% endblock %}

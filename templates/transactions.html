@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% macro tx(t) -%}
+<li class="tx">
+  <p class="tx-head"><span class="tag tag-{{ t.type }}">{{ {"trade": "Trade", "add": "Add", "drop": "Drop"}[t.type] }}</span> <span class="muted">{{ t.date_text }}</span></p>
+  <ul class="tx-items">
+    {% for i in t.rows %}
+    <li>
+      {% if i.team %}<strong>{{ i.team.name }}</strong>{% endif %}
+      {% set verb = {"FA ADDED": "added", "WAIVER ADDED": "claimed", "DROPPED": "dropped", "TRADE_SENT": "sent", "TRADE_RECEIVED": "received"}.get(i.action, i.action|lower) %}
+      {{ verb }} {{ i.player }}{% if i.bid %} <span class="muted">(${{ i.bid }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</li>
+{%- endmacro %}
+{% block content %}
+<h1>Transactions <span class="h-sub">{{ season }}</span></h1>
+{% if trades %}
+<h2>Trades</h2>
+<ol class="tx-list">{% for t in trades %}{{ tx(t) }}{% endfor %}</ol>
+{% endif %}
+<h2>Adds &amp; drops</h2>
+{% if moves %}
+<ol class="tx-list">{% for t in moves %}{{ tx(t) }}{% endfor %}</ol>
+{% else %}
+<p class="muted">No adds or drops yet.</p>
+{% endif %}
+{% endblock %}

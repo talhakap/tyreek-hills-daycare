@@ -1,0 +1,56 @@
+# =============================================================================
+#  League website settings — this is the ONLY file you need to edit.
+#  Lines starting with # are comments and are ignored.
+# =============================================================================
+
+[league]
+id = 860820
+name = "Tyreek Hill's Daycare"
+first_season = 2018
+current_season = 2026
+private = true              # private leagues need ESPN_S2 and ESPN_SWID (see README)
+
+[site]
+timezone = "America/Toronto"
+hide_from_search_engines = true
+custom_domain = ""          # e.g. "fantasy.example.com" — leave blank for none
+
+# Colors (Aeth Digital palette). Any CSS hex color works.
+[colors]
+primary = "#202123"         # near-black: header, headings
+secondary = "#B0A381"       # tan: accents, highlights
+secondary_text = "#7A6B44"  # darker tan, used when tan text sits on a light background
+cream = "#EEE6C1"           # light accent surface
+
+# Power ranking weights (should add up to 1.0).
+[power_rankings]
+all_play_weight = 0.40
+points_for_weight = 0.35
+recent_form_weight = 0.25
+recent_form_weeks = 3
+
+# Written recaps.
+[recaps]
+# If recaps/{season}-week{N}.md exists:
+#   "replace" = show only your recap
+#   "above"   = show your recap, then the auto-generated one
+manual_override_mode = "replace"
+
+# -----------------------------------------------------------------------------
+#  Manager overrides. Each person has a code like "m-3f9a1c0e2b7d" (a scrambled
+#  version of their ESPN ID, so real IDs never end up on the public site).
+#  Run `python -m src.main fetch` once and the log lists every code and name.
+#
+#  Nickname:
+#    [manager_overrides."m-3f9a1c0e2b7d"]
+#    display_name = "Big Mike"
+#
+#  Mark someone who left the league:
+#    [manager_overrides."m-3f9a1c0e2b7d"]
+#    former = true
+#
+#  Merge a second ESPN account into someone's main one:
+#    [manager_overrides."m-OLD-ACCOUNT-CODE"]
+#    merge_into = "m-MAIN-ACCOUNT-CODE"
+# -----------------------------------------------------------------------------
+[manager_overrides]

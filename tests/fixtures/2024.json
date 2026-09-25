@@ -1,0 +1,181 @@
+{
+ "schema_version": 1,
+ "season": 2024,
+ "league_name": "Fixture League",
+ "fetched_at": "2025-01-10T12:00:00+00:00",
+ "settings": {
+  "regular_season_weeks": 2,
+  "playoff_teams": 2,
+  "team_count": 3,
+  "scoring_type": "H2H_POINTS",
+  "median_scoring": false,
+  "divisions": {},
+  "matchup_periods": {
+   "1": [
+    1
+   ],
+   "2": [
+    2
+   ],
+   "3": [
+    3
+   ]
+  },
+  "playoff_matchup_period_length": 1,
+  "lineup_slots": {
+   "QB": 1,
+   "RB": 1,
+   "RB/WR/TE": 1
+  }
+ },
+ "status": {
+  "state": "complete",
+  "current_week": 3
+ },
+ "managers": [
+  {
+   "owner_id": "{A}",
+   "display_name": "Alice Adams",
+   "first_name": "Alice",
+   "last_name": "Adams",
+   "espn_name": "alice"
+  },
+  {
+   "owner_id": "{B}",
+   "display_name": "Bob Brown",
+   "first_name": "Bob",
+   "last_name": "Brown",
+   "espn_name": "bob"
+  },
+  {
+   "owner_id": "{C}",
+   "display_name": "Cara Cole",
+   "first_name": "Cara",
+   "last_name": "Cole",
+   "espn_name": "cara"
+  }
+ ],
+ "teams": [
+  {
+   "team_id": 1,
+   "team_name": "Alpha 24",
+   "abbrev": "ALPH",
+   "owner_ids": [
+    "{A}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 1,
+   "final_standing": 1,
+   "wins": 1,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 100,
+   "points_against": 90
+  },
+  {
+   "team_id": 2,
+   "team_name": "Bravo 24",
+   "abbrev": "BRAV",
+   "owner_ids": [
+    "{B}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 2,
+   "final_standing": 2,
+   "wins": 1,
+   "losses": 1,
+   "ties": 0,
+   "points_for": 200,
+   "points_against": 195
+  },
+  {
+   "team_id": 3,
+   "team_name": "Charlie 24",
+   "abbrev": "CHAR",
+   "owner_ids": [
+    "{C}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 3,
+   "final_standing": 3,
+   "wins": 0,
+   "losses": 1,
+   "ties": 0,
+   "points_for": 95,
+   "points_against": 110
+  }
+ ],
+ "matchups": [
+  {
+   "week": 1,
+   "home_team_id": 1,
+   "away_team_id": 2,
+   "home_score": 100,
+   "away_score": 90,
+   "winner": "home",
+   "final": true,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 1,
+   "home_team_id": 3,
+   "away_team_id": null,
+   "home_score": 80,
+   "away_score": null,
+   "winner": null,
+   "final": false,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": true
+  },
+  {
+   "week": 2,
+   "home_team_id": 2,
+   "away_team_id": 3,
+   "home_score": 110,
+   "away_score": 95,
+   "winner": "home",
+   "final": true,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 2,
+   "home_team_id": 1,
+   "away_team_id": null,
+   "home_score": 70,
+   "away_score": null,
+   "winner": null,
+   "final": false,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": true
+  },
+  {
+   "week": 3,
+   "home_team_id": 1,
+   "away_team_id": 2,
+   "home_score": 120,
+   "away_score": 115,
+   "winner": "home",
+   "final": true,
+   "playoff_tier": "WINNERS_BRACKET",
+   "is_playoff": true,
+   "is_consolation": false,
+   "is_bye": false
+  }
+ ],
+ "lineups": null,
+ "rosters": null,
+ "transactions": null
+}

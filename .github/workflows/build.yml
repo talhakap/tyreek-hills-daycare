@@ -1,0 +1,88 @@
+name: Build and deploy site
+
+on:
+  # Automatic rebuilds. Times are UTC: 14:00 UTC is 10 AM Toronto in summer, 9 AM in winter.
+  # Cron format is "minute hour day-of-month month day-of-week" (0 = Sunday, 2 = Tuesday, 5 = Friday).
+  # To change the schedule, edit these lines; https://crontab.guru explains the format.
+  schedule:
+    - cron: "0 14 * * 2"   # Tuesday: after Monday Night Football
+    - cron: "0 14 * * 5"   # Friday: after Thursday Night Football
+  workflow_dispatch:        # the "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write           # to commit newly finished seasons back to data/seasons/
+  pages: write
+  id-token: write
+
+# Never run two builds at once; a newer run waits for the current one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      # Fails the job (and so skips deploying) if ESPN can't be reached, the cookies
+      # are wrong, or the data comes back empty. The live site keeps its last good version.
+      - name: Fetch from ESPN and build site
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: python -m src.main all
+
+      - name: Save newly finished seasons
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seasons
+          if git diff --cached --quiet; then
+            echo "No new finished seasons to save."
+          else
+            git commit -m "Cache finished season data [skip ci]"
+            git push
+          fi
+
+      # GitHub switches off scheduled runs in public repos after 60 days without a commit.
+      # An empty commit every ~45 quiet days keeps the Tuesday/Friday rebuilds going.
+      - name: Keep the schedule alive
+        run: |
+          days=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          if [ "$days" -ge 45 ]; then
+            git commit --allow-empty -m "Keep scheduled rebuilds running [skip ci]"
+            git push
+          else
+            echo "Last commit was $days days ago; nothing to do."
+          fi
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

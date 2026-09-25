@@ -1,0 +1,74 @@
+{# Shared bits. Import with: {% import "_macros.html" as ui with context %} #}
+
+{% macro logo(team, size="", alt="") -%}
+<span class="logo {{ size }}"{% if not alt %} aria-hidden="true"{% endif %}><span class="logo-initials">{{ team.initials }}</span>
+{%- if team.logo %}<img src="{{ team.logo }}" alt="{{ alt }}" loading="lazy" referrerpolicy="no-referrer" onload="this.classList.add('is-loaded')" onerror="this.remove()">{% endif -%}
+</span>
+{%- endmacro %}
+
+{% macro team_link(team, show_mgr=True) -%}
+{% if team.unit %}<a class="team" href="{{ root }}teams/{{ team.unit.slug }}.html">{% else %}<span class="team">{% endif %}
+{{ logo(team) }}<span class="team-text"><span class="team-name">{{ team.name }}</span>
+{%- if show_mgr and team.unit %}<span class="mgr">{{ team.unit.name }}</span>{% endif %}</span>
+{% if team.unit %}</a>{% else %}</span>{% endif %}
+{%- endmacro %}
+
+{% macro unit_link(u) -%}
+<a href="{{ root }}teams/{{ u.slug }}.html">{{ u.name }}</a>{% if u.former %} <span class="tag">former</span>{% endif %}
+{%- endmacro %}
+
+{% macro season_href(year, current_year) -%}
+{{ root }}weeks/{{ "index" if year == current_year else "season-" ~ year }}.html
+{%- endmacro %}
+
+{% macro score_card(m) -%}
+<article class="score-card{% if not m.final %} is-live{% endif %}">
+  {% if m.badge %}<span class="badge badge-{{ m.kind }}">{{ m.badge }}</span>{% endif %}
+  {% for side in [m.away, m.home] %}
+  <div class="sc-row{% if side.won %} is-winner{% endif %}">
+    {{ team_link(side.team) }}
+    <span class="sc-score">{{ side.score|pts }}{% if side.won %}<span class="check" title="Winner"> ✓<span class="sr-only"> winner</span></span>{% endif %}</span>
+  </div>
+  {% endfor %}
+  <p class="sc-status">{% if m.tie %}Tie{% elif m.final %}Final{% else %}In progress{% endif %}</p>
+</article>
+{%- endmacro %}
+
+{% macro result_badge(res) -%}
+{% if res == "W" %}<span class="res res-w">W</span>{% elif res == "L" %}<span class="res res-l">L</span>{% elif res == "T" %}<span class="res res-t">T</span>{% else %}<span class="res">–</span>{% endif %}
+{%- endmacro %}
+
+{% macro sort_th(label, kind="text", cls="") -%}
+<th scope="col" class="{{ cls }}" data-sort="{{ kind }}"><button type="button">{{ label }}</button></th>
+{%- endmacro %}
+
+{% macro standings_table(rows, playoff_teams, show_place=False, show_luck=False) -%}
+<div class="table-wrap">
+<table class="data sortable">
+  <thead><tr>
+    {{ sort_th("#", "num", "num") }}
+    {{ sort_th("Team") }}
+    {{ sort_th("W-L-T", "num", "num") }}
+    {{ sort_th("PF", "num", "num") }}
+    {{ sort_th("PA", "num", "num") }}
+    {{ sort_th("Streak", "text", "num") }}
+    {% if show_luck %}{{ sort_th("Luck", "num", "num") }}{% endif %}
+  </tr></thead>
+  <tbody>
+  {% for r in rows %}
+    {% set rank = r.place if show_place else r.rank %}
+    <tr{% if not show_place and rank == playoff_teams %} class="playoff-line"{% endif %}>
+      <td class="num" data-v="{{ rank }}">{{ rank }}{% if show_place and rank == 1 %} 🏆{% endif %}</td>
+      <td>{{ team_link(r.team) }}</td>
+      <td class="num" data-v="{{ r.pct }}">{{ record(r.wins, r.losses, r.ties) }}</td>
+      <td class="num" data-v="{{ r.pf }}">{{ r.pf|pts }}</td>
+      <td class="num" data-v="{{ r.pa }}">{{ r.pa|pts }}</td>
+      <td class="num">{{ r.streak or "–" }}</td>
+      {% if show_luck %}<td class="num" data-v="{{ r.luck if r.luck is not none else 0 }}">{{ r.luck|signed if r.luck is not none else "–" }}</td>{% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% if not show_place and playoff_teams %}<p class="note">The line under #{{ playoff_teams }} marks the playoff cutoff.</p>{% endif %}
+{%- endmacro %}

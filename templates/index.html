@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">{{ cur.year }} season</p>
+  <h1>{{ league_name }}</h1>
+  <p class="hero-status">
+    {% if preseason %}Season starts soon
+    {% elif cur.state == "complete" %}Season complete
+    {% elif this_week %}{{ this_week.label }}{% if not this_week.complete %} · in progress{% endif %}
+    {% endif %}
+  </p>
+</section>
+
+{% if preseason %}
+<p class="banner">⏳ The {{ cur.year }} season starts soon.{% if shown is not sameas cur %} Here's how {{ shown.year }} finished.{% endif %}</p>
+{% endif %}
+
+{% if shown.champion %}
+<section class="champion">
+  {{ ui.logo(shown.champion, "logo-xl", shown.champion.name ~ " logo") }}
+  <div>
+    <p class="eyebrow">🏆 {{ shown.year }} champion</p>
+    <h2 class="champion-name">{{ shown.champion.name }}</h2>
+    {% if shown.champion.unit %}<p class="champion-mgr">{{ ui.unit_link(shown.champion.unit) }}</p>{% endif %}
+    {% if shown.runner_up %}<p class="note">Runner-up: {{ shown.runner_up.name }}{% if shown.runner_up.unit %} ({{ shown.runner_up.unit.name }}){% endif %}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<div class="home-grid">
+  <section class="home-main">
+    {% if final_rows %}
+      <h2>{{ shown.year }} final standings</h2>
+      {{ ui.standings_table(final_rows, shown.playoff_teams, show_place=True) }}
+    {% elif standings %}
+      <h2>Standings</h2>
+      {{ ui.standings_table(standings, cur.playoff_teams) }}
+    {% endif %}
+
+    {% if this_week and this_week.matchups %}
+    <h2>{{ this_week.label }}</h2>
+    <div class="cards">
+      {% for m in this_week.matchups %}{{ ui.score_card(m) }}{% endfor %}
+    </div>
+    <p><a class="more" href="{{ root }}{{ this_week.href }}">Full week →</a></p>
+    {% endif %}
+  </section>
+
+  <aside class="home-side">
+    {% if latest and latest.recap and latest.recap.excerpt %}
+    <section class="panel">
+      <h2>Latest recap</h2>
+      <p class="eyebrow">{{ latest.label }}</p>
+      <p>{{ latest.recap.excerpt }}</p>
+      <p><a class="more" href="{{ root }}{{ latest.href }}">Read full recap →</a></p>
+    </section>
+    {% endif %}
+
+    {% if power_top %}
+    <section class="panel">
+      <h2>Power rankings</h2>
+      <ol class="power-top">
+        {% for r in power_top %}
+        <li><span class="pr-rank">{{ r.rank }}</span>{{ ui.team_link(r.team) }}<span class="pr-move">{{ r.move_text }}</span></li>
+        {% endfor %}
+      </ol>
+      <p><a class="more" href="{{ root }}power.html">All rankings →</a></p>
+    </section>
+    {% endif %}
+  </aside>
+</div>
+{% endblock %}

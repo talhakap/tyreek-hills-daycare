@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+<h1>Weekly recaps <span class="h-sub">{{ sv.year }}</span></h1>
+
+{% if seasons|length > 1 %}
+<nav class="pills" aria-label="Seasons">
+  {% for s in seasons %}
+  <a href="{{ ui.season_href(s.year, current_year) }}"{% if s.year == sv.year %} aria-current="page"{% endif %}>{{ s.year }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% if not sv.weeks %}
+<p class="banner">No games yet this season. Check back after week 1.</p>
+{% endif %}
+
+<ol class="week-list" reversed>
+  {% for wk in sv.weeks|reverse %}
+  <li class="week-item">
+    <a class="week-link" href="{{ root }}{{ wk.href }}">
+      <span class="week-label">{{ wk.label }}</span>
+      <span class="week-state">{% if not wk.complete %}In progress{% elif wk.awards %}High score: {{ wk.awards.high_score.team.name }} ({{ wk.awards.high_score.score|pts }}){% endif %}</span>
+    </a>
+    {% if wk.recap and wk.recap.excerpt %}<p class="week-excerpt">{{ wk.recap.excerpt }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endblock %}

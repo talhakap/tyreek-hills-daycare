@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+<h1>League history</h1>
+
+<h2>Champions</h2>
+<ol class="champ-list">
+  {% for h in history if h.sv.champion %}
+  <li class="champ-item">
+    <span class="champ-year">{{ h.sv.year }}</span>
+    {{ ui.team_link(h.sv.champion) }}
+    {% if h.sv.runner_up %}<span class="champ-runner">def. {{ h.sv.runner_up.name }}{% if h.sv.runner_up.unit %} <span class="muted">({{ h.sv.runner_up.unit.name }})</span>{% endif %}</span>{% endif %}
+  </li>
+  {% endfor %}
+</ol>
+
+<h2>Season standings</h2>
+{% for h in history %}
+<details class="season"{% if loop.first %} open{% endif %}>
+  <summary><span class="season-year">{{ h.sv.year }}</span>{% if h.sv.champion %} <span class="muted">🏆 {{ h.sv.champion.name }}</span>{% elif h.sv.state != "complete" %} <span class="muted">in progress</span>{% endif %}</summary>
+  {{ ui.standings_table(h.rows, h.sv.playoff_teams, show_place=(h.sv.state == "complete")) }}
+</details>
+{% endfor %}
+
+<h2>All-time standings</h2>
+<p class="note">Regular season games only, sorted by win %.</p>
+<div class="table-wrap">
+<table class="data sortable">
+  <thead><tr>
+    {{ ui.sort_th("Manager") }}{{ ui.sort_th("Seasons", "num", "num") }}{{ ui.sort_th("W-L-T", "num", "num") }}
+    {{ ui.sort_th("Win %", "num", "num") }}{{ ui.sort_th("PF", "num", "num") }}{{ ui.sort_th("Titles", "num", "num") }}
+    {{ ui.sort_th("Playoffs", "num", "num") }}{{ ui.sort_th("Best", "num", "num") }}
+  </tr></thead>
+  <tbody>
+  {% for p in all_time %}
+  <tr>
+    <td>{{ ui.unit_link(p.unit) }}</td>
+    <td class="num">{{ p.seasons_played }}</td>
+    <td class="num" data-v="{{ p.wins }}">{{ record(p.wins, p.losses, p.ties) }}</td>
+    <td class="num" data-v="{{ p.pct }}">{{ p.pct|pct }}</td>
+    <td class="num" data-v="{{ p.pf }}">{{ p.pf|pts }}</td>
+    <td class="num" data-v="{{ p.titles|length }}">{{ p.titles|length }}</td>
+    <td class="num" data-v="{{ p.playoff_appearances }}">{{ p.playoff_appearances }}</td>
+    <td class="num" data-v="{{ p.best_finish or 99 }}">{{ p.best_finish or "–" }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

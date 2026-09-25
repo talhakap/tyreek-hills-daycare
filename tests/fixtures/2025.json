@@ -1,0 +1,564 @@
+{
+ "schema_version": 1,
+ "season": 2025,
+ "league_name": "Fixture League",
+ "fetched_at": "2026-01-10T12:00:00+00:00",
+ "settings": {
+  "regular_season_weeks": 2,
+  "playoff_teams": 2,
+  "team_count": 4,
+  "scoring_type": "H2H_POINTS",
+  "median_scoring": false,
+  "divisions": {},
+  "matchup_periods": {
+   "1": [
+    1
+   ],
+   "2": [
+    2
+   ],
+   "3": [
+    3
+   ]
+  },
+  "playoff_matchup_period_length": 1,
+  "lineup_slots": {
+   "QB": 1,
+   "RB": 1,
+   "RB/WR/TE": 1
+  }
+ },
+ "status": {
+  "state": "complete",
+  "current_week": 3
+ },
+ "managers": [
+  {
+   "owner_id": "{A2}",
+   "display_name": "Alice Adams",
+   "first_name": "Alice",
+   "last_name": "Adams",
+   "espn_name": "alice"
+  },
+  {
+   "owner_id": "{B}",
+   "display_name": "Bob Brown",
+   "first_name": "Bob",
+   "last_name": "Brown",
+   "espn_name": "bob"
+  },
+  {
+   "owner_id": "{D}",
+   "display_name": "Dan Diaz",
+   "first_name": "Dan",
+   "last_name": "Diaz",
+   "espn_name": "dan"
+  },
+  {
+   "owner_id": "{C}",
+   "display_name": "Cara Cole",
+   "first_name": "Cara",
+   "last_name": "Cole",
+   "espn_name": "cara"
+  },
+  {
+   "owner_id": "{E}",
+   "display_name": "Eve Evans",
+   "first_name": "Eve",
+   "last_name": "Evans",
+   "espn_name": "eve"
+  }
+ ],
+ "teams": [
+  {
+   "team_id": 1,
+   "team_name": "Alpha 25",
+   "abbrev": "ALPH",
+   "owner_ids": [
+    "{A2}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 3,
+   "final_standing": 4,
+   "wins": 1,
+   "losses": 1,
+   "ties": 0,
+   "points_for": 200.5,
+   "points_against": 230
+  },
+  {
+   "team_id": 2,
+   "team_name": "Bravo 25",
+   "abbrev": "BRAV",
+   "owner_ids": [
+    "{B}",
+    "{D}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 2,
+   "final_standing": 1,
+   "wins": 1,
+   "losses": 1,
+   "ties": 0,
+   "points_for": 240,
+   "points_against": 180.5
+  },
+  {
+   "team_id": 3,
+   "team_name": "Charlie 25",
+   "abbrev": "CHAR",
+   "owner_ids": [
+    "{C}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 1,
+   "final_standing": 2,
+   "wins": 1,
+   "losses": 0,
+   "ties": 1,
+   "points_for": 220,
+   "points_against": 170
+  },
+  {
+   "team_id": 4,
+   "team_name": "Echo 25",
+   "abbrev": "ECHO",
+   "owner_ids": [
+    "{E}"
+   ],
+   "logo_url": null,
+   "division_id": 0,
+   "playoff_seed": 4,
+   "final_standing": 3,
+   "wins": 0,
+   "losses": 1,
+   "ties": 1,
+   "points_for": 150,
+   "points_against": 230
+  }
+ ],
+ "matchups": [
+  {
+   "week": 1,
+   "home_team_id": 1,
+   "away_team_id": 2,
+   "home_score": 120.5,
+   "away_score": 100,
+   "winner": "home",
+   "final": true,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 1,
+   "home_team_id": 3,
+   "away_team_id": 4,
+   "home_score": 90,
+   "away_score": 90,
+   "winner": "tie",
+   "final": true,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 2,
+   "home_team_id": 1,
+   "away_team_id": 3,
+   "home_score": 80,
+   "away_score": 130,
+   "winner": "away",
+   "final": true,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 2,
+   "home_team_id": 2,
+   "away_team_id": 4,
+   "home_score": 140,
+   "away_score": 60,
+   "winner": "home",
+   "final": true,
+   "playoff_tier": "NONE",
+   "is_playoff": false,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 3,
+   "home_team_id": 3,
+   "away_team_id": 2,
+   "home_score": 95,
+   "away_score": 105,
+   "winner": "away",
+   "final": true,
+   "playoff_tier": "WINNERS_BRACKET",
+   "is_playoff": true,
+   "is_consolation": false,
+   "is_bye": false
+  },
+  {
+   "week": 3,
+   "home_team_id": 1,
+   "away_team_id": 4,
+   "home_score": 70,
+   "away_score": 75,
+   "winner": "away",
+   "final": true,
+   "playoff_tier": "LOSERS_CONSOLATION_LADDER",
+   "is_playoff": false,
+   "is_consolation": true,
+   "is_bye": false
+  }
+ ],
+ "lineups": [
+  {
+   "week": 1,
+   "scoring_period": 1,
+   "team_id": 1,
+   "players": [
+    {
+     "player_id": 1,
+     "name": "Quinn QB",
+     "position": "QB",
+     "slot": "QB",
+     "starter": true,
+     "eligible_slots": [
+      "QB",
+      "OP"
+     ],
+     "points": 20,
+     "projected_points": 20,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 2,
+     "name": "Rex RB",
+     "position": "RB",
+     "slot": "RB",
+     "starter": true,
+     "eligible_slots": [
+      "RB",
+      "RB/WR",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 10,
+     "projected_points": 10,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 3,
+     "name": "Wes WR",
+     "position": "WR",
+     "slot": "RB/WR/TE",
+     "starter": true,
+     "eligible_slots": [
+      "WR",
+      "RB/WR",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 5,
+     "projected_points": 5,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 4,
+     "name": "Ray RB",
+     "position": "RB",
+     "slot": "BE",
+     "starter": false,
+     "eligible_slots": [
+      "RB",
+      "RB/WR",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 15,
+     "projected_points": 15,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 5,
+     "name": "Ian IR",
+     "position": "WR",
+     "slot": "IR",
+     "starter": false,
+     "eligible_slots": [
+      "WR",
+      "RB/WR",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 30,
+     "projected_points": 30,
+     "pro_team": "FA"
+    }
+   ]
+  },
+  {
+   "week": 1,
+   "scoring_period": 1,
+   "team_id": 2,
+   "players": [
+    {
+     "player_id": 6,
+     "name": "Quade QB",
+     "position": "QB",
+     "slot": "QB",
+     "starter": true,
+     "eligible_slots": [
+      "QB",
+      "OP"
+     ],
+     "points": 25,
+     "projected_points": 25,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 7,
+     "name": "Rudy RB",
+     "position": "RB",
+     "slot": "RB",
+     "starter": true,
+     "eligible_slots": [
+      "RB",
+      "RB/WR",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 12,
+     "projected_points": 12,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 8,
+     "name": "Ted TE",
+     "position": "TE",
+     "slot": "RB/WR/TE",
+     "starter": true,
+     "eligible_slots": [
+      "TE",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 8,
+     "projected_points": 8,
+     "pro_team": "FA"
+    },
+    {
+     "player_id": 9,
+     "name": "Walt WR",
+     "position": "WR",
+     "slot": "BE",
+     "starter": false,
+     "eligible_slots": [
+      "WR",
+      "RB/WR",
+      "RB/WR/TE",
+      "OP"
+     ],
+     "points": 3,
+     "projected_points": 3,
+     "pro_team": "FA"
+    }
+   ]
+  }
+ ],
+ "rosters": {
+  "1": [
+   {
+    "player_id": 1,
+    "name": "Quinn QB",
+    "position": "QB",
+    "pro_team": "KC",
+    "slot": "QB",
+    "injury_status": null
+   },
+   {
+    "player_id": 2,
+    "name": "Rex RB",
+    "position": "RB",
+    "pro_team": "SF",
+    "slot": "RB",
+    "injury_status": null
+   },
+   {
+    "player_id": 3,
+    "name": "Wes WR",
+    "position": "WR",
+    "pro_team": "DAL",
+    "slot": "RB/WR/TE",
+    "injury_status": null
+   },
+   {
+    "player_id": 4,
+    "name": "Ray RB",
+    "position": "RB",
+    "pro_team": "NYJ",
+    "slot": "BE",
+    "injury_status": null
+   },
+   {
+    "player_id": 5,
+    "name": "Ian IR",
+    "position": "WR",
+    "pro_team": "MIA",
+    "slot": "IR",
+    "injury_status": "INJURY_RESERVE"
+   }
+  ],
+  "2": [
+   {
+    "player_id": 6,
+    "name": "Quade QB",
+    "position": "QB",
+    "pro_team": "BUF",
+    "slot": "QB",
+    "injury_status": null
+   },
+   {
+    "player_id": 7,
+    "name": "Rudy RB",
+    "position": "RB",
+    "pro_team": "DET",
+    "slot": "RB",
+    "injury_status": null
+   },
+   {
+    "player_id": 8,
+    "name": "Ted TE",
+    "position": "TE",
+    "pro_team": "KC",
+    "slot": "RB/WR/TE",
+    "injury_status": "QUESTIONABLE"
+   },
+   {
+    "player_id": 9,
+    "name": "Walt WR",
+    "position": "WR",
+    "pro_team": "CIN",
+    "slot": "BE",
+    "injury_status": null
+   }
+  ],
+  "3": [
+   {
+    "player_id": 10,
+    "name": "Cam QB",
+    "position": "QB",
+    "pro_team": "PHI",
+    "slot": "QB",
+    "injury_status": null
+   },
+   {
+    "player_id": 11,
+    "name": "Dee RB",
+    "position": "RB",
+    "pro_team": "ATL",
+    "slot": "RB",
+    "injury_status": null
+   }
+  ],
+  "4": [
+   {
+    "player_id": 12,
+    "name": "Eli QB",
+    "position": "QB",
+    "pro_team": "NYG",
+    "slot": "QB",
+    "injury_status": null
+   },
+   {
+    "player_id": 13,
+    "name": "Fitz K",
+    "position": "K",
+    "pro_team": "BAL",
+    "slot": "K",
+    "injury_status": null
+   }
+  ]
+ },
+ "transactions": [
+  {
+   "date": "2025-10-02T14:00:00+00:00",
+   "type": "trade",
+   "team_ids": [
+    1,
+    3
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "TRADE_SENT",
+     "player": "Rex RB",
+     "bid": null
+    },
+    {
+     "team_id": 3,
+     "action": "TRADE_RECEIVED",
+     "player": "Rex RB",
+     "bid": null
+    },
+    {
+     "team_id": 3,
+     "action": "TRADE_SENT",
+     "player": "Dee RB",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "TRADE_RECEIVED",
+     "player": "Dee RB",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2025-09-24T08:00:00+00:00",
+   "type": "add",
+   "team_ids": [
+    2
+   ],
+   "items": [
+    {
+     "team_id": 2,
+     "action": "WAIVER ADDED",
+     "player": "Walt WR",
+     "bid": 12
+    },
+    {
+     "team_id": 2,
+     "action": "DROPPED",
+     "player": "Old Guy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2025-09-20T08:00:00+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Bust McBust",
+     "bid": null
+    }
+   ]
+  }
+ ]
+}

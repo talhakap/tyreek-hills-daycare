@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+{% set p = profile %}
+<section class="team-hero">
+  {{ ui.logo(card.team, "logo-xl", card.team.name ~ " logo") }}
+  <div>
+    <p class="eyebrow">{% if has_current_team %}{{ cur_year }} team{% else %}Last team ({{ p.rows[-1].season }}){% endif %}</p>
+    <h1>{{ card.team.name }}</h1>
+    <p class="team-hero-mgr">{{ unit.name }}{% if unit.former %} <span class="tag">former member</span>{% endif %}</p>
+  </div>
+</section>
+
+<dl class="stat-tiles">
+  <div><dt>Seasons</dt><dd>{{ p.seasons_played }}</dd></div>
+  <div><dt>Record</dt><dd>{{ record(p.wins, p.losses, p.ties) }}</dd></div>
+  <div><dt>Win %</dt><dd>{{ p.pct|pct }}</dd></div>
+  <div><dt>Titles</dt><dd>{{ p.titles|length }}{% if p.titles %} <small>({{ p.titles|join(", ") }})</small>{% endif %}</dd></div>
+  <div><dt>Best finish</dt><dd>{{ p.best_finish or "–" }}</dd></div>
+  <div><dt>Playoffs</dt><dd>{{ p.playoff_appearances }}× <small>({{ record(p.playoff_wins, p.playoff_losses, p.playoff_ties) }})</small></dd></div>
+</dl>
+
+{% if results %}
+<h2>{{ cur_year }} results</h2>
+<div class="table-wrap">
+<table class="data">
+  <thead><tr><th scope="col">Week</th><th scope="col">Opponent</th><th scope="col" class="num">Result</th><th scope="col" class="num">Score</th></tr></thead>
+  <tbody>
+  {% for r in results %}
+  <tr>
+    <td><a href="{{ root }}{{ r.week.href }}">{{ r.week.short }}</a>{% if r.badge and r.badge != "Bye" %} <span class="tag">{{ r.badge }}</span>{% endif %}</td>
+    <td>{% if r.opp %}{{ ui.team_link(r.opp) }}{% else %}<span class="muted">Bye</span>{% endif %}</td>
+    <td class="num">{% if r.opp %}{{ ui.result_badge(r.result) }}{% endif %}</td>
+    <td class="num">{% if r.opp %}{{ r.pf|pts }}–{{ r.pa|pts }}{% else %}–{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endif %}
+
+{% if roster_years %}
+<h2 id="rosters">Rosters</h2>
+<div class="roster-picker">
+  <label for="roster-season">Season</label>
+  <select id="roster-season" data-roster-select>
+    {% for ry in roster_years %}<option value="{{ ry.year }}">{{ ry.year }} · {{ ry.team.name }}</option>{% endfor %}
+  </select>
+</div>
+{% for ry in roster_years %}
+<section class="roster-year" data-roster-year="{{ ry.year }}" aria-label="{{ ry.year }} roster">
+  <p class="roster-caption"><strong>{{ ry.year }}</strong> · {{ ry.team.name }} · <span class="muted">{{ ry.label }}{% if ry.has_points %}; points are what each player scored as a starter for this team that season{% endif %}</span></p>
+  <div class="roster">
+    {% for pos, players in ry.groups %}
+    <section class="roster-group">
+      <h3>{{ pos }}</h3>
+      <ul>
+        {% for pl in players %}
+        <li>
+          <span class="rp-name">{{ pl.name }} <span class="muted">{{ pl.pro_team }}</span>
+            {%- if pl.slot == "IR" %} <span class="tag">IR</span>{% endif %}
+            {%- if pl.injury_status and pl.injury_status not in ("ACTIVE", "NORMAL") %} <span class="tag tag-warn">{{ pl.injury_status|replace("_", " ")|title }}</span>{% endif %}</span>
+          {% if ry.has_points %}<span class="rp-pts" title="{{ pl.starts }} starts">{{ pl.points|pts }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endif %}
+
+<h2>Season by season</h2>
+<div class="table-wrap">
+<table class="data sortable">
+  <thead><tr>
+    {{ ui.sort_th("Season", "num") }}{{ ui.sort_th("Team") }}{{ ui.sort_th("W-L-T", "num", "num") }}
+    {{ ui.sort_th("PF", "num", "num") }}{{ ui.sort_th("PA", "num", "num") }}{{ ui.sort_th("Finish", "num", "num") }}
+  </tr></thead>
+  <tbody>
+  {% for r in season_rows %}
+  <tr>
+    <td data-v="{{ r.season }}">{{ r.season }}</td>
+    <td>{{ ui.team_link(r.team, show_mgr=False) }}</td>
+    <td class="num" data-v="{{ r.pct }}">{{ record(r.wins, r.losses, r.ties) }}</td>
+    <td class="num" data-v="{{ r.pf }}">{{ r.pf|pts }}</td>
+    <td class="num" data-v="{{ r.pa }}">{{ r.pa|pts }}</td>
+    <td class="num" data-v="{{ r.final_standing or 99 }}">{% if r.final_standing %}{{ r.final_standing }} of {{ r.team_count }}{% if r.champion %} 🏆{% elif r.last_place %} 🚽{% endif %}{% else %}<span class="muted">in progress</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% if h2h_rows %}
+<h2>Head-to-head</h2>
+<div class="table-wrap">
+<table class="data sortable">
+  <thead><tr>
+    {{ ui.sort_th("Opponent") }}{{ ui.sort_th("W-L-T", "num", "num") }}{{ ui.sort_th("PF", "num", "num") }}
+    {{ ui.sort_th("PA", "num", "num") }}{{ ui.sort_th("Playoffs", "num", "num") }}
+  </tr></thead>
+  <tbody>
+  {% for r in h2h_rows %}
+  <tr>
+    <td>{{ ui.unit_link(r.unit) }}</td>
+    <td class="num" data-v="{{ (r.wins + r.ties / 2) / (r.wins + r.losses + r.ties) }}">{{ record(r.wins, r.losses, r.ties) }}</td>
+    <td class="num" data-v="{{ r.pf }}">{{ r.pf|pts }}</td>
+    <td class="num" data-v="{{ r.pa }}">{{ r.pa|pts }}</td>
+    <td class="num" data-v="{{ r.playoff_wins - r.playoff_losses }}">{% if r.playoff_wins or r.playoff_losses or r.playoff_ties %}{{ record(r.playoff_wins, r.playoff_losses, r.playoff_ties) }}{% else %}–{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="note">Regular season and championship playoffs; consolation games don't count. <a href="{{ root }}h2h.html">Full head-to-head grid →</a></p>
+{% endif %}
+{% endblock %}

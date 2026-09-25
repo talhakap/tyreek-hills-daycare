@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+<p class="crumbs"><a href="{{ ui.season_href(sv.year, current_year) }}">← {{ sv.year }} weeks</a></p>
+<h1>{{ wk.label }} <span class="h-sub">{{ sv.year }}</span></h1>
+
+{% if not wk.complete %}
+<p class="banner">This week isn't finished yet. Scores refresh every Tuesday and Friday, and the recap and awards appear once every game is final.</p>
+{% endif %}
+
+{% if wk.recap and (wk.recap.manual_html or wk.recap.paragraphs) %}
+<section class="recap" aria-label="Recap">
+  {% if wk.recap.manual_html %}<div class="recap-manual">{{ wk.recap.manual_html|safe }}</div>{% endif %}
+  {% for p in wk.recap.paragraphs %}<p>{{ p }}</p>{% endfor %}
+</section>
+{% endif %}
+
+<h2>Matchups</h2>
+<div class="cards">
+  {% for m in wk.matchups %}{{ ui.score_card(m) }}{% endfor %}
+</div>
+{% if wk.byes %}
+<p class="note">On bye: {% for t in wk.byes %}{{ t.name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+{% endif %}
+
+{% if wk.awards %}
+{% set a = wk.awards %}
+<h2>Awards</h2>
+<div class="awards">
+  <div class="award"><p class="award-title">🔥 High score</p>{{ ui.team_link(a.high_score.team) }}<p class="award-stat">{{ a.high_score.score|pts }}</p></div>
+  <div class="award"><p class="award-title">🧊 Low score</p>{{ ui.team_link(a.low_score.team) }}<p class="award-stat">{{ a.low_score.score|pts }}</p></div>
+  {% if a.blowout %}
+  <div class="award"><p class="award-title">💥 Biggest blowout</p>{{ ui.team_link(a.blowout.winner) }}<p class="award-stat">by {{ a.blowout.margin|pts }} over {{ a.blowout.loser.name }}</p></div>
+  {% endif %}
+  <div class="award"><p class="award-title">😬 Closest game</p>{{ ui.team_link(a.closest.winner) }}<p class="award-stat">{% if a.closest.tie %}tied {{ a.closest.loser.name }}{% else %}by {{ a.closest.margin|pts }} over {{ a.closest.loser.name }}{% endif %}</p></div>
+  {% if a.upset %}
+  <div class="award"><p class="award-title">🚨 Biggest upset</p>{{ ui.team_link(a.upset.winner) }}<p class="award-stat">No. {{ a.upset.winner_rank }} beat No. {{ a.upset.loser_rank }} {{ a.upset.loser.name }}</p></div>
+  {% endif %}
+  {% if a.best_manager %}
+  <div class="award"><p class="award-title">🧠 Best manager</p>{{ ui.team_link(a.best_manager.team) }}<p class="award-stat">{{ a.best_manager.bench_left|pts }} pts left on the bench</p></div>
+  <div class="award"><p class="award-title">🤦 Worst manager</p>{{ ui.team_link(a.worst_manager.team) }}<p class="award-stat">{{ a.worst_manager.bench_left|pts }} pts left on the bench ({{ a.worst_manager.actual|pts }} scored, {{ a.worst_manager.optimal|pts }} possible)</p></div>
+  {% endif %}
+  {% if a.unlucky %}
+  <div class="award"><p class="award-title">🍀 Unlucky</p>{{ ui.team_link(a.unlucky.team) }}<p class="award-stat">2nd-highest score ({{ a.unlucky.score|pts }}) and still lost</p></div>
+  {% endif %}
+</div>
+{% endif %}
+
+<nav class="pager" aria-label="Other weeks">
+  {% if wk.prev %}<a href="{{ root }}{{ wk.prev.href }}">← {{ wk.prev.label }}</a>{% else %}<span></span>{% endif %}
+  {% if wk.next %}<a href="{{ root }}{{ wk.next.href }}">{{ wk.next.label }} →</a>{% endif %}
+</nav>
+{% endblock %}

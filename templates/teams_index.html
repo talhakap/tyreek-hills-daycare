@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% macro card(u) -%}
+{% set c = cards[u.key] %}
+<a class="team-card" href="{{ root }}teams/{{ u.slug }}.html">
+  {{ ui.logo(c.team, "logo-lg") }}
+  <span class="tc-text">
+    <span class="tc-team">{{ c.team.name }}</span>
+    <span class="tc-mgr">{{ u.name }}</span>
+    <span class="tc-stats">{{ record(c.profile.wins, c.profile.losses, c.profile.ties) }} all-time{% if c.profile.titles %} · {% for y in c.profile.titles %}🏆{% endfor %}{% endif %}</span>
+  </span>
+</a>
+{%- endmacro %}
+{% block content %}
+<h1>Teams</h1>
+<p class="lede">Every manager's page follows the person, not the team name, so their whole history is in one place. Co-owners count as one manager.</p>
+<div class="team-grid">
+  {% for u in active %}{{ card(u) }}{% endfor %}
+</div>
+{% if former %}
+<h2>Former members</h2>
+<div class="team-grid">
+  {% for u in former %}{{ card(u) }}{% endfor %}
+</div>
+{% endif %}
+{% endblock %}

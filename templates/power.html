@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% import "_macros.html" as ui with context %}
+{% block content %}
+<h1>Power rankings</h1>
+{% if not power %}
+<p class="banner">Power rankings start after week 1.</p>
+{% else %}
+<p class="lede">{{ power.season }} season, after week {{ power.week }}{% if preseason %} (last season's final rankings: the new season hasn't started){% endif %}.</p>
+<div class="table-wrap">
+<table class="data sortable">
+  <thead><tr>
+    {{ ui.sort_th("#", "num", "num") }}
+    {{ ui.sort_th("Move", "num", "num") }}
+    {{ ui.sort_th("Team") }}
+    {{ ui.sort_th("Score", "num", "num") }}
+    {{ ui.sort_th("All-play", "num", "num") }}
+    {{ ui.sort_th("PF", "num", "num") }}
+    {{ ui.sort_th("Last " ~ weights.get("recent_form_weeks", 3) ~ " avg", "num", "num") }}
+    {{ ui.sort_th("Luck", "num", "num") }}
+  </tr></thead>
+  <tbody>
+  {% for r in power.rows %}
+  <tr>
+    <td class="num" data-v="{{ r.rank }}">{{ r.rank }}</td>
+    <td class="num move {% if r.move and r.move > 0 %}up{% elif r.move and r.move < 0 %}down{% endif %}" data-v="{{ r.move or 0 }}">{{ r.move_text }}</td>
+    <td>{{ ui.team_link(r.team) }}</td>
+    <td class="num" data-v="{{ r.score }}"><strong>{{ "%.1f"|format(r.score) }}</strong></td>
+    <td class="num" data-v="{{ r.all_play_pct }}">{{ record(r.all_play.wins, r.all_play.losses, r.all_play.ties) }}</td>
+    <td class="num" data-v="{{ r.pf }}">{{ r.pf|pts }}</td>
+    <td class="num" data-v="{{ r.recent_avg }}">{{ r.recent_avg|pts }}</td>
+    <td class="num" data-v="{{ r.luck if r.luck is not none else 0 }}">{{ r.luck|signed if r.luck is not none else "–" }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endif %}
+
+<section class="explainer">
+  <h2>How the rankings work</h2>
+  <p>Every team gets a score from 0 to 100, built from three things:</p>
+  <ul>
+    <li><strong>All-play record ({{ (weights.get("all_play_weight", 0.40) * 100)|round|int }}%)</strong>: your record if you'd played every other team every week. It shows how good a team really is, whatever the schedule.</li>
+    <li><strong>Points for ({{ (weights.get("points_for_weight", 0.35) * 100)|round|int }}%)</strong>: total points scored this season.</li>
+    <li><strong>Recent form ({{ (weights.get("recent_form_weight", 0.25) * 100)|round|int }}%)</strong>: average score over the last {{ weights.get("recent_form_weeks", 3) }} weeks, so hot and cold streaks count.</li>
+  </ul>
+  <p>Each part is scaled so the best team that week gets 1 and the worst gets 0, then they're weighted and added up. ▲ and ▼ show movement since last week.</p>
+  <p><strong>Luck</strong> is your real win % minus your all-play win %. Positive means you've won more than your scores deserved.</p>
+</section>
+{% endblock %}
