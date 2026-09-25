@@ -2,7 +2,7 @@
 
 A website for our ESPN fantasy football league: standings, weekly recaps, power rankings,
 team pages with rosters by year, league history, head-to-head records, all-time records
-and transactions. It rebuilds itself every Tuesday and Friday, and you never have to touch it.
+and transactions. It rebuilds itself four times a week during the season (Sunday night, Monday, Tuesday and Friday), and you never have to touch it.
 
 **Contents**
 
@@ -24,7 +24,7 @@ and transactions. It rebuilds itself every Tuesday and Friday, and you never hav
 **It costs nothing.** Everything runs on GitHub's free services:
 
 - **GitHub Pages** hosts the website.
-- **GitHub Actions** is a free robot that, twice a week, downloads the latest results from ESPN,
+- **GitHub Actions** is a free robot that, four times a week, downloads the latest results from ESPN,
   rebuilds the site and publishes it.
 
 No paid services, no AI services, no server to look after. The written recaps come from
@@ -186,8 +186,17 @@ Before pushing, `git status` should **not** list `.env`. If it does, stop and as
 3. Wait 2–4 minutes for both jobs (**build** and **deploy**) to get a green ✓.
 4. The site's link is under **Settings → Pages**, and in the **deploy** step of the run.
 
-From now on it runs by itself every **Tuesday and Friday at 14:00 UTC** (10 AM Toronto in summer,
-9 AM in winter), and whenever you push a change.
+From now on it runs by itself, and whenever you push a change:
+
+| When (Toronto time, summer) | What you'll see |
+|---|---|
+| **Sunday 7:45 PM** | Live scores after the afternoon games |
+| **Monday 10 AM** | Live scores after Sunday Night Football |
+| **Tuesday 10 AM** | The finished week: final scores, recap and awards |
+| **Friday 10 AM** | Thursday Night Football, live |
+
+Times are an hour earlier in winter, and GitHub sometimes starts scheduled runs a little late. Scores update
+at these times only, not continuously. For an update right now, use **Run workflow** (step 2 above).
 
 ---
 
@@ -344,5 +353,5 @@ data/seasons/        saved finished seasons (committed)
 data/current.json    the current season (re-downloaded every run, not committed)
 recaps/              your hand-written recaps
 tests/               automatic checks, using small fake seasons in tests/fixtures/
-.github/workflows/   the twice-weekly GitHub robot
+.github/workflows/   the GitHub robot that rebuilds the site
 ```

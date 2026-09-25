@@ -2,10 +2,13 @@ name: Build and deploy site
 
 on:
   # Automatic rebuilds. Times are UTC: 14:00 UTC is 10 AM Toronto in summer, 9 AM in winter.
-  # Cron format is "minute hour day-of-month month day-of-week" (0 = Sunday, 2 = Tuesday, 5 = Friday).
+  # Sunday 23:45 UTC is 7:45 PM Toronto in summer (6:45 PM in winter).
+  # Cron format is "minute hour day-of-month month day-of-week" (0 = Sunday, 1 = Monday, 2 = Tuesday, 5 = Friday).
   # To change the schedule, edit these lines; https://crontab.guru explains the format.
   schedule:
-    - cron: "0 14 * * 2"   # Tuesday: after Monday Night Football
+    - cron: "45 23 * * 0"  # Sunday 7:45 PM Toronto (summer): live scores after the afternoon games
+    - cron: "0 14 * * 1"   # Monday: live scores after Sunday Night Football
+    - cron: "0 14 * * 2"   # Tuesday: after Monday Night Football; the week is final
     - cron: "0 14 * * 5"   # Friday: after Thursday Night Football
   workflow_dispatch:        # the "Run workflow" button on the Actions tab
   push:
@@ -60,7 +63,7 @@ jobs:
           fi
 
       # GitHub switches off scheduled runs in public repos after 60 days without a commit.
-      # An empty commit every ~45 quiet days keeps the Tuesday/Friday rebuilds going.
+      # An empty commit every ~45 quiet days keeps the scheduled rebuilds going.
       - name: Keep the schedule alive
         run: |
           days=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
