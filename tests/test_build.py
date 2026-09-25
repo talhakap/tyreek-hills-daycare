@@ -56,8 +56,9 @@ def test_hidden_when_no_data(site):
 
 def test_team_page_has_roster_for_each_season(site):
     # Manager A: 2025 roster from lineups (2024 fixture has no lineups, so no 2024 roster).
-    page = next(f for f in (site / "teams").glob("*.html") if "Alpha 25" in f.read_text(encoding="utf-8")
-                and f.name != "index.html").read_text(encoding="utf-8")
+    # Fixture manager "{A}" has slug "a". (Don't search pages by text: other managers' pages
+    # mention "Alpha 25" as an opponent, and glob order differs between Windows and Linux.)
+    page = (site / "teams" / "a.html").read_text(encoding="utf-8")
     assert "data-roster-select" in page
     assert 'data-roster-year="2025"' in page and 'data-roster-year="2024"' not in page
     assert "Quinn QB" in page and "Ray RB" in page
