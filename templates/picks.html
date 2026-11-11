@@ -70,39 +70,6 @@
 <h2>Pick trades <span class="h-sub" data-trade-count>{{ trades|length }}</span></h2>
 <p class="muted" data-no-trades hidden>No trades involve picks from this draft yet.</p>
 <ol class="trade-list">
-{% for t in trades %}
-<li class="trade-card" data-pick-years="{{ t.years|join(' ') }}">
-  <header class="trade-head">
-    <span class="trade-num">Trade {{ t.n }}</span>
-    <span class="muted">{{ t.date_text ~ " · " if t.date_text }}{{ t.season_text }}</span>
-    {% if t.note %}<span class="trade-note">{{ t.note }}</span>{% endif %}
-  </header>
-  <div class="trade-sides">
-    {% for s in t.sides %}
-    <section class="trade-side" aria-label="{{ s.team.name }} received">
-      <div class="trade-team">
-        {{ ui.logo(s.team) }}
-        <span class="team-text"><strong class="team-name">{{ s.team.name }}</strong>
-          {%- if s.team.unit %}<span class="mgr">{{ s.team.unit.name }}</span>{% endif %}</span>
-      </div>
-      <p class="trade-label">Received</p>
-      <ul class="trade-assets">
-        {% for p in s.players %}
-        <li><span class="asset asset-player">Player</span><span class="asset-text">{{ p }}</span></li>
-        {% endfor %}
-        {% for p in s.picks %}
-        <li><span class="asset asset-pick">Pick</span><span class="asset-text">
-          <strong>{{ p.year }} {{ p.round_text }} round</strong> <span class="muted">· {{ p.original.name }}'s</span>
-          {% if p.player %}<span class="asset-result">Used at {{ p.slot }} on {{ p.player }}{% if p.keeper %} (keeper){% endif %}</span>
-          {% elif not p.done %}<span class="asset-result">Not used yet</span>{% endif %}
-        </span></li>
-        {% endfor %}
-        {% if not s.players and not s.picks %}<li class="muted">Nothing</li>{% endif %}
-      </ul>
-    </section>
-    {% endfor %}
-  </div>
-</li>
-{% endfor %}
+{% for t in trades %}{{ ui.trade_card(t.card, t.years) }}{% endfor %}
 </ol>
 {% endblock %}

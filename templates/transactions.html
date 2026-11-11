@@ -25,44 +25,16 @@
 </nav>
 {% endif %}
 
-{% if partial_trades %}
-<p class="note">Adds, drops and waiver claims are complete. ESPN only keeps a few of the trades from past seasons, so most {{ season }} trades are missing here{% if show_picks %}; trades involving draft picks are on the <a href="{{ root }}picks.html">Draft picks</a> page{% endif %}.</p>
-{% endif %}
-
-{% if rebuilt is not none %}
 <h2>Trades <span class="h-sub">{{ rebuilt|length }}</span></h2>
-<p class="note">ESPN doesn't keep a full record of trades, so these are worked out from each team's weekly roster
-(a player who moved to another team without being picked up was traded) and from the draft boards (which picks were made by
-a team that didn't own them). The week is shown instead of the exact day.{% if show_picks %} Pick details come from the
-<a href="{{ root }}picks.html">trade sheet</a> where it has them.{% endif %}</p>
 {% if rebuilt %}
-<ol class="tx-list">
-  {% for t in rebuilt %}
-  <li class="tx">
-    <p class="tx-head"><span class="tag tag-trade">Trade</span> <span class="muted">{{ t.when }}</span>{% if t.note %} · {{ t.note }}{% endif %}</p>
-    <ul class="tx-items">
-      {% for s in t.sides %}
-      <li>
-        <strong>{{ s.team.name if s.team else "A former team" }}</strong> got
-        {%- if not s.players and not s.picks %} <span class="muted">nothing that shows on rosters</span>{% endif %}
-        {{ s.players|join(", ") }}{% if s.players and s.picks %}, {% endif %}
-        {%- for p in s.picks %}
-        <span class="pick-chip">{{ p.label }}{% if p.original %} <span class="muted">({{ p.original.name }}'s)</span>{% endif %}
-          {%- if p.player %} <span class="muted">→ {{ p.slot }} {{ p.player }}</span>{% endif %}</span>{% if not loop.last %}, {% endif %}
-        {% endfor %}
-      </li>
-      {% endfor %}
-    </ul>
-  </li>
-  {% endfor %}
-</ol>
+<p class="note">Trades that went through on ESPN. ESPN doesn't keep a full trade history, so they're worked out from each
+team's weekly roster and the draft boards, and show the week rather than the exact day.{% if show_picks %} Trades in the
+<a href="{{ root }}picks.html">trade sheet</a> appear here once the players move on ESPN.{% endif %}</p>
+<ol class="trade-list">{% for t in rebuilt %}{{ ui.trade_card(t) }}{% endfor %}</ol>
 {% else %}
 <p class="muted">No trades this season.</p>
 {% endif %}
-{% elif trades %}
-<h2>Trades</h2>
-<ol class="tx-list">{% for t in trades %}{{ tx(t) }}{% endfor %}</ol>
-{% endif %}
+
 <h2>Adds &amp; drops</h2>
 {% if moves %}
 <ol class="tx-list">{% for t in moves %}{{ tx(t) }}{% endfor %}</ol>

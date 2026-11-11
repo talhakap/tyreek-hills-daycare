@@ -34,6 +34,42 @@
 </article>
 {%- endmacro %}
 
+{# One trade as a card: each team, what it received (players and picks).
+   t = {title, when, note, sides: [{team, players: [names], picks: [{label, original, result}]}]} #}
+{% macro trade_card(t, years=None) -%}
+<li class="trade-card"{% if years is not none %} data-pick-years="{{ years|join(' ') }}"{% endif %}>
+  <header class="trade-head">
+    <span class="trade-num">{{ t.title }}</span>
+    {% if t.when %}<span class="muted">{{ t.when }}</span>{% endif %}
+    {% if t.note %}<span class="trade-note">{{ t.note }}</span>{% endif %}
+  </header>
+  <div class="trade-sides">
+    {% for s in t.sides %}
+    <section class="trade-side" aria-label="{{ s.team.name if s.team else 'A former team' }} received">
+      <div class="trade-team">
+        {% if s.team %}{{ logo(s.team) }}{% endif %}
+        <span class="team-text"><strong class="team-name">{% if s.team and s.team.unit %}<a href="{{ root }}teams/{{ s.team.unit.slug }}.html">{{ s.team.name }}</a>{% elif s.team %}{{ s.team.name }}{% else %}A former team{% endif %}</strong>
+          {%- if s.team and s.team.unit %}<span class="mgr">{{ s.team.unit.name }}</span>{% endif %}</span>
+      </div>
+      <p class="trade-label">Received</p>
+      <ul class="trade-assets">
+        {% for p in s.players %}
+        <li><span class="asset asset-player">Player</span><span class="asset-text">{{ p }}</span></li>
+        {% endfor %}
+        {% for p in s.picks %}
+        <li><span class="asset asset-pick">Pick</span><span class="asset-text">
+          <strong>{{ p.label }}</strong>{% if p.original %} <span class="muted">· {{ p.original.name }}'s</span>{% endif %}
+          {% if p.result %}<span class="asset-result">{{ p.result }}</span>{% endif %}
+        </span></li>
+        {% endfor %}
+        {% if not s.players and not s.picks %}<li class="muted">Nothing that shows on ESPN</li>{% endif %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+</li>
+{%- endmacro %}
+
 {% macro result_badge(res) -%}
 {% if res == "W" %}<span class="res res-w">W</span>{% elif res == "L" %}<span class="res res-l">L</span>{% elif res == "T" %}<span class="res res-t">T</span>{% else %}<span class="res">–</span>{% endif %}
 {%- endmacro %}

@@ -424,13 +424,11 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
         for t in league.seasons[y]["transactions"]:
             items.append({**t, "date_text": fmt_date(t["date"], tz),
                           "rows": [{**i, "team": teams.get(i["team_id"])} for i in t["items"]]})
-        trades = [t for t in items if t["type"] == "trade"]
         moves = [t for t in items if t["type"] != "trade"]
-        rebuilt = _rebuilt_trades_view(league, y, pick_view) if y >= trading_since else None
+        rebuilt = _rebuilt_trades_view(league, y, pick_view, trading_since)
         link = next(l for l in tx_links if l["year"] == y)
         render("transactions.html", link["href"], "transactions", f"{y} transactions",
-               trades=trades, moves=moves, season=y, seasons=tx_links, rebuilt=rebuilt,
-               partial_trades=rebuilt is None and y != cur["year"])
+               moves=moves, season=y, seasons=tx_links, rebuilt=rebuilt)
 
     # Draft picks
     if pick_view:
@@ -541,8 +539,16 @@ def _picks_view(league: League, cfg: dict, offline: bool) -> dict | None:
                            **result(p["year"], p["round"], p["from"], owners[(p["year"], p["round"], p["from"])])}
                           for p in s["picks"]],
             })
-        log_rows.append({"n": t["n"], "season": t["season"], "date_text": date_text, "note": t["note"],
-                         "season_text": f"{t['season']}–{str(t['season'] + 1)[-2:]} season", "sides": sides,
+        season_text = f"{t['season']}–{str(t['season'] + 1)[-2:]} season"
+        card = {"title": f"Trade {t['n']}", "when": (date_text + " · " if date_text else "") + season_text,
+                "note": t["note"],
+                "sides": [{"team": s["team"], "players": s["players"],
+                           "picks": [{"label": f"{p['year']} {p['round_text']} round", "original": p["original"],
+                                      "result": _pick_result(p.get("slot"), p.get("player"), p.get("keeper"),
+                                                             p["done"])}
+                                     for p in s["picks"]]}
+                          for s in sides]}
+        log_rows.append({"n": t["n"], "season": t["season"], "card": card,
                          "years": sorted({p["year"] for s in t["sides"] for p in s["picks"]})})
 
     next_draft = cur["year"] + 1 if draft_done(cur["year"]) else cur["year"]
@@ -582,45 +588,56 @@ def _picks_view(league: League, cfg: dict, offline: bool) -> dict | None:
             "problems": problems, "sheet_url": sheet_url, "raw_trades": trades}
 
 
-def _rebuilt_trades_view(league: League, year: int, pick_view: dict | None) -> list:
-    """Trades for one season rebuilt from weekly rosters, with their draft picks, newest first."""
+def _pick_result(slot, player, keeper, done) -> str | None:
+    if player:
+        return f"Used at {slot} on {player}" + (" (keeper)" if keeper else "")
+    return None if done else "Not used yet"
+
+
+def _rebuilt_trades_view(league: League, year: int, pick_view: dict | None, trading_since: int) -> list:
+    """One season's trades that happened on ESPN, as trade cards, newest first.
+
+    Rebuilt from weekly rosters (players) and the next draft board (picks, from the season
+    pick trading started). The trade sheet adds exact pick details; sheet trades whose players
+    haven't moved on ESPN yet are left out (they're on the Draft picks page)."""
     season = league.seasons[year]
     teams = league.season_views[year]["teams"]
     latest = max((lu["scoring_period"] for lu in season.get("lineups") or []), default=0)
-    sheet = pick_view["raw_trades"] if pick_view else []
-    trades = rebuild.attach_picks(rebuild.rebuild_trades(season), year,
-                                  (league.seasons.get(year + 1) or {}).get("draft"), sheet)
+    sheet = pick_view["raw_trades"] if pick_view and year >= trading_since else []
+    next_draft = (league.seasons.get(year + 1) or {}).get("draft") if year >= trading_since else None
+    trades = [t for t in rebuild.attach_picks(rebuild.rebuild_trades(season), year, next_draft, sheet)
+              if not t.get("sheet_only")]
+    later_drafts = {y: s.get("draft") for y, s in league.seasons.items() if s.get("draft")}
 
-    def when(t):
-        w = t["window"]
-        if t.get("sheet_only") and not t["pick_only"]:
-            return ("From the trade sheet · players not moved on ESPN yet" if year == league.current["year"]
-                    else "From the trade sheet")
+    def when(w):
         if w is None:
-            return "Draft picks only"
+            return f"Before the {year + 1} draft · draft picks only"
         a, b = w
         if a == 0:
             return "After the draft, before week 1"
         if b > latest:
             return f"Since week {a}"
-        return f"Between weeks {a} and {b}" if b > a + 1 else f"Week {a} to week {b}"
+        return f"Week {a}" if b == a + 1 else f"Between weeks {a} and {b}"
 
-    out = []
-    for t in trades:
+    trades.sort(key=lambda t: t["window"] or (-1, -1))
+    cards = []
+    for n, t in enumerate(trades, 1):
         sides = []
         for tid in t["teams"]:
-            sides.append({
-                "team": teams.get(tid),
-                "players": t["got"].get(tid, []),
-                "picks": [{"label": f"{p['year']} {picks.ordinal(p['round'])}",
-                           "original": teams.get(p["from"]) or league.current["teams"].get(p["from"]),
-                           "slot": p.get("slot"), "player": p.get("player")}
-                          for p in sorted(t["picks"].get(tid, []), key=lambda p: (p["year"], p["round"]))],
-            })
-        sort = t["window"] or ((99, 99) if t.get("sheet_only") and year == league.current["year"] else (-1, -1))
-        out.append({"when": when(t), "sort": sort, "sides": sides,
-                    "note": t.get("note", ""), "pick_only": t["pick_only"]})
-    return sorted(out, key=lambda t: t["sort"], reverse=True)
+            pick_rows = []
+            for p in sorted(t["picks"].get(tid, []), key=lambda p: (p["year"], p["round"])):
+                slot, player, keeper = p.get("slot"), p.get("player"), False
+                if not player:   # from the sheet: look the pick up on its draft board, if that draft happened
+                    res = picks.draft_result(later_drafts.get(p["year"]), p["round"], p["from"])
+                    if res and res["pick"]:
+                        slot, player, keeper = res["slot"], res["pick"]["player"], res["pick"]["keeper"]
+                d = later_drafts.get(p["year"])
+                pick_rows.append({"label": f"{p['year']} {picks.ordinal(p['round'])} round",
+                                  "original": teams.get(p["from"]) or league.current["teams"].get(p["from"]),
+                                  "result": _pick_result(slot, player, keeper, bool(d and d.get("complete")))})
+            sides.append({"team": teams.get(tid), "players": t["got"].get(tid, []), "picks": pick_rows})
+        cards.append({"title": f"Trade {n}", "when": when(t["window"]), "note": t.get("note", ""), "sides": sides})
+    return list(reversed(cards))
 
 
 def _team_picks(pick_view: dict | None, team: dict | None) -> dict | None:
