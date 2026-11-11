@@ -285,9 +285,11 @@ each traded pick was used on (read from ESPN).
 | Team 3 columns | Only for three-team trades (then always name whose each pick is) |
 | Note | Optional, shown on the trade |
 
-The site reads the sheet every time it rebuilds (Sunday night, Monday, Tuesday, Friday). To
-see a new trade straight away, go to the repository's **Actions** tab → **Build and deploy
-site** → **Run workflow**.
+The site reads the sheet every time it rebuilds. Once the one-time setup below is done, a
+change to the sheet starts a rebuild by itself and shows on the site about 3–5 minutes after
+the last edit. Without it, changes wait for the scheduled rebuilds (Sunday night, Monday,
+Tuesday, Friday), or go to the repository's **Actions** tab → **Build and deploy site** →
+**Run workflow**.
 
 If a row can't be used (a misspelled team, or a team trading away a pick it doesn't own), it's
 left off and listed in a red box at the top of the Draft picks page; the rest of the site
@@ -297,6 +299,32 @@ stops and the live site keeps its last good version.
 
 (Leaving `sheet_url` empty makes the site use `data/draft_picks.toml` instead; the offline
 preview and tests use `tests/fixtures/draft_picks.toml`.)
+
+#### Updating the site as soon as the sheet changes (one-time setup)
+
+A small Google Apps Script, [`tools/sheet-autobuild.gs`](tools/sheet-autobuild.gs), watches the
+sheet and asks GitHub to rebuild once nobody has edited it for a minute.
+
+1. **Make a GitHub key that can only start builds.** On GitHub: your picture → **Settings** →
+   **Developer settings** → **Personal access tokens** → **Fine-grained tokens** → **Generate new
+   token**. Name it "Sheet rebuilds", pick an expiry (the longest you're comfortable with), choose
+   **Only select repositories** → this repository, and under **Repository permissions** set
+   **Actions** to **Read and write**. Nothing else. Generate it and copy it.
+2. **Create the script**, signed in to Google as the account that owns the sheet: go to
+   [script.google.com](https://script.google.com) → **New project**. Name it "League site
+   rebuilds", delete what's in the editor, and paste in everything from `tools/sheet-autobuild.gs`.
+   Click 💾 **Save**.
+3. **Add the key:** ⚙️ **Project Settings** (left side) → **Script properties** → **Add script
+   property**. Property `GITHUB_TOKEN`, value: the key from step 1. **Save script properties**.
+4. **Turn it on:** back in the **Editor** (`<>` on the left), choose `setup` in the function
+   menu at the top and click **Run**. Google asks for permission (to see the sheet and contact
+   GitHub): **Review permissions** → your account → **Advanced** → **Go to League site rebuilds**
+   → **Allow**. It starts one test rebuild; you'll see it on the repository's **Actions** tab.
+
+The script is separate from the sheet, so commissioners editing the sheet can't see the key.
+If a rebuild can't be started (say the key expired), Google emails the script's owner; make a
+new key and replace `GITHUB_TOKEN` (step 3). To turn it off, open the script → ⏰ **Triggers**
+and delete them.
 
 
 ---
