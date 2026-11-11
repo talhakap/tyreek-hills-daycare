@@ -271,13 +271,14 @@ def normalize_transactions2(raw: list, player_map: dict) -> list:
             for i in t.get("items") or []:
                 if i.get("type") == "ADD":
                     items.append({"team_id": i.get("toTeamId"), "action": "WAIVER ADDED" if kind == "WAIVER" else "FA ADDED",
-                                  "player": name(i.get("playerId")),
+                                  "player": name(i.get("playerId")), "player_id": i.get("playerId"),
                                   "bid": (t.get("bidAmount") or None) if kind == "WAIVER" else None})
                 elif i.get("type") == "DROP":
                     items.append({"team_id": i.get("fromTeamId"), "action": "DROPPED",
-                                  "player": name(i.get("playerId")), "bid": None})
+                                  "player": name(i.get("playerId")), "player_id": i.get("playerId"), "bid": None})
             if items:
                 out.append({"date": when(t), "type": "add" if any(x["action"] != "DROPPED" for x in items) else "drop",
+                            "period": t.get("scoringPeriodId"),
                             "team_ids": list(dict.fromkeys(x["team_id"] for x in items)), "items": items})
     for root, date in trades_done.values():
         items = []
@@ -289,8 +290,8 @@ def normalize_transactions2(raw: list, player_map: dict) -> list:
             elif i.get("type") == "DROP":
                 items.append({"team_id": i.get("fromTeamId"), "action": "DROPPED", "player": name(i.get("playerId")),
                               "bid": None})
-        out.append({"date": date, "type": "trade", "team_ids": list(dict.fromkeys(x["team_id"] for x in items)),
-                    "items": items})
+        out.append({"date": date, "type": "trade", "period": root.get("scoringPeriodId"),
+                    "team_ids": list(dict.fromkeys(x["team_id"] for x in items)), "items": items})
     return sorted(out, key=lambda x: x["date"], reverse=True)
 
 
@@ -323,6 +324,7 @@ def normalize_draft(data: dict, player_map: dict) -> dict | None:
         "pick": p["roundPickNumber"],
         "overall": p.get("overallPickNumber"),
         "team_id": p.get("teamId"),
+        "player_id": p.get("playerId"),
         "player": clean_name(player_map.get(p.get("playerId"), "Unknown player")) if p.get("playerId") else None,
         "keeper": bool(p.get("keeper")),
     } for p in raw_picks if p.get("roundId") and p.get("roundPickNumber")]

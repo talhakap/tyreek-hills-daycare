@@ -16,7 +16,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 
-from . import picks, recaps, stats
+from . import picks, rebuild, recaps, stats
 from .normalize import anon_id, clean_name
 from .config import (CURRENT_FILE, DATA_DIR, FIXTURES_DIR, PICK_SHEET_FILE, RECAPS_DIR, SEASONS_DIR, SITE_DIR,
                      STATIC_DIR, TEMPLATES_DIR)
@@ -414,6 +414,7 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
            current_year=cur["year"])
 
     # Transactions: one page per season (current season at transactions.html)
+    trading_since = cfg.get("picks", {}).get("trading_since") or 9999
     tx_years = [y for y in reversed(league.years) if league.seasons[y].get("transactions")]
     tx_links = [{"year": y, "href": "transactions.html" if y == cur["year"] else f"transactions-{y}.html"}
                 for y in tx_years]
@@ -425,10 +426,11 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
                           "rows": [{**i, "team": teams.get(i["team_id"])} for i in t["items"]]})
         trades = [t for t in items if t["type"] == "trade"]
         moves = [t for t in items if t["type"] != "trade"]
+        rebuilt = _rebuilt_trades_view(league, y, pick_view) if y >= trading_since else None
         link = next(l for l in tx_links if l["year"] == y)
         render("transactions.html", link["href"], "transactions", f"{y} transactions",
-               trades=trades, moves=moves, season=y, seasons=tx_links,
-               partial_trades=y != cur["year"])
+               trades=trades, moves=moves, season=y, seasons=tx_links, rebuilt=rebuilt,
+               partial_trades=rebuilt is None and y != cur["year"])
 
     # Draft picks
     if pick_view:
@@ -544,10 +546,15 @@ def _picks_view(league: League, cfg: dict, offline: bool) -> dict | None:
                          "years": sorted({p["year"] for s in t["sides"] for p in s["picks"]})})
 
     next_draft = cur["year"] + 1 if draft_done(cur["year"]) else cur["year"]
-    years = sorted({y for y, _, _ in owners} | {next_draft})
+    # A finished draft's board shows every traded pick, logged in the sheet or not.
+    since = cfg.get("picks", {}).get("trading_since") or 9999
+    boards = {y: rebuild.board_traded_picks(d) for y, d in drafts.items() if y > since}
+    years = sorted({y for y, _, _ in owners} | {next_draft} | {y for y, b in boards.items() if b})
     upcoming, past = [], []
     for year in years:
         moved = sorted(((rnd, frm, own) for (y, rnd, frm), own in owners.items() if y == year and own != frm))
+        if boards.get(year):
+            moved = sorted((bp["round"], bp["from"], bp["to"]) for bp in boards[year])
         if draft_done(year):
             if not moved:
                 continue
@@ -572,7 +579,48 @@ def _picks_view(league: League, cfg: dict, offline: bool) -> dict | None:
                           | {y for t in log_rows for y in t["years"]}, reverse=True)
     return {"trades": log_rows, "upcoming": upcoming, "past": list(reversed(past)), "rounds": rounds,
             "filter_years": filter_years, "default_year": next_draft,
-            "problems": problems, "sheet_url": sheet_url}
+            "problems": problems, "sheet_url": sheet_url, "raw_trades": trades}
+
+
+def _rebuilt_trades_view(league: League, year: int, pick_view: dict | None) -> list:
+    """Trades for one season rebuilt from weekly rosters, with their draft picks, newest first."""
+    season = league.seasons[year]
+    teams = league.season_views[year]["teams"]
+    latest = max((lu["scoring_period"] for lu in season.get("lineups") or []), default=0)
+    sheet = pick_view["raw_trades"] if pick_view else []
+    trades = rebuild.attach_picks(rebuild.rebuild_trades(season), year,
+                                  (league.seasons.get(year + 1) or {}).get("draft"), sheet)
+
+    def when(t):
+        w = t["window"]
+        if t.get("sheet_only") and not t["pick_only"]:
+            return ("From the trade sheet · players not moved on ESPN yet" if year == league.current["year"]
+                    else "From the trade sheet")
+        if w is None:
+            return "Draft picks only"
+        a, b = w
+        if a == 0:
+            return "After the draft, before week 1"
+        if b > latest:
+            return f"Since week {a}"
+        return f"Between weeks {a} and {b}" if b > a + 1 else f"Week {a} to week {b}"
+
+    out = []
+    for t in trades:
+        sides = []
+        for tid in t["teams"]:
+            sides.append({
+                "team": teams.get(tid),
+                "players": t["got"].get(tid, []),
+                "picks": [{"label": f"{p['year']} {picks.ordinal(p['round'])}",
+                           "original": teams.get(p["from"]) or league.current["teams"].get(p["from"]),
+                           "slot": p.get("slot"), "player": p.get("player")}
+                          for p in sorted(t["picks"].get(tid, []), key=lambda p: (p["year"], p["round"]))],
+            })
+        sort = t["window"] or ((99, 99) if t.get("sheet_only") and year == league.current["year"] else (-1, -1))
+        out.append({"when": when(t), "sort": sort, "sides": sides,
+                    "note": t.get("note", ""), "pick_only": t["pick_only"]})
+    return sorted(out, key=lambda t: t["sort"], reverse=True)
 
 
 def _team_picks(pick_view: dict | None, team: dict | None) -> dict | None:

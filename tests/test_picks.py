@@ -88,7 +88,8 @@ def test_normalize_draft_drops_member_ids():
                  "keeper": True, "memberId": "{SECRET}"}]}}
     d = normalize_draft(data, {7: "Some Guy"})
     assert d["complete"] and d["rounds"] == 1 and d["pick_order"] == [2, 1]
-    assert d["picks"] == [{"round": 1, "pick": 1, "overall": 1, "team_id": 2, "player": "Some Guy", "keeper": True}]
+    assert d["picks"] == [{"round": 1, "pick": 1, "overall": 1, "team_id": 2, "player_id": 7, "player": "Some Guy",
+                          "keeper": True}]
     assert "SECRET" not in repr(d)
 
 

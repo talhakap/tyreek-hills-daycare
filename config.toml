@@ -34,7 +34,10 @@ recent_form_weeks = 3
 # the site can read it; only people you add as editors can change it.
 # Leave "" to use data/draft_picks.toml instead.
 [picks]
-sheet_url = "https://docs.google.com/spreadsheets/d/1rO1M3gcxyONofya-22ujY3cV-U7MOZwbMLYcsHT9NWw/edit"
+# First season with keepers and traded picks (2024-25). From this season on, trades on the
+# Transactions page are rebuilt from weekly rosters + draft boards, since ESPN loses most of them.
+trading_since = 2024
+sheet_url ="https://docs.google.com/spreadsheets/d/1rO1M3gcxyONofya-22ujY3cV-U7MOZwbMLYcsHT9NWw/edit"
 
 # Written recaps.
 [recaps]

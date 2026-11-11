@@ -131,6 +131,7 @@ def test_past_season_transactions_from_mtransactions2():
     trade = out[0]
     assert ({"team_id": 4, "action": "TRADE_RECEIVED", "player": "Traded A", "bid": None} in trade["items"]
             and {"team_id": 3, "action": "TRADE_RECEIVED", "player": "Traded B", "bid": None} in trade["items"])
-    assert out[1]["items"] == [{"team_id": 4, "action": "WAIVER ADDED", "player": "Claimed", "bid": 12}]
+    assert out[1]["items"] == [{"team_id": 4, "action": "WAIVER ADDED", "player": "Claimed", "player_id": 3, "bid": 12}]
+    assert out[1]["period"] is None and out[2]["items"][0]["player_id"] == 1
     assert [i["action"] for i in out[2]["items"]] == ["FA ADDED", "DROPPED"]
     assert "SECRET" not in repr(out)

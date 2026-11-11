@@ -47147,6 +47147,7 @@
   {
    "date": "2024-12-29T07:08:20.982000+00:00",
    "type": "add",
+   "period": 17,
    "team_ids": [
     9
    ],
@@ -47155,12 +47156,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Bryce Young",
+     "player_id": 4685720,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Colts D/ST",
+     "player_id": -16011,
      "bid": null
     }
    ]
@@ -47168,6 +47171,7 @@
   {
    "date": "2024-12-28T16:03:12.365000+00:00",
    "type": "add",
+   "period": 17,
    "team_ids": [
     12
    ],
@@ -47176,6 +47180,7 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Raheem Blackshear",
+     "player_id": 4259308,
      "bid": null
     }
    ]
@@ -47183,6 +47188,7 @@
   {
    "date": "2024-12-25T17:24:42.655000+00:00",
    "type": "drop",
+   "period": 17,
    "team_ids": [
     1
    ],
@@ -47191,6 +47197,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -47198,6 +47205,7 @@
   {
    "date": "2024-12-25T10:41:05.766000+00:00",
    "type": "add",
+   "period": 17,
    "team_ids": [
     11
    ],
@@ -47206,6 +47214,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Raiders D/ST",
+     "player_id": -16013,
      "bid": null
     }
    ]
@@ -47213,6 +47222,7 @@
   {
    "date": "2024-12-25T08:39:17.540000+00:00",
    "type": "add",
+   "period": 17,
    "team_ids": [
     11
    ],
@@ -47221,12 +47231,14 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Rashod Bateman",
+     "player_id": 4360939,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Kendre Miller",
+     "player_id": 4599739,
      "bid": null
     }
    ]
@@ -47234,6 +47246,7 @@
   {
    "date": "2024-12-25T08:39:17.539000+00:00",
    "type": "add",
+   "period": 17,
    "team_ids": [
     11
    ],
@@ -47242,18 +47255,21 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Xavier Worthy",
+     "player_id": 4683062,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Jason Myers",
+     "player_id": 2473037,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Russell Wilson",
+     "player_id": 14881,
      "bid": null
     }
    ]
@@ -47261,6 +47277,7 @@
   {
    "date": "2024-12-20T13:50:28.773000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     11
    ],
@@ -47269,6 +47286,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Kendre Miller",
+     "player_id": 4599739,
      "bid": null
     }
    ]
@@ -47276,6 +47294,7 @@
   {
    "date": "2024-12-20T05:23:20.312000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     8
    ],
@@ -47284,6 +47303,7 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Jerome Ford",
+     "player_id": 4372019,
      "bid": null
     }
    ]
@@ -47291,6 +47311,7 @@
   {
    "date": "2024-12-19T19:02:38.004000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     4
    ],
@@ -47299,6 +47320,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Dalton Kincaid",
+     "player_id": 4385690,
      "bid": null
     }
    ]
@@ -47306,6 +47328,7 @@
   {
    "date": "2024-12-19T05:47:33.344000+00:00",
    "type": "drop",
+   "period": 16,
    "team_ids": [
     4
    ],
@@ -47314,6 +47337,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     }
    ]
@@ -47321,6 +47345,7 @@
   {
    "date": "2024-12-19T05:47:21.511000+00:00",
    "type": "drop",
+   "period": 16,
    "team_ids": [
     4
    ],
@@ -47329,6 +47354,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Tyler Bass",
+     "player_id": 3917232,
      "bid": null
     }
    ]
@@ -47336,6 +47362,7 @@
   {
    "date": "2024-12-19T05:47:17.151000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     4
    ],
@@ -47344,6 +47371,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -47351,6 +47379,7 @@
   {
    "date": "2024-12-18T09:20:34.006000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     10
    ],
@@ -47359,12 +47388,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Marquez Valdes-Scantling",
+     "player_id": 3051738,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Nick Westbrook-Ikhine",
+     "player_id": 3929785,
      "bid": null
     }
    ]
@@ -47372,6 +47403,7 @@
   {
    "date": "2024-12-18T09:20:34.005000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     10
    ],
@@ -47380,12 +47412,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Christian Watson",
+     "player_id": 4248528,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     }
    ]
@@ -47393,6 +47427,7 @@
   {
    "date": "2024-12-18T09:20:34.004000+00:00",
    "type": "add",
+   "period": 16,
    "team_ids": [
     5
    ],
@@ -47401,12 +47436,14 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Cardinals D/ST",
+     "player_id": -16022,
      "bid": null
     }
    ]
@@ -47414,6 +47451,7 @@
   {
    "date": "2024-12-17T20:58:04.444000+00:00",
    "type": "drop",
+   "period": 16,
    "team_ids": [
     5
    ],
@@ -47422,6 +47460,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Patrick Taylor Jr.",
+     "player_id": 4039358,
      "bid": null
     }
    ]
@@ -47429,6 +47468,7 @@
   {
    "date": "2024-12-15T09:48:49.002000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     7
    ],
@@ -47437,12 +47477,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Will Reichard",
+     "player_id": 4567104,
      "bid": null
     }
    ]
@@ -47450,6 +47492,7 @@
   {
    "date": "2024-12-15T09:28:47.829000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     1
    ],
@@ -47458,6 +47501,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -47465,6 +47509,7 @@
   {
    "date": "2024-12-13T16:34:03.344000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     4
    ],
@@ -47473,6 +47518,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     }
    ]
@@ -47480,6 +47526,7 @@
   {
    "date": "2024-12-13T16:33:51.320000+00:00",
    "type": "drop",
+   "period": 15,
    "team_ids": [
     4
    ],
@@ -47488,6 +47535,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     }
    ]
@@ -47495,6 +47543,7 @@
   {
    "date": "2024-12-13T09:03:34.881000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     10
    ],
@@ -47503,12 +47552,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Hunter Henry",
+     "player_id": 3046439,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Evan Engram",
+     "player_id": 3051876,
      "bid": null
     }
    ]
@@ -47516,6 +47567,7 @@
   {
    "date": "2024-12-13T02:36:55.175000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     10
    ],
@@ -47524,6 +47576,7 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     }
    ]
@@ -47531,6 +47584,7 @@
   {
    "date": "2024-12-13T02:36:44.088000+00:00",
    "type": "drop",
+   "period": 15,
    "team_ids": [
     10
    ],
@@ -47539,6 +47593,7 @@
      "team_id": 10,
      "action": "DROPPED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     }
    ]
@@ -47546,6 +47601,7 @@
   {
    "date": "2024-12-11T23:10:57.417000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     12
    ],
@@ -47554,6 +47610,7 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -47561,6 +47618,7 @@
   {
    "date": "2024-12-11T21:58:58.512000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     4
    ],
@@ -47569,12 +47627,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Tyler Bass",
+     "player_id": 3917232,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -47582,6 +47642,7 @@
   {
    "date": "2024-12-11T21:04:06.067000+00:00",
    "type": "drop",
+   "period": 15,
    "team_ids": [
     8
    ],
@@ -47590,6 +47651,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Diontae Johnson",
+     "player_id": 3932905,
      "bid": null
     }
    ]
@@ -47597,6 +47659,7 @@
   {
    "date": "2024-12-11T18:34:38.242000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     5
    ],
@@ -47605,12 +47668,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Patrick Taylor Jr.",
+     "player_id": 4039358,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Hunter Henry",
+     "player_id": 3046439,
      "bid": null
     }
    ]
@@ -47618,6 +47683,7 @@
   {
    "date": "2024-12-11T18:02:36.813000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     10
    ],
@@ -47626,12 +47692,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Bears D/ST",
+     "player_id": -16003,
      "bid": null
     }
    ]
@@ -47639,6 +47707,7 @@
   {
    "date": "2024-12-11T16:22:47.134000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     7
    ],
@@ -47647,6 +47716,7 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Sincere McCormick",
+     "player_id": 4430104,
      "bid": null
     }
    ]
@@ -47654,6 +47724,7 @@
   {
    "date": "2024-12-11T08:37:29.177000+00:00",
    "type": "add",
+   "period": 15,
    "team_ids": [
     1
    ],
@@ -47662,12 +47733,14 @@
      "team_id": 1,
      "action": "WAIVER ADDED",
      "player": "Tank Bigsby",
+     "player_id": 4429013,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -47675,6 +47748,7 @@
   {
    "date": "2024-12-10T15:22:34.035000+00:00",
    "type": "drop",
+   "period": 15,
    "team_ids": [
     1
    ],
@@ -47683,6 +47757,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Will Dissly",
+     "player_id": 3127292,
      "bid": null
     }
    ]
@@ -47690,6 +47765,7 @@
   {
    "date": "2024-12-10T15:22:11.714000+00:00",
    "type": "drop",
+   "period": 15,
    "team_ids": [
     1
    ],
@@ -47698,6 +47774,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Nick Folk",
+     "player_id": 10621,
      "bid": null
     }
    ]
@@ -47705,6 +47782,7 @@
   {
    "date": "2024-12-10T13:18:28.655000+00:00",
    "type": "drop",
+   "period": 15,
    "team_ids": [
     7
    ],
@@ -47713,6 +47791,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Jonathon Brooks",
+     "player_id": 4678008,
      "bid": null
     }
    ]
@@ -47720,6 +47799,7 @@
   {
    "date": "2024-12-08T17:50:02.701000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     4
    ],
@@ -47728,6 +47808,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     }
    ]
@@ -47735,6 +47816,7 @@
   {
    "date": "2024-12-08T16:49:00.987000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     1
    ],
@@ -47743,6 +47825,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -47750,6 +47833,7 @@
   {
    "date": "2024-12-08T14:11:06.584000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     1
    ],
@@ -47758,6 +47842,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Ravens D/ST",
+     "player_id": -16033,
      "bid": null
     }
    ]
@@ -47765,6 +47850,7 @@
   {
    "date": "2024-12-08T07:24:41.983000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     7
    ],
@@ -47773,6 +47859,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "John Parker Romo",
+     "player_id": 4051167,
      "bid": null
     }
    ]
@@ -47780,6 +47867,7 @@
   {
    "date": "2024-12-07T21:06:30.524000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     4
    ],
@@ -47788,6 +47876,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Zach Charbonnet",
+     "player_id": 4426385,
      "bid": null
     }
    ]
@@ -47795,6 +47884,7 @@
   {
    "date": "2024-12-07T17:12:17.665000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     4
    ],
@@ -47803,6 +47893,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Titans D/ST",
+     "player_id": -16010,
      "bid": null
     }
    ]
@@ -47810,6 +47901,7 @@
   {
    "date": "2024-12-06T22:19:26.951000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     7
    ],
@@ -47818,12 +47910,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Elijah Moore",
+     "player_id": 4372414,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Keon Coleman",
+     "player_id": 4635008,
      "bid": null
     }
    ]
@@ -47831,6 +47925,7 @@
   {
    "date": "2024-12-05T19:33:48.551000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     5
    ],
@@ -47839,6 +47934,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Braelon Allen",
+     "player_id": 4685247,
      "bid": null
     }
    ]
@@ -47846,6 +47942,7 @@
   {
    "date": "2024-12-04T16:38:26.568000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     11
    ],
@@ -47854,6 +47951,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Jason Myers",
+     "player_id": 2473037,
      "bid": null
     }
    ]
@@ -47861,6 +47959,7 @@
   {
    "date": "2024-12-04T16:38:02.796000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     11
    ],
@@ -47869,6 +47968,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Russell Wilson",
+     "player_id": 14881,
      "bid": null
     }
    ]
@@ -47876,6 +47976,7 @@
   {
    "date": "2024-12-04T16:36:57.766000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     11
    ],
@@ -47884,6 +47985,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Quentin Johnston",
+     "player_id": 4429025,
      "bid": null
     }
    ]
@@ -47891,6 +47993,7 @@
   {
    "date": "2024-12-04T16:36:48.307000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     11
    ],
@@ -47899,6 +48002,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Javonte Williams",
+     "player_id": 4361579,
      "bid": null
     }
    ]
@@ -47906,6 +48010,7 @@
   {
    "date": "2024-12-04T16:36:42.945000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     11
    ],
@@ -47914,6 +48019,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Tank Bigsby",
+     "player_id": 4429013,
      "bid": null
     }
    ]
@@ -47921,6 +48027,7 @@
   {
    "date": "2024-12-04T16:32:34.866000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     6
    ],
@@ -47929,6 +48036,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Jordan Mason",
+     "player_id": 4360569,
      "bid": null
     }
    ]
@@ -47936,6 +48044,7 @@
   {
    "date": "2024-12-04T16:32:22.863000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     6
    ],
@@ -47944,6 +48053,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Austin Ekeler",
+     "player_id": 3068267,
      "bid": null
     }
    ]
@@ -47951,6 +48061,7 @@
   {
    "date": "2024-12-04T13:55:57.596000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     7
    ],
@@ -47959,6 +48070,7 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     }
    ]
@@ -47966,6 +48078,7 @@
   {
    "date": "2024-12-04T13:53:02.327000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     1
    ],
@@ -47974,12 +48087,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Nick Folk",
+     "player_id": 10621,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Blake Corum",
+     "player_id": 4429096,
      "bid": null
     }
    ]
@@ -47987,6 +48102,7 @@
   {
    "date": "2024-12-04T13:52:21.908000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     1
    ],
@@ -47995,12 +48111,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Will Dissly",
+     "player_id": 3127292,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Dalton Kincaid",
+     "player_id": 4385690,
      "bid": null
     }
    ]
@@ -48008,6 +48126,7 @@
   {
    "date": "2024-12-04T13:47:34.384000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     7
    ],
@@ -48016,6 +48135,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Ameer Abdullah",
+     "player_id": 2576336,
      "bid": null
     }
    ]
@@ -48023,6 +48143,7 @@
   {
    "date": "2024-12-04T11:55:25.093000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     5
    ],
@@ -48031,12 +48152,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     }
    ]
@@ -48044,6 +48167,7 @@
   {
    "date": "2024-12-04T11:51:44.423000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     5
    ],
@@ -48052,6 +48176,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -48059,6 +48184,7 @@
   {
    "date": "2024-12-04T11:47:38.382000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     5
    ],
@@ -48067,6 +48193,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Taysom Hill",
+     "player_id": 2468609,
      "bid": null
     }
    ]
@@ -48074,6 +48201,7 @@
   {
    "date": "2024-12-04T10:09:58.153000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     10
    ],
@@ -48082,12 +48210,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Tucker Kraft",
+     "player_id": 4572680,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Wan'Dale Robinson",
+     "player_id": 4569587,
      "bid": null
     }
    ]
@@ -48095,6 +48225,7 @@
   {
    "date": "2024-12-04T10:09:58.151000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     7
    ],
@@ -48103,12 +48234,14 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Matthew Stafford",
+     "player_id": 12483,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     }
    ]
@@ -48116,6 +48249,7 @@
   {
    "date": "2024-12-04T10:09:58.151000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     8
    ],
@@ -48124,12 +48258,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Dolphins D/ST",
+     "player_id": -16015,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Browns D/ST",
+     "player_id": -16005,
      "bid": null
     }
    ]
@@ -48137,6 +48273,7 @@
   {
    "date": "2024-12-04T10:09:58.149000+00:00",
    "type": "add",
+   "period": 14,
    "team_ids": [
     9
    ],
@@ -48145,12 +48282,14 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Isaac Guerendo",
+     "player_id": 4372561,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Alexander Mattison",
+     "player_id": 4048244,
      "bid": null
     }
    ]
@@ -48158,6 +48297,7 @@
   {
    "date": "2024-12-04T00:02:51.562000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     5
    ],
@@ -48166,6 +48306,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Ricky Pearsall",
+     "player_id": 4428209,
      "bid": null
     }
    ]
@@ -48173,6 +48314,7 @@
   {
    "date": "2024-12-03T17:03:49.435000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     7
    ],
@@ -48181,6 +48323,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Devin Singletary",
+     "player_id": 4040761,
      "bid": null
     }
    ]
@@ -48188,6 +48331,7 @@
   {
    "date": "2024-12-03T13:31:17.688000+00:00",
    "type": "drop",
+   "period": 14,
    "team_ids": [
     4
    ],
@@ -48196,6 +48340,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     }
    ]
@@ -48203,6 +48348,7 @@
   {
    "date": "2024-11-30T23:50:23.472000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     4
    ],
@@ -48211,12 +48357,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Titans D/ST",
+     "player_id": -16010,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -48224,6 +48372,7 @@
   {
    "date": "2024-11-30T18:13:40.353000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     5
    ],
@@ -48232,6 +48381,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Cardinals D/ST",
+     "player_id": -16022,
      "bid": null
     }
    ]
@@ -48239,6 +48389,7 @@
   {
    "date": "2024-11-30T05:54:52.980000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     10
    ],
@@ -48247,12 +48398,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     }
    ]
@@ -48260,6 +48413,7 @@
   {
    "date": "2024-11-29T19:34:53.738000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     7
    ],
@@ -48268,12 +48422,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Ameer Abdullah",
+     "player_id": 2576336,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Russell Wilson",
+     "player_id": 14881,
      "bid": null
     }
    ]
@@ -48281,6 +48437,7 @@
   {
    "date": "2024-11-29T11:45:43.616000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     4
    ],
@@ -48289,12 +48446,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     }
    ]
@@ -48302,6 +48461,7 @@
   {
    "date": "2024-11-29T10:09:03.068000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     10
    ],
@@ -48310,12 +48470,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Bills D/ST",
+     "player_id": -16002,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Rashod Bateman",
+     "player_id": 4360939,
      "bid": null
     }
    ]
@@ -48323,6 +48485,7 @@
   {
    "date": "2024-11-28T05:55:36.537000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     4
    ],
@@ -48331,12 +48494,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     }
    ]
@@ -48344,6 +48509,7 @@
   {
    "date": "2024-11-28T05:22:55.495000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     10
    ],
@@ -48352,6 +48518,7 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Nick Westbrook-Ikhine",
+     "player_id": 3929785,
      "bid": null
     }
    ]
@@ -48359,6 +48526,7 @@
   {
    "date": "2024-11-28T00:53:07.679000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     7
    ],
@@ -48367,12 +48535,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Travis Etienne Jr.",
+     "player_id": 4239996,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Tyler Lockett",
+     "player_id": 2577327,
      "bid": null
     }
    ]
@@ -48380,6 +48550,7 @@
   {
    "date": "2024-11-28T00:52:18.437000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     7
    ],
@@ -48388,12 +48559,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Elijah Moore",
+     "player_id": 4372414,
      "bid": null
     }
    ]
@@ -48401,6 +48574,7 @@
   {
    "date": "2024-11-28T00:48:55.170000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     7
    ],
@@ -48409,12 +48583,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "John Parker Romo",
+     "player_id": 4051167,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Spencer Shrader",
+     "player_id": 4571557,
      "bid": null
     }
    ]
@@ -48422,6 +48598,7 @@
   {
    "date": "2024-11-27T15:31:29.695000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     1
    ],
@@ -48430,12 +48607,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Dalton Kincaid",
+     "player_id": 4385690,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Tucker Kraft",
+     "player_id": 4572680,
      "bid": null
     }
    ]
@@ -48443,6 +48622,7 @@
   {
    "date": "2024-11-27T15:30:54.682000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     1
    ],
@@ -48451,12 +48631,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Sam Darnold",
+     "player_id": 3912547,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Bills D/ST",
+     "player_id": -16002,
      "bid": null
     }
    ]
@@ -48464,6 +48646,7 @@
   {
    "date": "2024-11-27T15:21:34.686000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     1
    ],
@@ -48472,12 +48655,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Gus Edwards",
+     "player_id": 3051926,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Audric Estime",
+     "player_id": 4569682,
      "bid": null
     }
    ]
@@ -48485,6 +48670,7 @@
   {
    "date": "2024-11-27T11:20:52.907000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     4
    ],
@@ -48493,6 +48679,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     }
    ]
@@ -48500,6 +48687,7 @@
   {
    "date": "2024-11-27T08:07:15.011000+00:00",
    "type": "add",
+   "period": 13,
    "team_ids": [
     5
    ],
@@ -48508,12 +48696,14 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Dolphins D/ST",
+     "player_id": -16015,
      "bid": null
     }
    ]
@@ -48521,6 +48711,7 @@
   {
    "date": "2024-11-27T03:35:19.143000+00:00",
    "type": "drop",
+   "period": 13,
    "team_ids": [
     6
    ],
@@ -48529,6 +48720,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Christian Watson",
+     "player_id": 4248528,
      "bid": null
     }
    ]
@@ -48536,6 +48728,7 @@
   {
    "date": "2024-11-26T14:32:29.717000+00:00",
    "type": "drop",
+   "period": 13,
    "team_ids": [
     5
    ],
@@ -48544,6 +48737,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Geno Smith",
+     "player_id": 15864,
      "bid": null
     }
    ]
@@ -48551,6 +48745,7 @@
   {
    "date": "2024-11-26T13:51:15.652000+00:00",
    "type": "drop",
+   "period": 13,
    "team_ids": [
     9
    ],
@@ -48559,6 +48754,7 @@
      "team_id": 9,
      "action": "DROPPED",
      "player": "Justin Tucker",
+     "player_id": 15683,
      "bid": null
     }
    ]
@@ -48566,6 +48762,7 @@
   {
    "date": "2024-11-26T11:24:02.385000+00:00",
    "type": "drop",
+   "period": 13,
    "team_ids": [
     4
    ],
@@ -48574,6 +48771,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Will Dissly",
+     "player_id": 3127292,
      "bid": null
     }
    ]
@@ -48581,6 +48779,7 @@
   {
    "date": "2024-11-25T18:37:40.740000+00:00",
    "type": "drop",
+   "period": 12,
    "team_ids": [
     11
    ],
@@ -48589,6 +48788,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Dawson Knox",
+     "player_id": 3930086,
      "bid": null
     }
    ]
@@ -48596,6 +48796,7 @@
   {
    "date": "2024-11-24T04:07:36.114000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     10
    ],
@@ -48604,12 +48805,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Rashod Bateman",
+     "player_id": 4360939,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     }
    ]
@@ -48617,6 +48820,7 @@
   {
    "date": "2024-11-24T04:07:00.943000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     10
    ],
@@ -48625,12 +48829,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Wan'Dale Robinson",
+     "player_id": 4569587,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Jake Moody",
+     "player_id": 4372066,
      "bid": null
     }
    ]
@@ -48638,6 +48844,7 @@
   {
    "date": "2024-11-22T23:58:31.518000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     6
    ],
@@ -48646,12 +48853,14 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Christian Watson",
+     "player_id": 4248528,
      "bid": null
     },
     {
      "team_id": 6,
      "action": "DROPPED",
      "player": "Raheem Mostert",
+     "player_id": 2576414,
      "bid": null
     }
    ]
@@ -48659,6 +48868,7 @@
   {
    "date": "2024-11-22T23:19:04.867000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     5
    ],
@@ -48667,6 +48877,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Geno Smith",
+     "player_id": 15864,
      "bid": null
     }
    ]
@@ -48674,6 +48885,7 @@
   {
    "date": "2024-11-21T14:03:49.671000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     7
    ],
@@ -48682,12 +48894,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Spencer Shrader",
+     "player_id": 4571557,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Blake Grupe",
+     "player_id": 4259619,
      "bid": null
     }
    ]
@@ -48695,6 +48909,7 @@
   {
    "date": "2024-11-20T19:53:00.119000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     10
    ],
@@ -48703,12 +48918,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Mike Williams",
+     "player_id": 3045138,
      "bid": null
     }
    ]
@@ -48716,6 +48933,7 @@
   {
    "date": "2024-11-20T15:06:58.992000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     1
    ],
@@ -48724,6 +48942,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Wil Lutz",
+     "player_id": 2985659,
      "bid": null
     }
    ]
@@ -48731,6 +48950,7 @@
   {
    "date": "2024-11-20T15:04:48.234000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     1
    ],
@@ -48739,6 +48959,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Buccaneers D/ST",
+     "player_id": -16027,
      "bid": null
     }
    ]
@@ -48746,6 +48967,7 @@
   {
    "date": "2024-11-20T12:13:36.274000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     12
    ],
@@ -48754,12 +48976,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Jake Elliott",
+     "player_id": 3050478,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Xavier Legette",
+     "player_id": 4430034,
      "bid": null
     }
    ]
@@ -48767,6 +48991,7 @@
   {
    "date": "2024-11-20T12:13:07.609000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     12
    ],
@@ -48775,12 +49000,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Jonnu Smith",
+     "player_id": 3054212,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Gus Edwards",
+     "player_id": 3051926,
      "bid": null
     }
    ]
@@ -48788,6 +49015,7 @@
   {
    "date": "2024-11-20T11:43:32.124000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     4
    ],
@@ -48796,6 +49024,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Will Dissly",
+     "player_id": 3127292,
      "bid": null
     }
    ]
@@ -48803,6 +49032,7 @@
   {
    "date": "2024-11-20T10:52:48.415000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     4
    ],
@@ -48811,6 +49041,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -48818,6 +49049,7 @@
   {
    "date": "2024-11-20T09:53:10.721000+00:00",
    "type": "add",
+   "period": 12,
    "team_ids": [
     11
    ],
@@ -48826,12 +49058,14 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Javonte Williams",
+     "player_id": 4361579,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Zach Charbonnet",
+     "player_id": 4426385,
      "bid": null
     }
    ]
@@ -48839,6 +49073,7 @@
   {
    "date": "2024-11-19T16:50:58.093000+00:00",
    "type": "drop",
+   "period": 12,
    "team_ids": [
     6
    ],
@@ -48847,6 +49082,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Rams D/ST",
+     "player_id": -16014,
      "bid": null
     }
    ]
@@ -48854,6 +49090,7 @@
   {
    "date": "2024-11-19T16:12:03.446000+00:00",
    "type": "drop",
+   "period": 12,
    "team_ids": [
     1
    ],
@@ -48862,6 +49099,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Zane Gonzalez",
+     "player_id": 3043234,
      "bid": null
     }
    ]
@@ -48869,6 +49107,7 @@
   {
    "date": "2024-11-19T16:11:48.894000+00:00",
    "type": "drop",
+   "period": 12,
    "team_ids": [
     1
    ],
@@ -48877,6 +49116,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -48884,6 +49124,7 @@
   {
    "date": "2024-11-19T11:33:38.369000+00:00",
    "type": "drop",
+   "period": 12,
    "team_ids": [
     4
    ],
@@ -48892,6 +49133,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Travis Etienne Jr.",
+     "player_id": 4239996,
      "bid": null
     }
    ]
@@ -48899,6 +49141,7 @@
   {
    "date": "2024-11-19T10:57:52.361000+00:00",
    "type": "drop",
+   "period": 12,
    "team_ids": [
     4
    ],
@@ -48907,6 +49150,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Tyler Bass",
+     "player_id": 3917232,
      "bid": null
     }
    ]
@@ -48914,6 +49158,7 @@
   {
    "date": "2024-11-18T19:05:59.973000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -48922,6 +49167,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Jake Ferguson",
+     "player_id": 4242355,
      "bid": null
     }
    ]
@@ -48929,6 +49175,7 @@
   {
    "date": "2024-11-17T18:18:34.576000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     11
    ],
@@ -48937,6 +49184,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Dawson Knox",
+     "player_id": 3930086,
      "bid": null
     }
    ]
@@ -48944,6 +49192,7 @@
   {
    "date": "2024-11-17T04:06:06.911000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -48952,6 +49201,7 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Diontae Johnson",
+     "player_id": 3932905,
      "bid": null
     }
    ]
@@ -48959,6 +49209,7 @@
   {
    "date": "2024-11-17T04:04:11.014000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -48967,12 +49218,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "De'Von Achane",
+     "player_id": 4429160,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Diontae Johnson",
+     "player_id": 3932905,
      "bid": null
     }
    ]
@@ -48980,6 +49233,7 @@
   {
    "date": "2024-11-17T04:03:54.735000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -48988,6 +49242,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Nico Collins",
+     "player_id": 4258173,
      "bid": null
     }
    ]
@@ -48995,6 +49250,7 @@
   {
    "date": "2024-11-17T04:03:41.844000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49003,12 +49259,14 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "De'Von Achane",
+     "player_id": 4429160,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Nico Collins",
+     "player_id": 4258173,
      "bid": null
     }
    ]
@@ -49016,6 +49274,7 @@
   {
    "date": "2024-11-17T03:49:44.412000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49024,6 +49283,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Dalton Kincaid",
+     "player_id": 4385690,
      "bid": null
     }
    ]
@@ -49031,6 +49291,7 @@
   {
    "date": "2024-11-16T12:52:00.883000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     10
    ],
@@ -49039,6 +49300,7 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Jason Sanders",
+     "player_id": 3124679,
      "bid": null
     }
    ]
@@ -49046,6 +49308,7 @@
   {
    "date": "2024-11-15T20:14:23.667000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49054,6 +49317,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Zamir White",
+     "player_id": 4361777,
      "bid": null
     }
    ]
@@ -49061,6 +49325,7 @@
   {
    "date": "2024-11-15T19:59:18.711000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49069,6 +49334,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Taysom Hill",
+     "player_id": 2468609,
      "bid": null
     }
    ]
@@ -49076,6 +49342,7 @@
   {
    "date": "2024-11-15T19:58:33.799000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49084,6 +49351,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "MarShawn Lloyd",
+     "player_id": 4429023,
      "bid": null
     }
    ]
@@ -49091,6 +49359,7 @@
   {
    "date": "2024-11-15T08:45:11.640000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     10
    ],
@@ -49099,6 +49368,7 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     }
    ]
@@ -49106,6 +49376,7 @@
   {
    "date": "2024-11-15T00:40:02.561000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49114,12 +49385,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "MarShawn Lloyd",
+     "player_id": 4429023,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Brandin Cooks",
+     "player_id": 16731,
      "bid": null
     }
    ]
@@ -49127,6 +49400,7 @@
   {
    "date": "2024-11-15T00:39:23.053000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49135,6 +49409,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Marquez Valdes-Scantling",
+     "player_id": 3051738,
      "bid": null
     }
    ]
@@ -49142,6 +49417,7 @@
   {
    "date": "2024-11-14T22:02:36.264000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49150,6 +49426,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Zane Gonzalez",
+     "player_id": 3043234,
      "bid": null
     }
    ]
@@ -49157,6 +49434,7 @@
   {
    "date": "2024-11-14T22:02:00.344000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49165,6 +49443,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -49172,6 +49451,7 @@
   {
    "date": "2024-11-14T20:03:36.518000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     11
    ],
@@ -49180,6 +49460,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Zamir White",
+     "player_id": 4361777,
      "bid": null
     }
    ]
@@ -49187,6 +49468,7 @@
   {
    "date": "2024-11-14T08:22:54.157000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49195,12 +49477,14 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Dalton Kincaid",
+     "player_id": 4385690,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Braelon Allen",
+     "player_id": 4685247,
      "bid": null
     }
    ]
@@ -49208,6 +49492,7 @@
   {
    "date": "2024-11-14T07:13:31.140000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     10
    ],
@@ -49216,6 +49501,7 @@
      "team_id": 10,
      "action": "DROPPED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     }
    ]
@@ -49223,6 +49509,7 @@
   {
    "date": "2024-11-14T03:37:36.050000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     7
    ],
@@ -49231,12 +49518,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Elijah Moore",
+     "player_id": 4372414,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Ray Davis",
+     "player_id": 4429501,
      "bid": null
     }
    ]
@@ -49244,6 +49533,7 @@
   {
    "date": "2024-11-14T03:10:19.138000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     9
    ],
@@ -49252,12 +49542,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Colts D/ST",
+     "player_id": -16011,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     }
    ]
@@ -49265,6 +49557,7 @@
   {
    "date": "2024-11-13T15:19:30.209000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49273,6 +49566,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -49280,6 +49574,7 @@
   {
    "date": "2024-11-13T15:16:37.947000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49288,6 +49583,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -49295,6 +49591,7 @@
   {
    "date": "2024-11-13T15:15:54.575000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49303,6 +49600,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -49310,6 +49608,7 @@
   {
    "date": "2024-11-13T13:20:44.417000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49318,6 +49617,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -49325,6 +49625,7 @@
   {
    "date": "2024-11-13T13:20:39.303000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49333,6 +49634,7 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Browns D/ST",
+     "player_id": -16005,
      "bid": null
     }
    ]
@@ -49340,6 +49642,7 @@
   {
    "date": "2024-11-13T13:19:46.930000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49348,6 +49651,7 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Commanders D/ST",
+     "player_id": -16028,
      "bid": null
     }
    ]
@@ -49355,6 +49659,7 @@
   {
    "date": "2024-11-13T13:14:15.078000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49363,6 +49668,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Mike Gesicki",
+     "player_id": 3116164,
      "bid": null
     }
    ]
@@ -49370,6 +49676,7 @@
   {
    "date": "2024-11-13T13:14:07.136000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49378,6 +49685,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Giants D/ST",
+     "player_id": -16019,
      "bid": null
     }
    ]
@@ -49385,6 +49693,7 @@
   {
    "date": "2024-11-13T13:13:59.676000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49393,6 +49702,7 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -49400,6 +49710,7 @@
   {
    "date": "2024-11-13T13:13:23.613000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49408,6 +49719,7 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Dallas Goedert",
+     "player_id": 3121023,
      "bid": null
     }
    ]
@@ -49415,6 +49727,7 @@
   {
    "date": "2024-11-13T12:03:54.158000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     12
    ],
@@ -49423,12 +49736,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Gus Edwards",
+     "player_id": 3051926,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     }
    ]
@@ -49436,6 +49751,7 @@
   {
    "date": "2024-11-13T10:49:48.824000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49444,12 +49760,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     }
    ]
@@ -49457,6 +49775,7 @@
   {
    "date": "2024-11-13T10:48:29.430000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49465,6 +49784,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Bo Nix",
+     "player_id": 4426338,
      "bid": null
     }
    ]
@@ -49472,6 +49792,7 @@
   {
    "date": "2024-11-13T08:25:44.648000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     10
    ],
@@ -49480,12 +49801,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Jared Goff",
+     "player_id": 3046779,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Sam Darnold",
+     "player_id": 3912547,
      "bid": null
     }
    ]
@@ -49493,6 +49816,7 @@
   {
    "date": "2024-11-13T08:25:44.643000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49501,6 +49825,7 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Marquez Valdes-Scantling",
+     "player_id": 3051738,
      "bid": null
     }
    ]
@@ -49508,6 +49833,7 @@
   {
    "date": "2024-11-13T08:25:44.628000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     6
    ],
@@ -49516,12 +49842,14 @@
      "team_id": 6,
      "action": "WAIVER ADDED",
      "player": "Rams D/ST",
+     "player_id": -16014,
      "bid": null
     },
     {
      "team_id": 6,
      "action": "DROPPED",
      "player": "Dalton Kincaid",
+     "player_id": 4385690,
      "bid": null
     }
    ]
@@ -49529,6 +49857,7 @@
   {
    "date": "2024-11-13T08:25:44.624000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49537,6 +49866,7 @@
      "team_id": 4,
      "action": "WAIVER ADDED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -49544,6 +49874,7 @@
   {
    "date": "2024-11-13T08:25:44.591000+00:00",
    "type": "add",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49552,6 +49883,7 @@
      "team_id": 1,
      "action": "WAIVER ADDED",
      "player": "Audric Estime",
+     "player_id": 4569682,
      "bid": null
     }
    ]
@@ -49559,6 +49891,7 @@
   {
    "date": "2024-11-13T01:01:07.773000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49567,6 +49900,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Matthew Stafford",
+     "player_id": 12483,
      "bid": null
     }
    ]
@@ -49574,6 +49908,7 @@
   {
    "date": "2024-11-13T01:01:02.380000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     8
    ],
@@ -49582,6 +49917,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Demarcus Robinson",
+     "player_id": 3043116,
      "bid": null
     }
    ]
@@ -49589,6 +49925,7 @@
   {
    "date": "2024-11-12T19:51:14.075000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49597,6 +49934,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Taysom Hill",
+     "player_id": 2468609,
      "bid": null
     }
    ]
@@ -49604,6 +49942,7 @@
   {
    "date": "2024-11-12T13:28:45.368000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49612,6 +49951,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Javonte Williams",
+     "player_id": 4361579,
      "bid": null
     }
    ]
@@ -49619,6 +49959,7 @@
   {
    "date": "2024-11-12T13:27:29.442000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     1
    ],
@@ -49627,6 +49968,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Ravens D/ST",
+     "player_id": -16033,
      "bid": null
     }
    ]
@@ -49634,6 +49976,7 @@
   {
    "date": "2024-11-12T12:27:37.547000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49642,6 +49985,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -49649,6 +49993,7 @@
   {
    "date": "2024-11-12T12:27:29.258000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     4
    ],
@@ -49657,6 +50002,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Kirk Cousins",
+     "player_id": 14880,
      "bid": null
     }
    ]
@@ -49664,6 +50010,7 @@
   {
    "date": "2024-11-12T11:21:04.551000+00:00",
    "type": "drop",
+   "period": 11,
    "team_ids": [
     5
    ],
@@ -49672,6 +50019,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     }
    ]
@@ -49679,6 +50027,7 @@
   {
    "date": "2024-11-10T23:52:58.499000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     8
    ],
@@ -49687,12 +50036,14 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Demarcus Robinson",
+     "player_id": 3043116,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -49700,6 +50051,7 @@
   {
    "date": "2024-11-10T05:33:17.347000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     10
    ],
@@ -49708,12 +50060,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Jake Moody",
+     "player_id": 4372066,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Pat Freiermuth",
+     "player_id": 4361411,
      "bid": null
     }
    ]
@@ -49721,6 +50075,7 @@
   {
    "date": "2024-11-09T18:23:38.582000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     5
    ],
@@ -49729,6 +50084,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Dolphins D/ST",
+     "player_id": -16015,
      "bid": null
     }
    ]
@@ -49736,6 +50092,7 @@
   {
    "date": "2024-11-07T12:45:39.106000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     11
    ],
@@ -49744,6 +50101,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Dalton Schultz",
+     "player_id": 3117256,
      "bid": null
     }
    ]
@@ -49751,6 +50109,7 @@
   {
    "date": "2024-11-07T12:45:31.667000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     11
    ],
@@ -49759,6 +50118,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Quentin Johnston",
+     "player_id": 4429025,
      "bid": null
     }
    ]
@@ -49766,6 +50126,7 @@
   {
    "date": "2024-11-06T16:19:01.854000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     6
    ],
@@ -49774,6 +50135,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Justin Herbert",
+     "player_id": 4038941,
      "bid": null
     }
    ]
@@ -49781,6 +50143,7 @@
   {
    "date": "2024-11-06T14:14:47.192000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     5
    ],
@@ -49789,6 +50152,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     }
    ]
@@ -49796,6 +50160,7 @@
   {
    "date": "2024-11-06T14:14:25.773000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     5
    ],
@@ -49804,6 +50169,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     }
    ]
@@ -49811,6 +50177,7 @@
   {
    "date": "2024-11-06T14:14:15.215000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     5
    ],
@@ -49819,6 +50186,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Kimani Vidal",
+     "player_id": 4430968,
      "bid": null
     }
    ]
@@ -49826,6 +50194,7 @@
   {
    "date": "2024-11-06T13:52:08.717000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     7
    ],
@@ -49834,6 +50203,7 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Blake Grupe",
+     "player_id": 4259619,
      "bid": null
     }
    ]
@@ -49841,6 +50211,7 @@
   {
    "date": "2024-11-06T13:20:39.713000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     9
    ],
@@ -49849,12 +50220,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Browns D/ST",
+     "player_id": -16005,
      "bid": null
     }
    ]
@@ -49862,6 +50235,7 @@
   {
    "date": "2024-11-06T10:21:52.883000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     4
    ],
@@ -49870,12 +50244,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -49883,6 +50259,7 @@
   {
    "date": "2024-11-06T10:20:40.230000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     4
    ],
@@ -49891,6 +50268,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Tyler Bass",
+     "player_id": 3917232,
      "bid": null
     }
    ]
@@ -49898,6 +50276,7 @@
   {
    "date": "2024-11-06T10:18:03.860000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     4
    ],
@@ -49906,6 +50285,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Taysom Hill",
+     "player_id": 2468609,
      "bid": null
     }
    ]
@@ -49913,6 +50293,7 @@
   {
    "date": "2024-11-06T08:51:05.938000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     8
    ],
@@ -49921,12 +50302,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -49934,6 +50317,7 @@
   {
    "date": "2024-11-06T08:51:05.937000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     10
    ],
@@ -49942,12 +50326,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Mike Williams",
+     "player_id": 3045138,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Ty Chandler",
+     "player_id": 4242431,
      "bid": null
     }
    ]
@@ -49955,6 +50341,7 @@
   {
    "date": "2024-11-06T08:51:05.937000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     8
    ],
@@ -49963,12 +50350,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Mike Gesicki",
+     "player_id": 3116164,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Xavier Worthy",
+     "player_id": 4683062,
      "bid": null
     }
    ]
@@ -49976,6 +50365,7 @@
   {
    "date": "2024-11-06T08:51:05.936000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     12
    ],
@@ -49984,6 +50374,7 @@
      "team_id": 12,
      "action": "WAIVER ADDED",
      "player": "Xavier Legette",
+     "player_id": 4430034,
      "bid": null
     }
    ]
@@ -49991,6 +50382,7 @@
   {
    "date": "2024-11-06T08:51:05.936000+00:00",
    "type": "add",
+   "period": 10,
    "team_ids": [
     7
    ],
@@ -49999,6 +50391,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Russell Wilson",
+     "player_id": 14881,
      "bid": null
     }
    ]
@@ -50006,6 +50399,7 @@
   {
    "date": "2024-11-06T05:32:01.125000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     4
    ],
@@ -50014,6 +50408,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Jalen Coker",
+     "player_id": 4695883,
      "bid": null
     }
    ]
@@ -50021,6 +50416,7 @@
   {
    "date": "2024-11-06T04:25:08.415000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     7
    ],
@@ -50029,6 +50425,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Bo Nix",
+     "player_id": 4426338,
      "bid": null
     }
    ]
@@ -50036,6 +50433,7 @@
   {
    "date": "2024-11-05T18:04:57.447000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     6
    ],
@@ -50044,6 +50442,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Jalen McMillan",
+     "player_id": 4430834,
      "bid": null
     }
    ]
@@ -50051,6 +50450,7 @@
   {
    "date": "2024-11-05T15:25:47.512000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     11
    ],
@@ -50059,6 +50459,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Patriots D/ST",
+     "player_id": -16017,
      "bid": null
     }
    ]
@@ -50066,6 +50467,7 @@
   {
    "date": "2024-11-05T15:06:04.984000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     12
    ],
@@ -50074,6 +50476,7 @@
      "team_id": 12,
      "action": "DROPPED",
      "player": "Jerome Ford",
+     "player_id": 4372019,
      "bid": null
     }
    ]
@@ -50081,6 +50484,7 @@
   {
    "date": "2024-11-05T15:04:49.382000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     12
    ],
@@ -50089,6 +50493,7 @@
      "team_id": 12,
      "action": "DROPPED",
      "player": "Titans D/ST",
+     "player_id": -16010,
      "bid": null
     }
    ]
@@ -50096,6 +50501,7 @@
   {
    "date": "2024-11-05T11:13:08.666000+00:00",
    "type": "drop",
+   "period": 10,
    "team_ids": [
     4
    ],
@@ -50104,6 +50510,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Commanders D/ST",
+     "player_id": -16028,
      "bid": null
     }
    ]
@@ -50111,6 +50518,7 @@
   {
    "date": "2024-11-03T16:52:37.969000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     1
    ],
@@ -50119,12 +50527,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Tyler Lockett",
+     "player_id": 2577327,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Elijah Moore",
+     "player_id": 4372414,
      "bid": null
     }
    ]
@@ -50132,6 +50542,7 @@
   {
    "date": "2024-11-02T22:03:57.685000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     6
    ],
@@ -50140,6 +50551,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Austin Ekeler",
+     "player_id": 3068267,
      "bid": null
     }
    ]
@@ -50147,6 +50559,7 @@
   {
    "date": "2024-11-01T05:53:35.160000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50155,6 +50568,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Jalen Coker",
+     "player_id": 4695883,
      "bid": null
     }
    ]
@@ -50162,6 +50576,7 @@
   {
    "date": "2024-11-01T05:53:26.563000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50170,6 +50585,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Jauan Jennings",
+     "player_id": 3886598,
      "bid": null
     }
    ]
@@ -50177,6 +50593,7 @@
   {
    "date": "2024-11-01T05:53:20.541000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50185,6 +50602,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Jalen Coker",
+     "player_id": 4695883,
      "bid": null
     }
    ]
@@ -50192,6 +50610,7 @@
   {
    "date": "2024-11-01T05:53:12.671000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50200,6 +50619,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Jalen Coker",
+     "player_id": 4695883,
      "bid": null
     }
    ]
@@ -50207,6 +50627,7 @@
   {
    "date": "2024-11-01T05:52:40.573000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50215,6 +50636,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Dak Prescott",
+     "player_id": 2577417,
      "bid": null
     }
    ]
@@ -50222,6 +50644,7 @@
   {
    "date": "2024-10-31T20:28:59.260000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     7
    ],
@@ -50230,12 +50653,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Bo Nix",
+     "player_id": 4426338,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "DeMario Douglas",
+     "player_id": 4427095,
      "bid": null
     }
    ]
@@ -50243,6 +50668,7 @@
   {
    "date": "2024-10-31T14:28:52.534000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     9
    ],
@@ -50251,12 +50677,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Browns D/ST",
+     "player_id": -16005,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Geno Smith",
+     "player_id": 15864,
      "bid": null
     }
    ]
@@ -50264,6 +50692,7 @@
   {
    "date": "2024-10-31T07:17:13.879000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     9
    ],
@@ -50272,12 +50701,14 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Justin Tucker",
+     "player_id": 15683,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Cole Kmet",
+     "player_id": 4258595,
      "bid": null
     }
    ]
@@ -50285,6 +50716,7 @@
   {
    "date": "2024-10-31T05:04:24.129000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     11
    ],
@@ -50293,12 +50725,14 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Patriots D/ST",
+     "player_id": -16017,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Rams D/ST",
+     "player_id": -16014,
      "bid": null
     }
    ]
@@ -50306,6 +50740,7 @@
   {
    "date": "2024-10-30T14:10:32.319000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     1
    ],
@@ -50314,6 +50749,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Elijah Moore",
+     "player_id": 4372414,
      "bid": null
     }
    ]
@@ -50321,6 +50757,7 @@
   {
    "date": "2024-10-30T14:08:13.320000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     1
    ],
@@ -50329,6 +50766,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Blake Corum",
+     "player_id": 4429096,
      "bid": null
     }
    ]
@@ -50336,6 +50774,7 @@
   {
    "date": "2024-10-30T13:24:39.241000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     8
    ],
@@ -50344,6 +50783,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Jared Goff",
+     "player_id": 3046779,
      "bid": null
     }
    ]
@@ -50351,6 +50791,7 @@
   {
    "date": "2024-10-30T11:39:13.842000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     12
    ],
@@ -50359,6 +50800,7 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Titans D/ST",
+     "player_id": -16010,
      "bid": null
     }
    ]
@@ -50366,6 +50808,7 @@
   {
    "date": "2024-10-30T11:38:06.618000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     5
    ],
@@ -50374,12 +50817,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Braelon Allen",
+     "player_id": 4685247,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -50387,6 +50832,7 @@
   {
    "date": "2024-10-30T10:40:04.071000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50395,6 +50841,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -50402,6 +50849,7 @@
   {
    "date": "2024-10-30T10:39:56.409000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50410,6 +50858,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Kirk Cousins",
+     "player_id": 14880,
      "bid": null
     }
    ]
@@ -50417,6 +50866,7 @@
   {
    "date": "2024-10-30T08:23:14.694000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     10
    ],
@@ -50425,12 +50875,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Sam Darnold",
+     "player_id": 3912547,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Jets D/ST",
+     "player_id": -16020,
      "bid": null
     }
    ]
@@ -50438,6 +50890,7 @@
   {
    "date": "2024-10-30T08:23:14.694000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     8
    ],
@@ -50446,12 +50899,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Matthew Stafford",
+     "player_id": 12483,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Sean Tucker",
+     "player_id": 4430871,
      "bid": null
     }
    ]
@@ -50459,6 +50914,7 @@
   {
    "date": "2024-10-30T08:23:14.693000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     8
    ],
@@ -50467,12 +50923,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Giants D/ST",
+     "player_id": -16019,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     }
    ]
@@ -50480,6 +50938,7 @@
   {
    "date": "2024-10-30T08:23:14.692000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     10
    ],
@@ -50488,12 +50947,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Allen Lazard",
+     "player_id": 3128390,
      "bid": null
     }
    ]
@@ -50501,6 +50962,7 @@
   {
    "date": "2024-10-30T08:23:14.692000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     11
    ],
@@ -50509,12 +50971,14 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Dalton Schultz",
+     "player_id": 3117256,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Sterling Shepard",
+     "player_id": 2976592,
      "bid": null
     }
    ]
@@ -50522,6 +50986,7 @@
   {
    "date": "2024-10-30T08:23:14.691000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     5
    ],
@@ -50530,6 +50995,7 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     }
    ]
@@ -50537,6 +51003,7 @@
   {
    "date": "2024-10-30T08:23:14.691000+00:00",
    "type": "add",
+   "period": 9,
    "team_ids": [
     12
    ],
@@ -50545,6 +51012,7 @@
      "team_id": 12,
      "action": "WAIVER ADDED",
      "player": "Cedric Tillman",
+     "player_id": 4369863,
      "bid": null
     }
    ]
@@ -50552,6 +51020,7 @@
   {
    "date": "2024-10-30T04:15:05.290000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50560,6 +51029,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Justin Tucker",
+     "player_id": 15683,
      "bid": null
     }
    ]
@@ -50567,6 +51037,7 @@
   {
    "date": "2024-10-30T03:47:24.232000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     1
    ],
@@ -50575,6 +51046,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "JuJu Smith-Schuster",
+     "player_id": 3120348,
      "bid": null
     }
    ]
@@ -50582,6 +51054,7 @@
   {
    "date": "2024-10-30T03:47:03.621000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     1
    ],
@@ -50590,6 +51063,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Zack Moss",
+     "player_id": 4035676,
      "bid": null
     }
    ]
@@ -50597,6 +51071,7 @@
   {
    "date": "2024-10-30T03:45:25.314000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     1
    ],
@@ -50605,6 +51080,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Russell Wilson",
+     "player_id": 14881,
      "bid": null
     }
    ]
@@ -50612,6 +51088,7 @@
   {
    "date": "2024-10-29T18:05:01.683000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     12
    ],
@@ -50620,6 +51097,7 @@
      "team_id": 12,
      "action": "DROPPED",
      "player": "Stefon Diggs",
+     "player_id": 2976212,
      "bid": null
     }
    ]
@@ -50627,6 +51105,7 @@
   {
    "date": "2024-10-29T15:52:36.052000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     6
    ],
@@ -50635,6 +51114,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Dalvin Cook",
+     "player_id": 3116593,
      "bid": null
     }
    ]
@@ -50642,6 +51122,7 @@
   {
    "date": "2024-10-29T13:19:41.859000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50650,6 +51131,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Tyler Lockett",
+     "player_id": 2577327,
      "bid": null
     }
    ]
@@ -50657,6 +51139,7 @@
   {
    "date": "2024-10-29T13:19:36.295000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     4
    ],
@@ -50665,6 +51148,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Caleb Williams",
+     "player_id": 4431611,
      "bid": null
     }
    ]
@@ -50672,6 +51156,7 @@
   {
    "date": "2024-10-29T12:55:21.706000+00:00",
    "type": "drop",
+   "period": 9,
    "team_ids": [
     5
    ],
@@ -50680,6 +51165,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Christian Kirk",
+     "player_id": 3895856,
      "bid": null
     }
    ]
@@ -50687,6 +51173,7 @@
   {
    "date": "2024-10-27T12:32:29.471000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     1
    ],
@@ -50695,6 +51182,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Ray Davis",
+     "player_id": 4429501,
      "bid": null
     }
    ]
@@ -50702,6 +51190,7 @@
   {
    "date": "2024-10-27T12:31:04.067000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     1
    ],
@@ -50710,6 +51199,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Chris Godwin",
+     "player_id": 3116165,
      "bid": null
     }
    ]
@@ -50717,6 +51207,7 @@
   {
    "date": "2024-10-27T05:49:10.389000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -50725,12 +51216,14 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Dalvin Cook",
+     "player_id": 3116593,
      "bid": null
     },
     {
      "team_id": 6,
      "action": "DROPPED",
      "player": "Jauan Jennings",
+     "player_id": 3886598,
      "bid": null
     }
    ]
@@ -50738,6 +51231,7 @@
   {
    "date": "2024-10-26T23:09:00.084000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     12
    ],
@@ -50746,6 +51240,7 @@
      "team_id": 12,
      "action": "DROPPED",
      "player": "D'Onta Foreman",
+     "player_id": 3125116,
      "bid": null
     }
    ]
@@ -50753,6 +51248,7 @@
   {
    "date": "2024-10-26T22:46:51.984000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     9
    ],
@@ -50761,12 +51257,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Geno Smith",
+     "player_id": 15864,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Justin Fields",
+     "player_id": 4362887,
      "bid": null
     }
    ]
@@ -50774,6 +51272,7 @@
   {
    "date": "2024-10-26T00:38:12.915000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -50782,6 +51281,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Calvin Ridley",
+     "player_id": 3925357,
      "bid": null
     }
    ]
@@ -50789,6 +51289,7 @@
   {
    "date": "2024-10-24T07:58:29.195000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     8
    ],
@@ -50797,12 +51298,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Patriots D/ST",
+     "player_id": -16017,
      "bid": null
     }
    ]
@@ -50810,6 +51313,7 @@
   {
    "date": "2024-10-24T07:58:29.194000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     8
    ],
@@ -50818,12 +51322,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Dalton Schultz",
+     "player_id": 3117256,
      "bid": null
     }
    ]
@@ -50831,6 +51337,7 @@
   {
    "date": "2024-10-23T15:20:57.951000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -50839,6 +51346,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Jalen McMillan",
+     "player_id": 4430834,
      "bid": null
     }
    ]
@@ -50846,6 +51354,7 @@
   {
    "date": "2024-10-23T12:45:44.260000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     1
    ],
@@ -50854,6 +51363,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Russell Wilson",
+     "player_id": 14881,
      "bid": null
     }
    ]
@@ -50861,6 +51371,7 @@
   {
    "date": "2024-10-23T12:44:22.799000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     1
    ],
@@ -50869,6 +51380,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -50876,6 +51388,7 @@
   {
    "date": "2024-10-23T11:35:00.042000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     12
    ],
@@ -50884,12 +51397,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Trey Sermon",
+     "player_id": 4241401,
      "bid": null
     }
    ]
@@ -50897,6 +51412,7 @@
   {
    "date": "2024-10-23T11:21:37.358000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     5
    ],
@@ -50905,12 +51421,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Hunter Henry",
+     "player_id": 3046439,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Zamir White",
+     "player_id": 4361777,
      "bid": null
     }
    ]
@@ -50918,6 +51436,7 @@
   {
    "date": "2024-10-23T11:04:50.560000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     8
    ],
@@ -50926,12 +51445,14 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Patriots D/ST",
+     "player_id": -16017,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Jaguars D/ST",
+     "player_id": -16030,
      "bid": null
     }
    ]
@@ -50939,6 +51460,7 @@
   {
    "date": "2024-10-23T10:59:28.607000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     5
    ],
@@ -50947,12 +51469,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Cameron Dicker",
+     "player_id": 4362081,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Jake Elliott",
+     "player_id": 3050478,
      "bid": null
     }
    ]
@@ -50960,6 +51484,7 @@
   {
    "date": "2024-10-23T10:58:09.133000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     5
    ],
@@ -50968,12 +51493,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     }
    ]
@@ -50981,6 +51508,7 @@
   {
    "date": "2024-10-23T10:42:06.763000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     4
    ],
@@ -50989,6 +51517,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Commanders D/ST",
+     "player_id": -16028,
      "bid": null
     }
    ]
@@ -50996,6 +51525,7 @@
   {
    "date": "2024-10-23T08:00:36.894000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     4
    ],
@@ -51004,6 +51534,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     }
    ]
@@ -51011,6 +51542,7 @@
   {
    "date": "2024-10-23T07:59:45.601000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     4
    ],
@@ -51019,6 +51551,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Caleb Williams",
+     "player_id": 4431611,
      "bid": null
     }
    ]
@@ -51026,6 +51559,7 @@
   {
    "date": "2024-10-23T07:46:03.390000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     7
    ],
@@ -51034,6 +51568,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Keon Coleman",
+     "player_id": 4635008,
      "bid": null
     }
    ]
@@ -51041,6 +51576,7 @@
   {
    "date": "2024-10-23T07:46:03.389000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     10
    ],
@@ -51049,12 +51585,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Cade Otton",
+     "player_id": 4243331,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Darius Slayton",
+     "player_id": 3916945,
      "bid": null
     }
    ]
@@ -51062,6 +51600,7 @@
   {
    "date": "2024-10-23T07:46:03.388000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     8
    ],
@@ -51070,12 +51609,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Jared Goff",
+     "player_id": 3046779,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Kirk Cousins",
+     "player_id": 14880,
      "bid": null
     }
    ]
@@ -51083,6 +51624,7 @@
   {
    "date": "2024-10-23T07:46:03.387000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     9
    ],
@@ -51091,12 +51633,14 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Steelers D/ST",
+     "player_id": -16023,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     }
    ]
@@ -51104,6 +51648,7 @@
   {
    "date": "2024-10-23T07:46:03.387000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     11
    ],
@@ -51112,12 +51657,14 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Sterling Shepard",
+     "player_id": 2976592,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Wan'Dale Robinson",
+     "player_id": 4569587,
      "bid": null
     }
    ]
@@ -51125,6 +51672,7 @@
   {
    "date": "2024-10-23T07:46:03.386000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     5
    ],
@@ -51133,6 +51681,7 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Ricky Pearsall",
+     "player_id": 4428209,
      "bid": null
     }
    ]
@@ -51140,6 +51689,7 @@
   {
    "date": "2024-10-23T07:46:03.386000+00:00",
    "type": "add",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -51148,6 +51698,7 @@
      "team_id": 6,
      "action": "WAIVER ADDED",
      "player": "Jauan Jennings",
+     "player_id": 3886598,
      "bid": null
     }
    ]
@@ -51155,6 +51706,7 @@
   {
    "date": "2024-10-22T17:11:56.788000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     4
    ],
@@ -51163,6 +51715,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Calvin Ridley",
+     "player_id": 3925357,
      "bid": null
     }
    ]
@@ -51170,6 +51723,7 @@
   {
    "date": "2024-10-22T16:50:37.311000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     4
    ],
@@ -51178,6 +51732,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Geno Smith",
+     "player_id": 15864,
      "bid": null
     }
    ]
@@ -51185,6 +51740,7 @@
   {
    "date": "2024-10-22T15:44:13.490000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -51193,6 +51749,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Colts D/ST",
+     "player_id": -16011,
      "bid": null
     }
    ]
@@ -51200,6 +51757,7 @@
   {
    "date": "2024-10-22T15:39:29.399000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -51208,6 +51766,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Brandon Aiyuk",
+     "player_id": 4360438,
      "bid": null
     }
    ]
@@ -51215,6 +51774,7 @@
   {
    "date": "2024-10-22T15:38:42.677000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     6
    ],
@@ -51223,6 +51783,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Wil Lutz",
+     "player_id": 2985659,
      "bid": null
     }
    ]
@@ -51230,6 +51791,7 @@
   {
    "date": "2024-10-22T15:20:45.476000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     7
    ],
@@ -51238,6 +51800,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -51245,6 +51808,7 @@
   {
    "date": "2024-10-22T14:12:31.637000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     1
    ],
@@ -51253,6 +51817,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Evan McPherson",
+     "player_id": 4360234,
      "bid": null
     }
    ]
@@ -51260,6 +51825,7 @@
   {
    "date": "2024-10-22T08:11:09.238000+00:00",
    "type": "drop",
+   "period": 8,
    "team_ids": [
     4
    ],
@@ -51268,6 +51834,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Austin Ekeler",
+     "player_id": 3068267,
      "bid": null
     }
    ]
@@ -51275,6 +51842,7 @@
   {
    "date": "2024-10-20T16:19:21.983000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     4
    ],
@@ -51283,12 +51851,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Tyler Lockett",
+     "player_id": 2577327,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Christian Watson",
+     "player_id": 4248528,
      "bid": null
     }
    ]
@@ -51296,6 +51866,7 @@
   {
    "date": "2024-10-20T05:49:12.264000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     8
    ],
@@ -51304,12 +51875,14 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Jaguars D/ST",
+     "player_id": -16030,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Steelers D/ST",
+     "player_id": -16023,
      "bid": null
     }
    ]
@@ -51317,6 +51890,7 @@
   {
    "date": "2024-10-19T22:54:46.756000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     1
    ],
@@ -51325,6 +51899,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     }
    ]
@@ -51332,6 +51907,7 @@
   {
    "date": "2024-10-18T20:32:40.256000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     11
    ],
@@ -51340,6 +51916,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Keon Coleman",
+     "player_id": 4635008,
      "bid": null
     }
    ]
@@ -51347,6 +51924,7 @@
   {
    "date": "2024-10-17T22:40:17.146000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     12
    ],
@@ -51355,6 +51933,7 @@
      "team_id": 12,
      "action": "DROPPED",
      "player": "Rashid Shaheed",
+     "player_id": 4032473,
      "bid": null
     }
    ]
@@ -51362,6 +51941,7 @@
   {
    "date": "2024-10-17T22:26:18.082000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     10
    ],
@@ -51370,6 +51950,7 @@
      "team_id": 10,
      "action": "DROPPED",
      "player": "D'Ernest Johnson",
+     "player_id": 3139602,
      "bid": null
     }
    ]
@@ -51377,6 +51958,7 @@
   {
    "date": "2024-10-17T17:55:36.484000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     8
    ],
@@ -51385,12 +51967,14 @@
      "team_id": 8,
      "action": "FA ADDED",
      "player": "Dalton Schultz",
+     "player_id": 3117256,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Isaiah Likely",
+     "player_id": 4361050,
      "bid": null
     }
    ]
@@ -51398,6 +51982,7 @@
   {
    "date": "2024-10-17T17:45:31.447000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     12
    ],
@@ -51406,12 +51991,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Trey Sermon",
+     "player_id": 4241401,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -51419,6 +52006,7 @@
   {
    "date": "2024-10-17T13:14:53.319000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     11
    ],
@@ -51427,6 +52015,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Rams D/ST",
+     "player_id": -16014,
      "bid": null
     }
    ]
@@ -51434,6 +52023,7 @@
   {
    "date": "2024-10-17T11:15:00.350000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     4
    ],
@@ -51442,12 +52032,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Geno Smith",
+     "player_id": 15864,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Drake Maye",
+     "player_id": 4431452,
      "bid": null
     }
    ]
@@ -51455,6 +52047,7 @@
   {
    "date": "2024-10-17T11:09:05.830000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     12
    ],
@@ -51463,6 +52056,7 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Jaylen Warren",
+     "player_id": 4569987,
      "bid": null
     }
    ]
@@ -51470,6 +52064,7 @@
   {
    "date": "2024-10-16T23:10:55.709000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     6
    ],
@@ -51478,6 +52073,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Wil Lutz",
+     "player_id": 2985659,
      "bid": null
     }
    ]
@@ -51485,6 +52081,7 @@
   {
    "date": "2024-10-16T23:08:28.355000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     6
    ],
@@ -51493,6 +52090,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Dallas Goedert",
+     "player_id": 3121023,
      "bid": null
     }
    ]
@@ -51500,6 +52098,7 @@
   {
    "date": "2024-10-16T19:10:03.841000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     12
    ],
@@ -51508,12 +52107,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Lions D/ST",
+     "player_id": -16008,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Buccaneers D/ST",
+     "player_id": -16027,
      "bid": null
     }
    ]
@@ -51521,6 +52122,7 @@
   {
    "date": "2024-10-16T19:09:56.011000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     8
    ],
@@ -51529,6 +52131,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -51536,6 +52139,7 @@
   {
    "date": "2024-10-16T19:09:46.024000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     12
    ],
@@ -51544,12 +52148,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "D'Onta Foreman",
+     "player_id": 3125116,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Jordan Whittington",
+     "player_id": 4569382,
      "bid": null
     }
    ]
@@ -51557,6 +52163,7 @@
   {
    "date": "2024-10-16T13:42:57.402000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     1
    ],
@@ -51565,6 +52172,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     }
    ]
@@ -51572,6 +52180,7 @@
   {
    "date": "2024-10-16T12:05:33.610000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     4
    ],
@@ -51580,12 +52189,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Drake Maye",
+     "player_id": 4431452,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Jalen Tolbert",
+     "player_id": 4249417,
      "bid": null
     }
    ]
@@ -51593,6 +52204,7 @@
   {
    "date": "2024-10-16T10:53:01.851000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     5
    ],
@@ -51601,6 +52213,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Kimani Vidal",
+     "player_id": 4430968,
      "bid": null
     }
    ]
@@ -51608,6 +52221,7 @@
   {
    "date": "2024-10-16T08:18:16.691000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     7
    ],
@@ -51616,6 +52230,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -51623,6 +52238,7 @@
   {
    "date": "2024-10-16T08:18:16.691000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     7
    ],
@@ -51631,6 +52247,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Will Reichard",
+     "player_id": 4567104,
      "bid": null
     }
    ]
@@ -51638,6 +52255,7 @@
   {
    "date": "2024-10-16T08:18:16.690000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     7
    ],
@@ -51646,6 +52264,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "DeMario Douglas",
+     "player_id": 4427095,
      "bid": null
     }
    ]
@@ -51653,6 +52272,7 @@
   {
    "date": "2024-10-16T08:18:16.690000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     10
    ],
@@ -51661,6 +52281,7 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "D'Ernest Johnson",
+     "player_id": 3139602,
      "bid": null
     }
    ]
@@ -51668,6 +52289,7 @@
   {
    "date": "2024-10-16T08:18:16.690000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     4
    ],
@@ -51676,6 +52298,7 @@
      "team_id": 4,
      "action": "WAIVER ADDED",
      "player": "Christian Watson",
+     "player_id": 4248528,
      "bid": null
     }
    ]
@@ -51683,6 +52306,7 @@
   {
    "date": "2024-10-16T08:18:16.689000+00:00",
    "type": "add",
+   "period": 7,
    "team_ids": [
     12
    ],
@@ -51691,12 +52315,14 @@
      "team_id": 12,
      "action": "WAIVER ADDED",
      "player": "Sean Tucker",
+     "player_id": 4430871,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Colby Parkinson",
+     "player_id": 4242557,
      "bid": null
     }
    ]
@@ -51704,6 +52330,7 @@
   {
    "date": "2024-10-16T04:54:44.778000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     5
    ],
@@ -51712,6 +52339,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Dontayvion Wicks",
+     "player_id": 4428850,
      "bid": null
     }
    ]
@@ -51719,6 +52347,7 @@
   {
    "date": "2024-10-16T04:54:24.350000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     5
    ],
@@ -51727,6 +52356,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Braelon Allen",
+     "player_id": 4685247,
      "bid": null
     }
    ]
@@ -51734,6 +52364,7 @@
   {
    "date": "2024-10-15T19:37:54.867000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     1
    ],
@@ -51742,6 +52373,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Alec Pierce",
+     "player_id": 4360078,
      "bid": null
     }
    ]
@@ -51749,6 +52381,7 @@
   {
    "date": "2024-10-15T17:19:37.664000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     11
    ],
@@ -51757,6 +52390,7 @@
      "team_id": 11,
      "action": "DROPPED",
      "player": "Ty Johnson",
+     "player_id": 3915411,
      "bid": null
     }
    ]
@@ -51764,6 +52398,7 @@
   {
    "date": "2024-10-15T16:29:52.584000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     4
    ],
@@ -51772,6 +52407,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Antonio Gibson",
+     "player_id": 4360294,
      "bid": null
     }
    ]
@@ -51779,6 +52415,7 @@
   {
    "date": "2024-10-15T12:50:01.152000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     7
    ],
@@ -51787,6 +52424,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -51794,6 +52432,7 @@
   {
    "date": "2024-10-15T12:49:45.250000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     7
    ],
@@ -51802,6 +52441,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Trey Sermon",
+     "player_id": 4241401,
      "bid": null
     }
    ]
@@ -51809,6 +52449,7 @@
   {
    "date": "2024-10-15T12:49:34.141000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     7
    ],
@@ -51817,6 +52458,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Greg Joseph",
+     "player_id": 3975763,
      "bid": null
     }
    ]
@@ -51824,6 +52466,7 @@
   {
    "date": "2024-10-15T10:47:59.393000+00:00",
    "type": "drop",
+   "period": 7,
    "team_ids": [
     10
    ],
@@ -51832,6 +52475,7 @@
      "team_id": 10,
      "action": "DROPPED",
      "player": "Tyjae Spears",
+     "player_id": 4428557,
      "bid": null
     }
    ]
@@ -51839,6 +52483,7 @@
   {
    "date": "2024-10-14T22:59:25.891000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     11
    ],
@@ -51847,6 +52492,7 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Ty Johnson",
+     "player_id": 3915411,
      "bid": null
     }
    ]
@@ -51854,6 +52500,7 @@
   {
    "date": "2024-10-14T08:23:08.459000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     8
    ],
@@ -51862,6 +52509,7 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -51869,6 +52517,7 @@
   {
    "date": "2024-10-13T01:11:28.798000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     10
    ],
@@ -51877,6 +52526,7 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Allen Lazard",
+     "player_id": 3128390,
      "bid": null
     }
    ]
@@ -51884,6 +52534,7 @@
   {
    "date": "2024-10-12T18:51:17.803000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     7
    ],
@@ -51892,12 +52543,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Tyrone Tracy Jr.",
+     "player_id": 4360516,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Harrison Butker",
+     "player_id": 3055899,
      "bid": null
     }
    ]
@@ -51905,6 +52558,7 @@
   {
    "date": "2024-10-11T17:24:49.704000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     4
    ],
@@ -51913,12 +52567,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Austin Ekeler",
+     "player_id": 3068267,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -51926,6 +52582,7 @@
   {
    "date": "2024-10-10T22:17:11.294000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     4
    ],
@@ -51934,12 +52591,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     }
    ]
@@ -51947,6 +52606,7 @@
   {
    "date": "2024-10-10T16:29:18.366000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     10
    ],
@@ -51955,12 +52615,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Darius Slayton",
+     "player_id": 3916945,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Jauan Jennings",
+     "player_id": 3886598,
      "bid": null
     }
    ]
@@ -51968,6 +52630,7 @@
   {
    "date": "2024-10-10T02:12:07.437000+00:00",
    "type": "drop",
+   "period": 6,
    "team_ids": [
     9
    ],
@@ -51976,6 +52639,7 @@
      "team_id": 9,
      "action": "DROPPED",
      "player": "Austin Ekeler",
+     "player_id": 3068267,
      "bid": null
     }
    ]
@@ -51983,6 +52647,7 @@
   {
    "date": "2024-10-10T00:14:20.752000+00:00",
    "type": "drop",
+   "period": 6,
    "team_ids": [
     8
    ],
@@ -51991,6 +52656,7 @@
      "team_id": 8,
      "action": "DROPPED",
      "player": "Jake Moody",
+     "player_id": 4372066,
      "bid": null
     }
    ]
@@ -51998,6 +52664,7 @@
   {
    "date": "2024-10-09T22:17:19.661000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     1
    ],
@@ -52006,12 +52673,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Alec Pierce",
+     "player_id": 4360078,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Anthony Richardson",
+     "player_id": 4429084,
      "bid": null
     }
    ]
@@ -52019,6 +52688,7 @@
   {
    "date": "2024-10-09T14:42:32.362000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     9
    ],
@@ -52027,12 +52697,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Falcons D/ST",
+     "player_id": -16001,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Commanders D/ST",
+     "player_id": -16028,
      "bid": null
     }
    ]
@@ -52040,6 +52712,7 @@
   {
    "date": "2024-10-09T14:38:36.467000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     10
    ],
@@ -52048,12 +52721,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Tyjae Spears",
+     "player_id": 4428557,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Tutu Atwell",
+     "player_id": 4360797,
      "bid": null
     }
    ]
@@ -52061,6 +52736,7 @@
   {
    "date": "2024-10-09T14:38:08.275000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     9
    ],
@@ -52069,12 +52745,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Cole Kmet",
+     "player_id": 4258595,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Xavier Legette",
+     "player_id": 4430034,
      "bid": null
     }
    ]
@@ -52082,6 +52760,7 @@
   {
    "date": "2024-10-09T14:21:34.786000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     6
    ],
@@ -52090,6 +52769,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Colts D/ST",
+     "player_id": -16011,
      "bid": null
     }
    ]
@@ -52097,6 +52777,7 @@
   {
    "date": "2024-10-09T12:55:43.882000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     1
    ],
@@ -52105,12 +52786,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "JuJu Smith-Schuster",
+     "player_id": 3120348,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Gus Edwards",
+     "player_id": 3051926,
      "bid": null
     }
    ]
@@ -52118,6 +52801,7 @@
   {
    "date": "2024-10-09T12:54:26.932000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     1
    ],
@@ -52126,6 +52810,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Bills D/ST",
+     "player_id": -16002,
      "bid": null
     }
    ]
@@ -52133,6 +52818,7 @@
   {
    "date": "2024-10-09T10:49:45.409000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     5
    ],
@@ -52141,12 +52827,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Jake Elliott",
+     "player_id": 3050478,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Patriots D/ST",
+     "player_id": -16017,
      "bid": null
     }
    ]
@@ -52154,6 +52842,7 @@
   {
    "date": "2024-10-09T10:49:07.682000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     12
    ],
@@ -52162,12 +52851,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Buccaneers D/ST",
+     "player_id": -16027,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Dolphins D/ST",
+     "player_id": -16015,
      "bid": null
     }
    ]
@@ -52175,6 +52866,7 @@
   {
    "date": "2024-10-09T10:46:52.409000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     5
    ],
@@ -52183,6 +52875,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     }
    ]
@@ -52190,6 +52883,7 @@
   {
    "date": "2024-10-09T07:28:48.065000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     7
    ],
@@ -52198,6 +52892,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Greg Joseph",
+     "player_id": 3975763,
      "bid": null
     }
    ]
@@ -52205,6 +52900,7 @@
   {
    "date": "2024-10-09T07:28:48.065000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     8
    ],
@@ -52213,6 +52909,7 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Jake Bates",
+     "player_id": 4689936,
      "bid": null
     }
    ]
@@ -52220,6 +52917,7 @@
   {
    "date": "2024-10-09T07:28:48.064000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     4
    ],
@@ -52228,6 +52926,7 @@
      "team_id": 4,
      "action": "WAIVER ADDED",
      "player": "Jalen Tolbert",
+     "player_id": 4249417,
      "bid": null
     }
    ]
@@ -52235,6 +52934,7 @@
   {
    "date": "2024-10-09T07:28:48.063000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     8
    ],
@@ -52243,12 +52943,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Kirk Cousins",
+     "player_id": 14880,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     }
    ]
@@ -52256,6 +52958,7 @@
   {
    "date": "2024-10-09T07:28:48.062000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     11
    ],
@@ -52264,12 +52967,14 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Tank Bigsby",
+     "player_id": 4429013,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     }
    ]
@@ -52277,6 +52982,7 @@
   {
    "date": "2024-10-09T07:28:48.062000+00:00",
    "type": "add",
+   "period": 6,
    "team_ids": [
     7
    ],
@@ -52285,6 +52991,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -52292,6 +52999,7 @@
   {
    "date": "2024-10-09T04:38:43.108000+00:00",
    "type": "drop",
+   "period": 6,
    "team_ids": [
     7
    ],
@@ -52300,6 +53008,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Cade Otton",
+     "player_id": 4243331,
      "bid": null
     }
    ]
@@ -52307,6 +53016,7 @@
   {
    "date": "2024-10-09T04:38:32.921000+00:00",
    "type": "drop",
+   "period": 6,
    "team_ids": [
     7
    ],
@@ -52315,6 +53025,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Browns D/ST",
+     "player_id": -16005,
      "bid": null
     }
    ]
@@ -52322,6 +53033,7 @@
   {
    "date": "2024-10-08T17:36:40.326000+00:00",
    "type": "drop",
+   "period": 6,
    "team_ids": [
     5
    ],
@@ -52330,6 +53042,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Will Reichard",
+     "player_id": 4567104,
      "bid": null
     }
    ]
@@ -52337,6 +53050,7 @@
   {
    "date": "2024-10-08T10:53:18.778000+00:00",
    "type": "drop",
+   "period": 6,
    "team_ids": [
     4
    ],
@@ -52345,6 +53059,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     }
    ]
@@ -52352,6 +53067,7 @@
   {
    "date": "2024-10-06T04:07:14.080000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     5
    ],
@@ -52360,6 +53076,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Brock Purdy",
+     "player_id": 4361741,
      "bid": null
     }
    ]
@@ -52367,6 +53084,7 @@
   {
    "date": "2024-10-05T19:41:27.328000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     12
    ],
@@ -52375,12 +53093,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Colby Parkinson",
+     "player_id": 4242557,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Taysom Hill",
+     "player_id": 2468609,
      "bid": null
     }
    ]
@@ -52388,6 +53108,7 @@
   {
    "date": "2024-10-05T19:41:15.716000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     12
    ],
@@ -52396,12 +53117,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Jordan Whittington",
+     "player_id": 4569382,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Ezekiel Elliott",
+     "player_id": 3051392,
      "bid": null
     }
    ]
@@ -52409,6 +53132,7 @@
   {
    "date": "2024-10-05T05:51:59.488000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     6
    ],
@@ -52417,6 +53141,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Justice Hill",
+     "player_id": 4038441,
      "bid": null
     }
    ]
@@ -52424,6 +53149,7 @@
   {
    "date": "2024-10-04T17:09:51.591000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     4
    ],
@@ -52432,12 +53158,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Tyjae Spears",
+     "player_id": 4428557,
      "bid": null
     }
    ]
@@ -52445,6 +53173,7 @@
   {
    "date": "2024-10-04T17:08:33.415000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     4
    ],
@@ -52453,6 +53182,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     }
    ]
@@ -52460,6 +53190,7 @@
   {
    "date": "2024-10-03T22:09:34.567000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     7
    ],
@@ -52468,12 +53199,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Trey Sermon",
+     "player_id": 4241401,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Quentin Johnston",
+     "player_id": 4429025,
      "bid": null
     }
    ]
@@ -52481,6 +53214,7 @@
   {
    "date": "2024-10-03T18:44:25.353000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     5
    ],
@@ -52489,6 +53223,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Dontayvion Wicks",
+     "player_id": 4428850,
      "bid": null
     }
    ]
@@ -52496,6 +53231,7 @@
   {
    "date": "2024-10-03T17:57:35.127000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     12
    ],
@@ -52504,12 +53240,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Romeo Doubs",
+     "player_id": 4361432,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Carson Steele",
+     "player_id": 4714365,
      "bid": null
     }
    ]
@@ -52517,6 +53255,7 @@
   {
    "date": "2024-10-02T16:16:13.426000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     6
    ],
@@ -52525,6 +53264,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Justice Hill",
+     "player_id": 4038441,
      "bid": null
     }
    ]
@@ -52532,6 +53272,7 @@
   {
    "date": "2024-10-02T14:57:47.532000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     9
    ],
@@ -52540,12 +53281,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Commanders D/ST",
+     "player_id": -16028,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     }
    ]
@@ -52553,6 +53296,7 @@
   {
    "date": "2024-10-02T14:54:10.424000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     9
    ],
@@ -52561,6 +53305,7 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Xavier Legette",
+     "player_id": 4430034,
      "bid": null
     }
    ]
@@ -52568,6 +53313,7 @@
   {
    "date": "2024-10-02T14:18:44.556000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     12
    ],
@@ -52576,12 +53322,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Taysom Hill",
+     "player_id": 2468609,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Buccaneers D/ST",
+     "player_id": -16027,
      "bid": null
     }
    ]
@@ -52589,6 +53337,7 @@
   {
    "date": "2024-10-02T12:34:12.361000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     7
    ],
@@ -52597,12 +53346,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Cade Otton",
+     "player_id": 4243331,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Tyler Lockett",
+     "player_id": 2577327,
      "bid": null
     }
    ]
@@ -52610,6 +53361,7 @@
   {
    "date": "2024-10-02T12:33:18.057000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     7
    ],
@@ -52618,12 +53370,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Vikings D/ST",
+     "player_id": -16016,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Cole Kmet",
+     "player_id": 4258595,
      "bid": null
     }
    ]
@@ -52631,6 +53385,7 @@
   {
    "date": "2024-10-02T10:34:31.218000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     4
    ],
@@ -52639,12 +53394,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Justin Tucker",
+     "player_id": 15683,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Matt Prater",
+     "player_id": 11122,
      "bid": null
     }
    ]
@@ -52652,6 +53409,7 @@
   {
    "date": "2024-10-02T10:09:46.721000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     5
    ],
@@ -52660,12 +53418,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Patriots D/ST",
+     "player_id": -16017,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     }
    ]
@@ -52673,6 +53433,7 @@
   {
    "date": "2024-10-02T10:07:37.204000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     5
    ],
@@ -52681,6 +53442,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Will Reichard",
+     "player_id": 4567104,
      "bid": null
     }
    ]
@@ -52688,6 +53450,7 @@
   {
    "date": "2024-10-02T07:23:33.195000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     10
    ],
@@ -52696,6 +53459,7 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Tutu Atwell",
+     "player_id": 4360797,
      "bid": null
     }
    ]
@@ -52703,6 +53467,7 @@
   {
    "date": "2024-10-02T07:23:33.195000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     9
    ],
@@ -52711,12 +53476,14 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Justin Fields",
+     "player_id": 4362887,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Alec Pierce",
+     "player_id": 4360078,
      "bid": null
     }
    ]
@@ -52724,6 +53491,7 @@
   {
    "date": "2024-10-02T07:23:33.194000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     9
    ],
@@ -52732,12 +53500,14 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Josh Downs",
+     "player_id": 4688813,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -52745,6 +53515,7 @@
   {
    "date": "2024-10-02T07:23:33.194000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     4
    ],
@@ -52753,12 +53524,14 @@
      "team_id": 4,
      "action": "WAIVER ADDED",
      "player": "Broncos D/ST",
+     "player_id": -16007,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Raiders D/ST",
+     "player_id": -16013,
      "bid": null
     }
    ]
@@ -52766,6 +53539,7 @@
   {
    "date": "2024-10-02T07:23:33.194000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     10
    ],
@@ -52774,6 +53548,7 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Austin Seibert",
+     "player_id": 3821683,
      "bid": null
     }
    ]
@@ -52781,6 +53556,7 @@
   {
    "date": "2024-10-02T07:23:33.193000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     1
    ],
@@ -52789,6 +53565,7 @@
      "team_id": 1,
      "action": "WAIVER ADDED",
      "player": "Tucker Kraft",
+     "player_id": 4572680,
      "bid": null
     }
    ]
@@ -52796,6 +53573,7 @@
   {
    "date": "2024-10-02T07:23:32.976000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     4
    ],
@@ -52804,6 +53582,7 @@
      "team_id": 4,
      "action": "WAIVER ADDED",
      "player": "Chase Brown",
+     "player_id": 4362238,
      "bid": null
     }
    ]
@@ -52811,6 +53590,7 @@
   {
    "date": "2024-10-02T07:23:32.976000+00:00",
    "type": "add",
+   "period": 5,
    "team_ids": [
     8
    ],
@@ -52819,12 +53599,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     }
    ]
@@ -52832,6 +53614,7 @@
   {
    "date": "2024-10-02T04:53:29.335000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     5
    ],
@@ -52840,6 +53623,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Cameron Dicker",
+     "player_id": 4362081,
      "bid": null
     }
    ]
@@ -52847,6 +53631,7 @@
   {
    "date": "2024-10-01T14:35:24.780000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     10
    ],
@@ -52855,6 +53640,7 @@
      "team_id": 10,
      "action": "DROPPED",
      "player": "Jake Elliott",
+     "player_id": 3050478,
      "bid": null
     }
    ]
@@ -52862,6 +53648,7 @@
   {
    "date": "2024-10-01T13:16:11.931000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     1
    ],
@@ -52870,6 +53657,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Mike Gesicki",
+     "player_id": 3116164,
      "bid": null
     }
    ]
@@ -52877,6 +53665,7 @@
   {
    "date": "2024-10-01T13:13:50.004000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     1
    ],
@@ -52885,6 +53674,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Demarcus Robinson",
+     "player_id": 3043116,
      "bid": null
     }
    ]
@@ -52892,6 +53682,7 @@
   {
    "date": "2024-10-01T13:13:32.035000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     1
    ],
@@ -52900,6 +53691,7 @@
      "team_id": 1,
      "action": "DROPPED",
      "player": "Titans D/ST",
+     "player_id": -16010,
      "bid": null
     }
    ]
@@ -52907,6 +53699,7 @@
   {
    "date": "2024-10-01T10:58:23.353000+00:00",
    "type": "drop",
+   "period": 5,
    "team_ids": [
     4
    ],
@@ -52915,6 +53708,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     }
    ]
@@ -52922,6 +53716,7 @@
   {
    "date": "2024-09-27T12:47:48.954000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     7
    ],
@@ -52930,12 +53725,14 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Courtland Sutton",
+     "player_id": 3128429,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Romeo Doubs",
+     "player_id": 4361432,
      "bid": null
     }
    ]
@@ -52943,6 +53740,7 @@
   {
    "date": "2024-09-27T04:47:53.172000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     4
    ],
@@ -52951,12 +53749,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Raiders D/ST",
+     "player_id": -16013,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     }
    ]
@@ -52964,6 +53764,7 @@
   {
    "date": "2024-09-26T19:55:14.828000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     11
    ],
@@ -52972,12 +53773,14 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Wan'Dale Robinson",
+     "player_id": 4569587,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Christian Watson",
+     "player_id": 4248528,
      "bid": null
     }
    ]
@@ -52985,6 +53788,7 @@
   {
    "date": "2024-09-26T05:09:54.707000+00:00",
    "type": "drop",
+   "period": 4,
    "team_ids": [
     6
    ],
@@ -52993,6 +53797,7 @@
      "team_id": 6,
      "action": "DROPPED",
      "player": "Joshua Palmer",
+     "player_id": 4242433,
      "bid": null
     }
    ]
@@ -53000,6 +53805,7 @@
   {
    "date": "2024-09-26T03:15:01.821000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     9
    ],
@@ -53008,12 +53814,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Eagles D/ST",
+     "player_id": -16021,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Bills D/ST",
+     "player_id": -16002,
      "bid": null
     }
    ]
@@ -53021,6 +53829,7 @@
   {
    "date": "2024-09-25T14:26:58.912000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     1
    ],
@@ -53029,12 +53838,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Titans D/ST",
+     "player_id": -16010,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Samaje Perine",
+     "player_id": 3116389,
      "bid": null
     }
    ]
@@ -53042,6 +53853,7 @@
   {
    "date": "2024-09-25T14:26:23.929000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     1
    ],
@@ -53050,6 +53862,7 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Mike Gesicki",
+     "player_id": 3116164,
      "bid": null
     }
    ]
@@ -53057,6 +53870,7 @@
   {
    "date": "2024-09-25T12:21:04.717000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     4
    ],
@@ -53065,12 +53879,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Matt Prater",
+     "player_id": 11122,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Justin Tucker",
+     "player_id": 15683,
      "bid": null
     }
    ]
@@ -53078,6 +53894,7 @@
   {
    "date": "2024-09-25T10:30:31.984000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     5
    ],
@@ -53086,12 +53903,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     }
    ]
@@ -53099,6 +53918,7 @@
   {
    "date": "2024-09-25T07:18:08.505000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     7
    ],
@@ -53107,12 +53927,14 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Cole Kmet",
+     "player_id": 4258595,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Hunter Henry",
+     "player_id": 3046439,
      "bid": null
     }
    ]
@@ -53120,6 +53942,7 @@
   {
    "date": "2024-09-25T07:18:08.504000+00:00",
    "type": "add",
+   "period": 4,
    "team_ids": [
     9
    ],
@@ -53128,6 +53951,7 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -53135,6 +53959,7 @@
   {
    "date": "2024-09-21T10:24:10.359000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     11
    ],
@@ -53143,12 +53968,14 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Zach Ertz",
+     "player_id": 15835,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Chase Brown",
+     "player_id": 4362238,
      "bid": null
     }
    ]
@@ -53156,6 +53983,7 @@
   {
    "date": "2024-09-20T19:34:17.053000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     4
    ],
@@ -53164,12 +53992,14 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Cam Akers",
+     "player_id": 4240021,
      "bid": null
     },
     {
      "team_id": 4,
      "action": "DROPPED",
      "player": "Trey Benson",
+     "player_id": 4429275,
      "bid": null
     }
    ]
@@ -53177,6 +54007,7 @@
   {
    "date": "2024-09-19T21:27:45.661000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     10
    ],
@@ -53185,12 +54016,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Pat Freiermuth",
+     "player_id": 4361411,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "D'Onta Foreman",
+     "player_id": 3125116,
      "bid": null
     }
    ]
@@ -53198,6 +54031,7 @@
   {
    "date": "2024-09-18T18:26:27.977000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     4
    ],
@@ -53206,6 +54040,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Mike Williams",
+     "player_id": 3045138,
      "bid": null
     }
    ]
@@ -53213,6 +54048,7 @@
   {
    "date": "2024-09-18T13:38:36.149000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     9
    ],
@@ -53221,12 +54057,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Chris Boswell",
+     "player_id": 17372,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Greg Zuerlein",
+     "player_id": 14993,
      "bid": null
     }
    ]
@@ -53234,6 +54072,7 @@
   {
    "date": "2024-09-18T13:37:34.633000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     9
    ],
@@ -53242,12 +54081,14 @@
      "team_id": 9,
      "action": "FA ADDED",
      "player": "Bills D/ST",
+     "player_id": -16002,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Cowboys D/ST",
+     "player_id": -16006,
      "bid": null
     }
    ]
@@ -53255,6 +54096,7 @@
   {
    "date": "2024-09-18T12:47:51.685000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     1
    ],
@@ -53263,12 +54105,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Samaje Perine",
+     "player_id": 3116389,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Colby Parkinson",
+     "player_id": 4242557,
      "bid": null
     }
    ]
@@ -53276,6 +54120,7 @@
   {
    "date": "2024-09-18T12:45:43.893000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     7
    ],
@@ -53284,6 +54129,7 @@
      "team_id": 7,
      "action": "FA ADDED",
      "player": "Hunter Henry",
+     "player_id": 3046439,
      "bid": null
     }
    ]
@@ -53291,6 +54137,7 @@
   {
    "date": "2024-09-18T10:29:33.716000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     12
    ],
@@ -53299,6 +54146,7 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Chase McLaughlin",
+     "player_id": 3150744,
      "bid": null
     }
    ]
@@ -53306,6 +54154,7 @@
   {
    "date": "2024-09-18T10:28:08.749000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     5
    ],
@@ -53314,6 +54163,7 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Braelon Allen",
+     "player_id": 4685247,
      "bid": null
     }
    ]
@@ -53321,6 +54171,7 @@
   {
    "date": "2024-09-18T10:27:50.465000+00:00",
    "type": "drop",
+   "period": 3,
    "team_ids": [
     5
    ],
@@ -53329,6 +54180,7 @@
      "team_id": 5,
      "action": "DROPPED",
      "player": "Rome Odunze",
+     "player_id": 4431299,
      "bid": null
     }
    ]
@@ -53336,6 +54188,7 @@
   {
    "date": "2024-09-18T10:27:34.871000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     12
    ],
@@ -53344,12 +54197,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Buccaneers D/ST",
+     "player_id": -16027,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Jaguars D/ST",
+     "player_id": -16030,
      "bid": null
     }
    ]
@@ -53357,6 +54212,7 @@
   {
    "date": "2024-09-18T10:02:01.581000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     10
    ],
@@ -53365,12 +54221,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "D'Onta Foreman",
+     "player_id": 3125116,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Courtland Sutton",
+     "player_id": 3128429,
      "bid": null
     }
    ]
@@ -53378,6 +54236,7 @@
   {
    "date": "2024-09-18T10:01:34.347000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     10
    ],
@@ -53386,12 +54245,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Jauan Jennings",
+     "player_id": 3886598,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Tank Bigsby",
+     "player_id": 4429013,
      "bid": null
     }
    ]
@@ -53399,6 +54260,7 @@
   {
    "date": "2024-09-18T08:12:35.738000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     7
    ],
@@ -53407,12 +54269,14 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Quentin Johnston",
+     "player_id": 4429025,
      "bid": null
     },
     {
      "team_id": 7,
      "action": "DROPPED",
      "player": "Allen Lazard",
+     "player_id": 3128390,
      "bid": null
     }
    ]
@@ -53420,6 +54284,7 @@
   {
    "date": "2024-09-18T08:12:35.737000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     10
    ],
@@ -53428,12 +54293,14 @@
      "team_id": 10,
      "action": "WAIVER ADDED",
      "player": "Kareem Hunt",
+     "player_id": 3059915,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "MarShawn Lloyd",
+     "player_id": 4429023,
      "bid": null
     }
    ]
@@ -53441,6 +54308,7 @@
   {
    "date": "2024-09-18T08:12:35.737000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     12
    ],
@@ -53449,12 +54317,14 @@
      "team_id": 12,
      "action": "WAIVER ADDED",
      "player": "Carson Steele",
+     "player_id": 4714365,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Jaylen Warren",
+     "player_id": 4569987,
      "bid": null
     }
    ]
@@ -53462,6 +54332,7 @@
   {
    "date": "2024-09-18T08:12:35.736000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     11
    ],
@@ -53470,12 +54341,14 @@
      "team_id": 11,
      "action": "WAIVER ADDED",
      "player": "Packers D/ST",
+     "player_id": -16009,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Jaleel McLaughlin",
+     "player_id": 4722893,
      "bid": null
     }
    ]
@@ -53483,6 +54356,7 @@
   {
    "date": "2024-09-18T08:12:35.736000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     1
    ],
@@ -53491,6 +54365,7 @@
      "team_id": 1,
      "action": "WAIVER ADDED",
      "player": "Demarcus Robinson",
+     "player_id": 3043116,
      "bid": null
     }
    ]
@@ -53498,6 +54373,7 @@
   {
    "date": "2024-09-18T08:12:35.735000+00:00",
    "type": "add",
+   "period": 3,
    "team_ids": [
     9
    ],
@@ -53506,12 +54382,14 @@
      "team_id": 9,
      "action": "WAIVER ADDED",
      "player": "Alec Pierce",
+     "player_id": 4360078,
      "bid": null
     },
     {
      "team_id": 9,
      "action": "DROPPED",
      "player": "Adonai Mitchell",
+     "player_id": 4597500,
      "bid": null
     }
    ]
@@ -53519,6 +54397,7 @@
   {
    "date": "2024-09-17T17:00:12.718000+00:00",
    "type": "drop",
+   "period": 3,
    "team_ids": [
     4
    ],
@@ -53527,6 +54406,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Justin Fields",
+     "player_id": 4362887,
      "bid": null
     }
    ]
@@ -53534,6 +54414,7 @@
   {
    "date": "2024-09-13T18:29:02.004000+00:00",
    "type": "drop",
+   "period": 2,
    "team_ids": [
     7
    ],
@@ -53542,6 +54423,7 @@
      "team_id": 7,
      "action": "DROPPED",
      "player": "Hollywood Brown",
+     "player_id": 4241372,
      "bid": null
     }
    ]
@@ -53549,6 +54431,7 @@
   {
    "date": "2024-09-12T09:56:23.658000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     4
    ],
@@ -53557,6 +54440,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     }
    ]
@@ -53564,6 +54448,7 @@
   {
    "date": "2024-09-12T05:27:09.206000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     6
    ],
@@ -53572,6 +54457,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Dallas Goedert",
+     "player_id": 3121023,
      "bid": null
     }
    ]
@@ -53579,6 +54465,7 @@
   {
    "date": "2024-09-12T03:35:29.070000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     1
    ],
@@ -53587,12 +54474,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Colby Parkinson",
+     "player_id": 4242557,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Vikings D/ST",
+     "player_id": -16016,
      "bid": null
     }
    ]
@@ -53600,6 +54489,7 @@
   {
    "date": "2024-09-11T17:30:40.193000+00:00",
    "type": "drop",
+   "period": 2,
    "team_ids": [
     4
    ],
@@ -53608,6 +54498,7 @@
      "team_id": 4,
      "action": "DROPPED",
      "player": "Saints D/ST",
+     "player_id": -16018,
      "bid": null
     }
    ]
@@ -53615,6 +54506,7 @@
   {
    "date": "2024-09-11T13:48:36.053000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     6
    ],
@@ -53623,12 +54515,14 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Baker Mayfield",
+     "player_id": 3052587,
      "bid": null
     },
     {
      "team_id": 6,
      "action": "DROPPED",
      "player": "DeMario Douglas",
+     "player_id": 4427095,
      "bid": null
     }
    ]
@@ -53636,6 +54530,7 @@
   {
    "date": "2024-09-11T10:25:41.558000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     5
    ],
@@ -53644,12 +54539,14 @@
      "team_id": 5,
      "action": "FA ADDED",
      "player": "Chargers D/ST",
+     "player_id": -16024,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Blake Corum",
+     "player_id": 4429096,
      "bid": null
     }
    ]
@@ -53657,6 +54554,7 @@
   {
    "date": "2024-09-11T10:23:45.403000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     11
    ],
@@ -53665,12 +54563,14 @@
      "team_id": 11,
      "action": "FA ADDED",
      "player": "Jaleel McLaughlin",
+     "player_id": 4722893,
      "bid": null
     },
     {
      "team_id": 11,
      "action": "DROPPED",
      "player": "Mike Williams",
+     "player_id": 3045138,
      "bid": null
     }
    ]
@@ -53678,6 +54578,7 @@
   {
    "date": "2024-09-11T10:23:02.058000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     12
    ],
@@ -53686,12 +54587,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Rashid Shaheed",
+     "player_id": 4032473,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Lions D/ST",
+     "player_id": -16008,
      "bid": null
     }
    ]
@@ -53699,6 +54602,7 @@
   {
    "date": "2024-09-11T10:22:06.230000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     12
    ],
@@ -53707,6 +54611,7 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Jaguars D/ST",
+     "player_id": -16030,
      "bid": null
     }
    ]
@@ -53714,6 +54619,7 @@
   {
    "date": "2024-09-11T08:47:12.162000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     10
    ],
@@ -53722,12 +54628,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Tank Bigsby",
+     "player_id": 4429013,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Ja'Lynn Polk",
+     "player_id": 4430637,
      "bid": null
     }
    ]
@@ -53735,6 +54643,7 @@
   {
    "date": "2024-09-11T07:29:10.388000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     8
    ],
@@ -53743,12 +54652,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Texans D/ST",
+     "player_id": -16034,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     }
    ]
@@ -53756,6 +54667,7 @@
   {
    "date": "2024-09-11T07:29:10.387000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     8
    ],
@@ -53764,12 +54676,14 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Isaiah Likely",
+     "player_id": 4361050,
      "bid": null
     },
     {
      "team_id": 8,
      "action": "DROPPED",
      "player": "Curtis Samuel",
+     "player_id": 3121427,
      "bid": null
     }
    ]
@@ -53777,6 +54691,7 @@
   {
    "date": "2024-09-11T07:29:10.386000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     7
    ],
@@ -53785,6 +54700,7 @@
      "team_id": 7,
      "action": "WAIVER ADDED",
      "player": "Allen Lazard",
+     "player_id": 3128390,
      "bid": null
     }
    ]
@@ -53792,6 +54708,7 @@
   {
    "date": "2024-09-11T07:29:10.385000+00:00",
    "type": "add",
+   "period": 2,
    "team_ids": [
     5
    ],
@@ -53800,12 +54717,14 @@
      "team_id": 5,
      "action": "WAIVER ADDED",
      "player": "Bucky Irving",
+     "player_id": 4596448,
      "bid": null
     },
     {
      "team_id": 5,
      "action": "DROPPED",
      "player": "Bengals D/ST",
+     "player_id": -16004,
      "bid": null
     }
    ]
@@ -53813,6 +54732,7 @@
   {
    "date": "2024-09-08T15:43:37.986000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     4
    ],
@@ -53821,6 +54741,7 @@
      "team_id": 4,
      "action": "FA ADDED",
      "player": "Justin Fields",
+     "player_id": 4362887,
      "bid": null
     }
    ]
@@ -53828,6 +54749,7 @@
   {
    "date": "2024-09-06T01:00:35.405000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     6
    ],
@@ -53836,6 +54758,7 @@
      "team_id": 6,
      "action": "FA ADDED",
      "player": "Jordan Mason",
+     "player_id": 4360569,
      "bid": null
     }
    ]
@@ -53843,6 +54766,7 @@
   {
    "date": "2024-09-04T18:31:10.761000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     1
    ],
@@ -53851,12 +54775,14 @@
      "team_id": 1,
      "action": "FA ADDED",
      "player": "Vikings D/ST",
+     "player_id": -16016,
      "bid": null
     },
     {
      "team_id": 1,
      "action": "DROPPED",
      "player": "Dallas Goedert",
+     "player_id": 3121023,
      "bid": null
     }
    ]
@@ -53864,6 +54790,7 @@
   {
    "date": "2024-09-04T17:25:49.172000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     12
    ],
@@ -53872,12 +54799,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Dolphins D/ST",
+     "player_id": -16015,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Gabe Davis",
+     "player_id": 4243537,
      "bid": null
     }
    ]
@@ -53885,6 +54814,7 @@
   {
    "date": "2024-09-04T13:45:51.650000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     12
    ],
@@ -53893,12 +54823,14 @@
      "team_id": 12,
      "action": "FA ADDED",
      "player": "Tua Tagovailoa",
+     "player_id": 4241479,
      "bid": null
     },
     {
      "team_id": 12,
      "action": "DROPPED",
      "player": "Rashid Shaheed",
+     "player_id": 4032473,
      "bid": null
     }
    ]
@@ -53906,6 +54838,7 @@
   {
    "date": "2024-09-04T10:45:38.263000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     10
    ],
@@ -53914,12 +54847,14 @@
      "team_id": 10,
      "action": "FA ADDED",
      "player": "Bears D/ST",
+     "player_id": -16003,
      "bid": null
     },
     {
      "team_id": 10,
      "action": "DROPPED",
      "player": "Jaleel McLaughlin",
+     "player_id": 4722893,
      "bid": null
     }
    ]
@@ -53927,6 +54862,7 @@
   {
    "date": "2024-09-04T07:11:07.133000+00:00",
    "type": "add",
+   "period": 1,
    "team_ids": [
     8
    ],
@@ -53935,9 +54871,1470 @@
      "team_id": 8,
      "action": "WAIVER ADDED",
      "player": "Seahawks D/ST",
+     "player_id": -16026,
      "bid": null
     }
    ]
   }
- ]
+ ],
+ "draft": {
+  "type": "SNAKE",
+  "pick_order": [
+   6,
+   7,
+   12,
+   10,
+   5,
+   4,
+   1,
+   11,
+   8,
+   9
+  ],
+  "complete": true,
+  "rounds": 16,
+  "picks": [
+   {
+    "round": 1,
+    "pick": 1,
+    "overall": 1,
+    "team_id": 6,
+    "player_id": 3117251,
+    "player": "Christian McCaffrey",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 2,
+    "overall": 2,
+    "team_id": 7,
+    "player_id": 4241389,
+    "player": "CeeDee Lamb",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 3,
+    "overall": 3,
+    "team_id": 12,
+    "player_id": 4430807,
+    "player": "Bijan Robinson",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 4,
+    "overall": 4,
+    "team_id": 10,
+    "player_id": 3116406,
+    "player": "Tyreek Hill",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 5,
+    "overall": 5,
+    "team_id": 5,
+    "player_id": 4427366,
+    "player": "Breece Hall",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 6,
+    "overall": 6,
+    "team_id": 4,
+    "player_id": 4374302,
+    "player": "Amon-Ra St. Brown",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 7,
+    "overall": 7,
+    "team_id": 1,
+    "player_id": 4362628,
+    "player": "Ja'Marr Chase",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 8,
+    "overall": 8,
+    "team_id": 11,
+    "player_id": 4262921,
+    "player": "Justin Jefferson",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 9,
+    "overall": 9,
+    "team_id": 8,
+    "player_id": 4429795,
+    "player": "Jahmyr Gibbs",
+    "keeper": false
+   },
+   {
+    "round": 1,
+    "pick": 10,
+    "overall": 10,
+    "team_id": 9,
+    "player_id": 4242335,
+    "player": "Jonathan Taylor",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 1,
+    "overall": 11,
+    "team_id": 9,
+    "player_id": 4047646,
+    "player": "A.J. Brown",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 2,
+    "overall": 12,
+    "team_id": 8,
+    "player_id": 4569618,
+    "player": "Garrett Wilson",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 3,
+    "overall": 13,
+    "team_id": 11,
+    "player_id": 3929630,
+    "player": "Saquon Barkley",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 4,
+    "overall": 14,
+    "team_id": 1,
+    "player_id": 3043078,
+    "player": "Derrick Henry",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 5,
+    "overall": 15,
+    "team_id": 4,
+    "player_id": 4239996,
+    "player": "Travis Etienne Jr.",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 6,
+    "overall": 16,
+    "team_id": 5,
+    "player_id": 4432708,
+    "player": "Marvin Harrison Jr.",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 7,
+    "overall": 17,
+    "team_id": 10,
+    "player_id": 3054850,
+    "player": "Alvin Kamara",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 8,
+    "overall": 18,
+    "team_id": 12,
+    "player_id": 4426515,
+    "player": "Puka Nacua",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 9,
+    "overall": 19,
+    "team_id": 7,
+    "player_id": 4430737,
+    "player": "Kyren Williams",
+    "keeper": false
+   },
+   {
+    "round": 2,
+    "pick": 10,
+    "overall": 20,
+    "team_id": 6,
+    "player_id": 16737,
+    "player": "Mike Evans",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 1,
+    "overall": 21,
+    "team_id": 6,
+    "player_id": 4361529,
+    "player": "Isiah Pacheco",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 2,
+    "overall": 22,
+    "team_id": 7,
+    "player_id": 4035687,
+    "player": "Michael Pittman Jr.",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 3,
+    "overall": 23,
+    "team_id": 12,
+    "player_id": 4697815,
+    "player": "Rachaad White",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 4,
+    "overall": 24,
+    "team_id": 10,
+    "player_id": 4047365,
+    "player": "Josh Jacobs",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 5,
+    "overall": 25,
+    "team_id": 5,
+    "player_id": 16800,
+    "player": "Davante Adams",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 6,
+    "overall": 26,
+    "team_id": 4,
+    "player_id": 3116385,
+    "player": "Joe Mixon",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 7,
+    "overall": 27,
+    "team_id": 1,
+    "player_id": 4567048,
+    "player": "Kenneth Walker III",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 8,
+    "overall": 28,
+    "team_id": 11,
+    "player_id": 4379399,
+    "player": "James Cook",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 9,
+    "overall": 29,
+    "team_id": 8,
+    "player_id": 4429160,
+    "player": "De'Von Achane",
+    "keeper": false
+   },
+   {
+    "round": 3,
+    "pick": 10,
+    "overall": 30,
+    "team_id": 9,
+    "player_id": 15847,
+    "player": "Travis Kelce",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 1,
+    "overall": 31,
+    "team_id": 9,
+    "player_id": 3126486,
+    "player": "Deebo Samuel Sr.",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 2,
+    "overall": 32,
+    "team_id": 8,
+    "player_id": 4258173,
+    "player": "Nico Collins",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 3,
+    "overall": 33,
+    "team_id": 11,
+    "player_id": 4426502,
+    "player": "Drake London",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 4,
+    "overall": 34,
+    "team_id": 1,
+    "player_id": 2977187,
+    "player": "Cooper Kupp",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 5,
+    "overall": 35,
+    "team_id": 4,
+    "player_id": 4372016,
+    "player": "Jaylen Waddle",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 6,
+    "overall": 36,
+    "team_id": 5,
+    "player_id": 4361370,
+    "player": "Chris Olave",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 7,
+    "overall": 37,
+    "team_id": 10,
+    "player_id": 4595348,
+    "player": "Malik Nabers",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 8,
+    "overall": 38,
+    "team_id": 12,
+    "player_id": 3918298,
+    "player": "Josh Allen",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 9,
+    "overall": 39,
+    "team_id": 7,
+    "player_id": 3915416,
+    "player": "DJ Moore",
+    "keeper": false
+   },
+   {
+    "round": 4,
+    "pick": 10,
+    "overall": 40,
+    "team_id": 6,
+    "player_id": 4047650,
+    "player": "DK Metcalf",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 1,
+    "overall": 41,
+    "team_id": 6,
+    "player_id": 4360438,
+    "player": "Brandon Aiyuk",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 2,
+    "overall": 42,
+    "team_id": 7,
+    "player_id": 4430027,
+    "player": "Sam LaPorta",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 3,
+    "overall": 43,
+    "team_id": 12,
+    "player_id": 4241478,
+    "player": "DeVonta Smith",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 4,
+    "overall": 44,
+    "team_id": 10,
+    "player_id": 4428331,
+    "player": "Rashee Rice",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 5,
+    "overall": 45,
+    "team_id": 5,
+    "player_id": 4361777,
+    "player": "Zamir White",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 6,
+    "overall": 46,
+    "team_id": 4,
+    "player_id": 4239993,
+    "player": "Tee Higgins",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 7,
+    "overall": 47,
+    "team_id": 1,
+    "player_id": 3116365,
+    "player": "Mark Andrews",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 8,
+    "overall": 48,
+    "team_id": 11,
+    "player_id": 3916387,
+    "player": "Lamar Jackson",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 9,
+    "overall": 49,
+    "team_id": 8,
+    "player_id": 4569173,
+    "player": "Rhamondre Stevenson",
+    "keeper": false
+   },
+   {
+    "round": 5,
+    "pick": 10,
+    "overall": 50,
+    "team_id": 9,
+    "player_id": 4259545,
+    "player": "D'Andre Swift",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 1,
+    "overall": 51,
+    "team_id": 9,
+    "player_id": 4040715,
+    "player": "Jalen Hurts",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 2,
+    "overall": 52,
+    "team_id": 8,
+    "player_id": 3139477,
+    "player": "Patrick Mahomes",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 3,
+    "overall": 53,
+    "team_id": 11,
+    "player_id": 4429615,
+    "player": "Zay Flowers",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 4,
+    "overall": 54,
+    "team_id": 1,
+    "player_id": 4426354,
+    "player": "George Pickens",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 5,
+    "overall": 55,
+    "team_id": 4,
+    "player_id": 3925357,
+    "player": "Calvin Ridley",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 6,
+    "overall": 56,
+    "team_id": 5,
+    "player_id": 4361307,
+    "player": "Trey McBride",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 7,
+    "overall": 57,
+    "team_id": 10,
+    "player_id": 3042519,
+    "player": "Aaron Jones",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 8,
+    "overall": 58,
+    "team_id": 12,
+    "player_id": 2976499,
+    "player": "Amari Cooper",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 9,
+    "overall": 59,
+    "team_id": 7,
+    "player_id": 3121422,
+    "player": "Terry McLaurin",
+    "keeper": false
+   },
+   {
+    "round": 6,
+    "pick": 10,
+    "overall": 60,
+    "team_id": 6,
+    "player_id": 3045147,
+    "player": "James Conner",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 1,
+    "overall": 61,
+    "team_id": 6,
+    "player_id": 2976212,
+    "player": "Stefon Diggs",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 2,
+    "overall": 62,
+    "team_id": 7,
+    "player_id": 4241474,
+    "player": "Brian Robinson Jr.",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 3,
+    "overall": 63,
+    "team_id": 12,
+    "player_id": 4035538,
+    "player": "David Montgomery",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 4,
+    "overall": 64,
+    "team_id": 10,
+    "player_id": 3917315,
+    "player": "Kyler Murray",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 5,
+    "overall": 65,
+    "team_id": 5,
+    "player_id": 3932905,
+    "player": "Diontae Johnson",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 6,
+    "overall": 66,
+    "team_id": 4,
+    "player_id": 4385690,
+    "player": "Dalton Kincaid",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 7,
+    "overall": 67,
+    "team_id": 1,
+    "player_id": 15818,
+    "player": "Keenan Allen",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 8,
+    "overall": 68,
+    "team_id": 11,
+    "player_id": 4430878,
+    "player": "Jaxon Smith-Njigba",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 9,
+    "overall": 69,
+    "team_id": 8,
+    "player_id": 4683062,
+    "player": "Xavier Worthy",
+    "keeper": false
+   },
+   {
+    "round": 7,
+    "pick": 10,
+    "overall": 70,
+    "team_id": 9,
+    "player_id": 3916148,
+    "player": "Tony Pollard",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 1,
+    "overall": 71,
+    "team_id": 9,
+    "player_id": 4429205,
+    "player": "Jordan Addison",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 2,
+    "overall": 72,
+    "team_id": 8,
+    "player_id": 4366031,
+    "player": "Tank Dell",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 3,
+    "overall": 73,
+    "team_id": 11,
+    "player_id": 3040151,
+    "player": "George Kittle",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 4,
+    "overall": 74,
+    "team_id": 1,
+    "player_id": 4361579,
+    "player": "Javonte Williams",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 5,
+    "overall": 75,
+    "team_id": 4,
+    "player_id": 4428557,
+    "player": "Tyjae Spears",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 6,
+    "overall": 76,
+    "team_id": 5,
+    "player_id": 4431299,
+    "player": "Rome Odunze",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 7,
+    "overall": 77,
+    "team_id": 10,
+    "player_id": 3051876,
+    "player": "Evan Engram",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 8,
+    "overall": 78,
+    "team_id": 12,
+    "player_id": 4569987,
+    "player": "Jaylen Warren",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 9,
+    "overall": 79,
+    "team_id": 7,
+    "player_id": 4432577,
+    "player": "C.J. Stroud",
+    "keeper": false
+   },
+   {
+    "round": 8,
+    "pick": 10,
+    "overall": 80,
+    "team_id": 6,
+    "player_id": 4036378,
+    "player": "Jordan Love",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 1,
+    "overall": 81,
+    "team_id": 6,
+    "player_id": 2576414,
+    "player": "Raheem Mostert",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 2,
+    "overall": 82,
+    "team_id": 7,
+    "player_id": 4040761,
+    "player": "Devin Singletary",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 3,
+    "overall": 83,
+    "team_id": 12,
+    "player_id": 4360248,
+    "player": "Kyle Pitts",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 4,
+    "overall": 84,
+    "team_id": 10,
+    "player_id": 3128429,
+    "player": "Courtland Sutton",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 5,
+    "overall": 85,
+    "team_id": 5,
+    "player_id": 4241457,
+    "player": "Najee Harris",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 6,
+    "overall": 86,
+    "team_id": 4,
+    "player_id": 2577417,
+    "player": "Dak Prescott",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 7,
+    "overall": 87,
+    "team_id": 1,
+    "player_id": 4429084,
+    "player": "Anthony Richardson",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 8,
+    "overall": 88,
+    "team_id": 11,
+    "player_id": 4248528,
+    "player": "Christian Watson",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 9,
+    "overall": 89,
+    "team_id": 8,
+    "player_id": 4242355,
+    "player": "Jake Ferguson",
+    "keeper": false
+   },
+   {
+    "round": 9,
+    "pick": 10,
+    "overall": 90,
+    "team_id": 9,
+    "player_id": 4612826,
+    "player": "Ladd McConkey",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 1,
+    "overall": 91,
+    "team_id": 9,
+    "player_id": 3068267,
+    "player": "Austin Ekeler",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 2,
+    "overall": 92,
+    "team_id": 8,
+    "player_id": 3128720,
+    "player": "Nick Chubb",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 3,
+    "overall": 93,
+    "team_id": 11,
+    "player_id": 4362238,
+    "player": "Chase Brown",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 4,
+    "overall": 94,
+    "team_id": 1,
+    "player_id": 3116165,
+    "player": "Chris Godwin",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 5,
+    "overall": 95,
+    "team_id": 4,
+    "player_id": 4372019,
+    "player": "Jerome Ford",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 6,
+    "overall": 96,
+    "team_id": 5,
+    "player_id": 3915511,
+    "player": "Joe Burrow",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 7,
+    "overall": 97,
+    "team_id": 10,
+    "player_id": 4432773,
+    "player": "Brian Thomas Jr.",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 8,
+    "overall": 98,
+    "team_id": 12,
+    "player_id": 3051392,
+    "player": "Ezekiel Elliott",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 9,
+    "overall": 99,
+    "team_id": 7,
+    "player_id": 3895856,
+    "player": "Christian Kirk",
+    "keeper": false
+   },
+   {
+    "round": 10,
+    "pick": 10,
+    "overall": 100,
+    "team_id": 6,
+    "player_id": 3123076,
+    "player": "David Njoku",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 1,
+    "overall": 101,
+    "team_id": 6,
+    "player_id": 15795,
+    "player": "DeAndre Hopkins",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 2,
+    "overall": 102,
+    "team_id": 7,
+    "player_id": 4678008,
+    "player": "Jonathon Brooks",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 3,
+    "overall": 103,
+    "team_id": 12,
+    "player_id": 4040655,
+    "player": "Darnell Mooney",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 4,
+    "overall": 104,
+    "team_id": 10,
+    "player_id": 4722893,
+    "player": "Jaleel McLaughlin",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 5,
+    "overall": 105,
+    "team_id": 5,
+    "player_id": 4241985,
+    "player": "J.K. Dobbins",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 6,
+    "overall": 106,
+    "team_id": 4,
+    "player_id": 4373678,
+    "player": "Khalil Shakir",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 7,
+    "overall": 107,
+    "team_id": 1,
+    "player_id": 4035676,
+    "player": "Zack Moss",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 8,
+    "overall": 108,
+    "team_id": 11,
+    "player_id": 3045138,
+    "player": "Mike Williams",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 9,
+    "overall": 109,
+    "team_id": 8,
+    "player_id": 4241416,
+    "player": "Chuba Hubbard",
+    "keeper": false
+   },
+   {
+    "round": 11,
+    "pick": 10,
+    "overall": 110,
+    "team_id": 9,
+    "player_id": 4426388,
+    "player": "Jameson Williams",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 1,
+    "overall": 111,
+    "team_id": 9,
+    "player_id": 16460,
+    "player": "Adam Thielen",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 2,
+    "overall": 112,
+    "team_id": 8,
+    "player_id": 4362249,
+    "player": "Jayden Reed",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 3,
+    "overall": 113,
+    "team_id": 11,
+    "player_id": 4635008,
+    "player": "Keon Coleman",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 4,
+    "overall": 114,
+    "team_id": 1,
+    "player_id": 3051926,
+    "player": "Gus Edwards",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 5,
+    "overall": 115,
+    "team_id": 4,
+    "player_id": 4373626,
+    "player": "Tyler Allgeier",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 6,
+    "overall": 116,
+    "team_id": 5,
+    "player_id": 4432665,
+    "player": "Brock Bowers",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 7,
+    "overall": 117,
+    "team_id": 10,
+    "player_id": 4430637,
+    "player": "Ja'Lynn Polk",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 8,
+    "overall": 118,
+    "team_id": 12,
+    "player_id": 4032473,
+    "player": "Rashid Shaheed",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 9,
+    "overall": 119,
+    "team_id": 7,
+    "player_id": 4241372,
+    "player": "Hollywood Brown",
+    "keeper": false
+   },
+   {
+    "round": 12,
+    "pick": 10,
+    "overall": 120,
+    "team_id": 6,
+    "player_id": 4242433,
+    "player": "Joshua Palmer",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 1,
+    "overall": 121,
+    "team_id": 6,
+    "player_id": 4036133,
+    "player": "T.J. Hockenson",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 2,
+    "overall": 122,
+    "team_id": 7,
+    "player_id": -16005,
+    "player": "Browns D/ST",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 3,
+    "overall": 123,
+    "team_id": 12,
+    "player_id": 4243537,
+    "player": "Gabe Davis",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 4,
+    "overall": 124,
+    "team_id": 10,
+    "player_id": -16020,
+    "player": "Jets D/ST",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 5,
+    "overall": 125,
+    "team_id": 5,
+    "player_id": 4429096,
+    "player": "Blake Corum",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 6,
+    "overall": 126,
+    "team_id": 4,
+    "player_id": 4429275,
+    "player": "Trey Benson",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 7,
+    "overall": 127,
+    "team_id": 1,
+    "player_id": -16033,
+    "player": "Ravens D/ST",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 8,
+    "overall": 128,
+    "team_id": 11,
+    "player_id": 4426385,
+    "player": "Zach Charbonnet",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 9,
+    "overall": 129,
+    "team_id": 8,
+    "player_id": 3121427,
+    "player": "Curtis Samuel",
+    "keeper": false
+   },
+   {
+    "round": 13,
+    "pick": 10,
+    "overall": 130,
+    "team_id": 9,
+    "player_id": 4597500,
+    "player": "Adonai Mitchell",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 1,
+    "overall": 131,
+    "team_id": 9,
+    "player_id": -16006,
+    "player": "Cowboys D/ST",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 2,
+    "overall": 132,
+    "team_id": 8,
+    "player_id": 4038815,
+    "player": "Rico Dowdle",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 3,
+    "overall": 133,
+    "team_id": 11,
+    "player_id": -16025,
+    "player": "49ers D/ST",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 4,
+    "overall": 134,
+    "team_id": 1,
+    "player_id": 3121023,
+    "player": "Dallas Goedert",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 5,
+    "overall": 135,
+    "team_id": 4,
+    "player_id": 4360294,
+    "player": "Antonio Gibson",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 6,
+    "overall": 136,
+    "team_id": 5,
+    "player_id": -16004,
+    "player": "Bengals D/ST",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 7,
+    "overall": 137,
+    "team_id": 10,
+    "player_id": 4242431,
+    "player": "Ty Chandler",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 8,
+    "overall": 138,
+    "team_id": 12,
+    "player_id": 4241463,
+    "player": "Jerry Jeudy",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 9,
+    "overall": 139,
+    "team_id": 7,
+    "player_id": 4361432,
+    "player": "Romeo Doubs",
+    "keeper": false
+   },
+   {
+    "round": 14,
+    "pick": 10,
+    "overall": 140,
+    "team_id": 6,
+    "player_id": -16012,
+    "player": "Chiefs D/ST",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 1,
+    "overall": 141,
+    "team_id": 6,
+    "player_id": 3953687,
+    "player": "Brandon Aubrey",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 2,
+    "overall": 142,
+    "team_id": 7,
+    "player_id": 3055899,
+    "player": "Harrison Butker",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 3,
+    "overall": 143,
+    "team_id": 12,
+    "player_id": -16008,
+    "player": "Lions D/ST",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 4,
+    "overall": 144,
+    "team_id": 10,
+    "player_id": 3050478,
+    "player": "Jake Elliott",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 5,
+    "overall": 145,
+    "team_id": 5,
+    "player_id": 4362081,
+    "player": "Cameron Dicker",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 6,
+    "overall": 146,
+    "team_id": 4,
+    "player_id": 15683,
+    "player": "Justin Tucker",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 7,
+    "overall": 147,
+    "team_id": 1,
+    "player_id": 4360234,
+    "player": "Evan McPherson",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 8,
+    "overall": 148,
+    "team_id": 11,
+    "player_id": 2971573,
+    "player": "Ka'imi Fairbairn",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 9,
+    "overall": 149,
+    "team_id": 8,
+    "player_id": 4372066,
+    "player": "Jake Moody",
+    "keeper": false
+   },
+   {
+    "round": 15,
+    "pick": 10,
+    "overall": 150,
+    "team_id": 9,
+    "player_id": 14993,
+    "player": "Greg Zuerlein",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 1,
+    "overall": 151,
+    "team_id": 9,
+    "player_id": 4048244,
+    "player": "Alexander Mattison",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 2,
+    "overall": 152,
+    "team_id": 8,
+    "player_id": -16023,
+    "player": "Steelers D/ST",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 3,
+    "overall": 153,
+    "team_id": 11,
+    "player_id": 3916433,
+    "player": "Jakobi Meyers",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 4,
+    "overall": 154,
+    "team_id": 1,
+    "player_id": 4426348,
+    "player": "Jayden Daniels",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 5,
+    "overall": 155,
+    "team_id": 4,
+    "player_id": -16018,
+    "player": "Saints D/ST",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 6,
+    "overall": 156,
+    "team_id": 5,
+    "player_id": 16731,
+    "player": "Brandin Cooks",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 7,
+    "overall": 157,
+    "team_id": 10,
+    "player_id": 4429023,
+    "player": "MarShawn Lloyd",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 8,
+    "overall": 158,
+    "team_id": 12,
+    "player_id": 3049899,
+    "player": "Younghoe Koo",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 9,
+    "overall": 159,
+    "team_id": 7,
+    "player_id": 2577327,
+    "player": "Tyler Lockett",
+    "keeper": false
+   },
+   {
+    "round": 16,
+    "pick": 10,
+    "overall": 160,
+    "team_id": 6,
+    "player_id": 4427095,
+    "player": "DeMario Douglas",
+    "keeper": false
+   }
+  ]
+ },
+ "history_version": 2
 }
