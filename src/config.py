@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 SEASONS_DIR = DATA_DIR / "seasons"
 CURRENT_FILE = DATA_DIR / "current.json"
+PICK_SHEET_FILE = DATA_DIR / "pick_trades.csv"   # downloaded copy of the Google Sheet, not committed
 FIXTURES_DIR = ROOT / "tests" / "fixtures"
 RECAPS_DIR = ROOT / "recaps"
 TEMPLATES_DIR = ROOT / "templates"
@@ -22,6 +23,7 @@ def load_config(path: Path = ROOT / "config.toml") -> dict:
     cfg.setdefault("power_rankings", {})
     cfg.setdefault("recaps", {})
     cfg.setdefault("manager_overrides", {})
+    cfg.setdefault("picks", {})
     return cfg
 
 

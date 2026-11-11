@@ -266,6 +266,39 @@ Each week gets an automatic recap. To write your own:
 - `"replace"` (default): only your recap is shown.
 - `"above"`: your recap is shown, with the automatic one underneath.
 
+### Logging traded draft picks
+
+ESPN doesn't track traded draft picks, so they're logged in a shared Google Sheet (its link is
+`[picks] sheet_url` in `config.toml`). The **Draft picks** page and each team page are built
+from it: who owns which picks for each upcoming draft, and, once a draft happens, which player
+each traded pick was used on (read from ESPN).
+
+**Adding a trade:** add one row to the sheet, oldest at the top, newest at the bottom.
+
+| Column | What to write |
+|---|---|
+| Season | The season the trade was made in, e.g. `2026-27` |
+| Date | Optional, e.g. `2026-10-21` |
+| Team 1 / Team 2 | Team names as they were at the time (spelling, capitals and emoji don't matter) |
+| … gets: players | Players that team received, separated by commas |
+| … gets: picks | Picks that team received, e.g. `2027 4th, 2027 6th`. These are the other team's own picks. Only name a team if the pick originally belonged to someone else: `2027 1st (Billieve)` |
+| Team 3 columns | Only for three-team trades (then always name whose each pick is) |
+| Note | Optional, shown on the trade |
+
+The site reads the sheet every time it rebuilds (Sunday night, Monday, Tuesday, Friday). To
+see a new trade straight away, go to the repository's **Actions** tab → **Build and deploy
+site** → **Run workflow**.
+
+If a row can't be used (a misspelled team, or a team trading away a pick it doesn't own), it's
+left off and listed in a red box at the top of the Draft picks page; the rest of the site
+updates as normal. The sheet must stay shared as **Anyone with the link: Viewer**; only the
+people you add as Editors can change it. If the site can't read the sheet at all, the build
+stops and the live site keeps its last good version.
+
+(Leaving `sheet_url` empty makes the site use `data/draft_picks.toml` instead; the offline
+preview and tests use `tests/fixtures/draft_picks.toml`.)
+
+
 ---
 
 ## 8. Using your own domain name
@@ -345,11 +378,13 @@ src/fetch.py         talks to ESPN (through the espn-api library)
 src/normalize.py     turns ESPN's data into our own simple format
 src/stats.py         every calculation (standings, all-play, luck, power rankings, records…)
 src/recaps.py        the automatic weekly recaps
+src/picks.py         traded draft picks (from data/draft_picks.toml)
 src/build.py         turns data + stats into the web pages
 src/main.py          the commands in section 4
 templates/           page layouts (HTML)
 static/              style.css, app.js, favicon
 data/seasons/        saved finished seasons (committed)
+data/pick_trades.csv  downloaded copy of the trade sheet (not committed)
 data/current.json    the current season (re-downloaded every run, not committed)
 recaps/              your hand-written recaps
 tests/               automatic checks, using small fake seasons in tests/fixtures/

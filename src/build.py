@@ -4,6 +4,7 @@ build.py turns stats into small "view" dicts so the templates only display
 things and never calculate. Every link is relative (via `root`), so the site
 works at username.github.io/repo/ and on a custom domain alike.
 """
+import csv
 import hashlib
 import json
 import logging
@@ -15,10 +16,10 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 
-from . import recaps, stats
+from . import picks, recaps, stats
 from .normalize import anon_id, clean_name
-from .config import (CURRENT_FILE, FIXTURES_DIR, RECAPS_DIR, SEASONS_DIR, SITE_DIR, STATIC_DIR,
-                     TEMPLATES_DIR)
+from .config import (CURRENT_FILE, DATA_DIR, FIXTURES_DIR, PICK_SHEET_FILE, RECAPS_DIR, SEASONS_DIR, SITE_DIR,
+                     STATIC_DIR, TEMPLATES_DIR)
 
 log = logging.getLogger("league")
 POSITION_ORDER = ["QB", "RB", "WR", "TE", "D/ST", "K"]
@@ -320,6 +321,7 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
 
     updated_text, updated_iso = to_local(cur["fetched_at"], tz)
     transactions = cur["raw"].get("transactions") or []
+    pick_view = _picks_view(league, cfg, offline)
     league_id = cfg["league"]["id"]
     colors = {"primary": "#202123", "secondary": "#B0A381", "secondary_text": "#7A6B44", "cream": "#EEE6C1",
               **cfg["colors"]}
@@ -328,7 +330,7 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
         "noindex": cfg["site"].get("hide_from_search_engines", True),
         "updated_text": updated_text, "updated_iso": updated_iso, "timezone": tz,
         "espn_url": f"https://fantasy.espn.com/football/league?leagueId={league_id}",
-        "show_transactions": bool(transactions), "offline": offline,
+        "show_transactions": bool(transactions), "show_picks": bool(pick_view), "offline": offline,
         # Changes whenever style.css/app.js change, so browsers never mix new pages with old CSS.
         "asset_version": _asset_version(),
     }
@@ -379,7 +381,8 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
     render("teams_index.html", "teams/index.html", "teams", "Teams", active=active, former=former, cards=cards)
     for u in active + former:
         render("team.html", f"teams/{u['slug']}.html", "teams", cards[u["key"]]["name"],
-               **_team_page(league, u, cards[u["key"]]))
+               **_team_page(league, u, cards[u["key"]]),
+               team_picks=_team_picks(pick_view, cards[u["key"]]["team"]))
 
     # History
     history = []
@@ -422,6 +425,10 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
         render("transactions.html", "transactions.html", "transactions", "Transactions",
                trades=trades, moves=moves, season=cur["year"])
 
+    # Draft picks
+    if pick_view:
+        render("picks.html", "picks.html", "picks", "Draft picks", **pick_view)
+
     render("404.html", "404.html", "404", "Page not found")
 
     # Extras
@@ -435,6 +442,149 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
 
     pages = sum(1 for _ in out_dir.rglob("*.html"))
     log.info("Built %s pages into %s%s", pages, out_dir.name + "/", " (offline preview data)" if offline else "")
+
+
+def _team_name_map(league: League) -> dict:
+    """name_key(every name a team has had) -> team id. Names two teams have shared are left out."""
+    seen = {}
+    for sv in league.season_views.values():
+        for tid, t in sv["teams"].items():
+            seen.setdefault(picks.name_key(t["name"]), set()).add(tid)
+    return {k: next(iter(ids)) for k, ids in seen.items() if k and len(ids) == 1}
+
+
+def _load_pick_trades(league: League, cfg: dict, offline: bool, rounds: int | None):
+    """(trades, owners, problems, sheet_url). From the Google Sheet when one is set up,
+    else from draft_picks.toml. A bad sheet row is skipped and listed in `problems`;
+    a bad draft_picks.toml stops the build."""
+    sheet_url = (cfg.get("picks", {}).get("sheet_url") or "").strip()
+    if sheet_url and not offline:
+        if not PICK_SHEET_FILE.exists():
+            raise BuildError("The pick trades sheet hasn't been downloaded yet. Run `python -m src.main fetch` first.")
+        with open(PICK_SHEET_FILE, encoding="utf-8", newline="") as f:
+            rows = list(csv.reader(f))
+        names = _team_name_map(league)
+        by_id = {}
+        for y in league.years:                              # latest name wins
+            by_id.update({tid: t["name"] for tid, t in league.season_views[y]["teams"].items()})
+        trades, problems = picks.parse_sheet(rows, names, rounds)
+        owners, trades, bad = picks.resolve_owners_lenient(trades, name=lambda i: by_id.get(i, f"team {i}"))
+        problems = sorted(problems + bad, key=lambda p: p["row"] or 0)
+        for i, t in enumerate(trades, 1):
+            t["n"] = i
+        for p in problems:
+            log.warning("  Skipped a pick trade. %s", p["message"])
+        return trades, owners, problems, sheet_url
+    team_ids = {tid for sv in league.season_views.values() for tid in sv["teams"]}
+    try:
+        trades = picks.load_trades((FIXTURES_DIR if offline else DATA_DIR) / "draft_picks.toml", team_ids, rounds)
+        owners = picks.resolve_owners(trades)
+    except picks.PickError as e:
+        raise BuildError(str(e)) from None
+    return trades, owners, [], None
+
+
+def _picks_view(league: League, cfg: dict, offline: bool) -> dict | None:
+    """Everything the Draft picks page needs, or None when no pick has ever been traded."""
+    cur = league.current
+    drafts = {y: s.get("draft") for y, s in league.seasons.items() if s.get("draft")}
+    rounds = max((d["rounds"] for d in drafts.values() if d.get("rounds")), default=None)
+    trades, owners, problems, sheet_url = _load_pick_trades(league, cfg, offline, rounds)
+    if not trades and not problems:
+        return None
+
+    def team_at(tid: int, year: int) -> dict | None:
+        """A team as it was named in `year` (or now, for future years)."""
+        for y in [year, cur["year"], *reversed(league.years)]:
+            sv = league.season_views.get(y)
+            if sv and tid in sv["teams"]:
+                return sv["teams"][tid]
+        return None
+
+    def draft_done(year: int) -> bool:
+        d = drafts.get(year)
+        if d is not None:
+            return d["complete"]
+        return year < cur["year"] or (year == cur["year"] and cur["state"] != "preseason")
+
+    def result(year: int, rnd: int, original: int, owner: int) -> dict:
+        res = picks.draft_result(drafts.get(year), rnd, original)
+        pick = res["pick"] if res else None
+        if pick and pick["team_id"] != owner:
+            log.warning("  Note: ESPN shows %s (%s round %s, originally team %s) made by team %s, but "
+                        "draft_picks.toml says team %s owns it.", res["slot"], year, rnd, original,
+                        pick["team_id"], owner)
+        return {"slot": res["slot"] if res else None,
+                "player": pick["player"] if pick else None,
+                "keeper": bool(pick and pick["keeper"]),
+                "used_by": team_at(pick["team_id"], year) if pick and pick["team_id"] != owner else None}
+
+    log_rows = []
+    for t in reversed(trades):
+        date_text = f"{t['date']:%b} {t['date'].day}, {t['date'].year}" if t["date"] else None
+        sides = []
+        for s in t["sides"]:
+            then, now = team_at(s["team"], t["season"]), team_at(s["team"], cur["year"])
+            sides.append({
+                "team": then, "now": now if now and then and now["name"] != then["name"] else None,
+                "players": s["players"],
+                "picks": [{"year": p["year"], "round_text": picks.ordinal(p["round"]),
+                           "original": team_at(p["from"], t["season"]), "own": p["from"] == p["given_by"],
+                           "done": draft_done(p["year"]),
+                           **result(p["year"], p["round"], p["from"], owners[(p["year"], p["round"], p["from"])])}
+                          for p in s["picks"]],
+            })
+        log_rows.append({"n": t["n"], "season": t["season"], "date_text": date_text, "note": t["note"],
+                         "season_text": f"{t['season']}–{str(t['season'] + 1)[-2:]} season", "sides": sides,
+                         "years": sorted({p["year"] for s in t["sides"] for p in s["picks"]})})
+
+    next_draft = cur["year"] + 1 if draft_done(cur["year"]) else cur["year"]
+    years = sorted({y for y, _, _ in owners} | {next_draft})
+    upcoming, past = [], []
+    for year in years:
+        moved = sorted(((rnd, frm, own) for (y, rnd, frm), own in owners.items() if y == year and own != frm))
+        if draft_done(year):
+            if not moved:
+                continue
+            rows = []
+            for rnd, frm, own in moved:
+                rows.append({"round": rnd, "round_text": picks.ordinal(rnd), "original": team_at(frm, year),
+                             "owner": team_at(own, year), "owner_id": own, "original_id": frm,
+                             **result(year, rnd, frm, own)})
+            rows.sort(key=lambda r: (r["round"], r["slot"] or ""))
+            past.append({"year": year, "rows": rows})
+        else:
+            teams = []
+            for tid, team in sorted(cur["teams"].items(), key=lambda kv: kv[1]["name"].lower()):
+                away = [{"round": r, "round_text": picks.ordinal(r), "team": team_at(o, year)}
+                        for r, f, o in moved if f == tid]
+                extra = [{"round": r, "round_text": picks.ordinal(r), "team": team_at(f, year)}
+                         for r, f, o in moved if o == tid]
+                teams.append({"team": team, "id": tid, "away": away, "extra": extra,
+                              "total": rounds - len(away) + len(extra) if rounds else None})
+            upcoming.append({"year": year, "teams": teams, "any": bool(moved)})
+    filter_years = sorted({u["year"] for u in upcoming} | {d["year"] for d in past}
+                          | {y for t in log_rows for y in t["years"]}, reverse=True)
+    return {"trades": log_rows, "upcoming": upcoming, "past": list(reversed(past)), "rounds": rounds,
+            "filter_years": filter_years, "default_year": next_draft,
+            "problems": problems, "sheet_url": sheet_url}
+
+
+def _team_picks(pick_view: dict | None, team: dict | None) -> dict | None:
+    """One team's slice of the Draft picks page, for its team page."""
+    if not pick_view or not team:
+        return None
+    tid = team["id"]
+    upcoming = [{"year": u["year"], **row} for u in pick_view["upcoming"] for row in u["teams"]
+                if row["id"] == tid and (row["away"] or row["extra"])]
+    past = []
+    for d in pick_view["past"]:
+        rows = [r for r in d["rows"] if tid in (r["owner_id"], r["original_id"])]
+        if rows:
+            past.append({"year": d["year"], "rows": rows})
+    if not upcoming and not past:
+        return None
+    return {"id": tid, "upcoming": upcoming, "past": past}
 
 
 def _unit_card(league: League, u: dict) -> dict:

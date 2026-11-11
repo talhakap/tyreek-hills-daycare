@@ -25,6 +25,20 @@ def test_every_page_exists(site):
     assert len(list((site / "teams").glob("*.html"))) == 5     # index + 4 managers (A2 merged into A)
 
 
+def test_draft_picks_page(site):
+    page = (site / "picks.html").read_text(encoding="utf-8")
+    text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))
+    assert "2026 draft" in text and "upcoming" in text
+    assert "Oct 14, 2025" in text and "Deadline deal" in text
+    assert 'href="picks.html"' in (site / "index.html").read_text(encoding="utf-8")   # in the menu
+    # Alpha's 1st went to Bravo, then on to Charlie (fixture draft_picks.toml).
+    rows = {m.group(1): re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(0)))
+            for m in re.finditer(r"<tr>\s*<td>.*?team-name\">([^<]+)<.*?</tr>", page, re.S)}
+    assert "1st from Alpha 25" in rows["Charlie 25"] and "3rd to Bravo 25" in rows["Charlie 25"]
+    assert "1st to Charlie 25" in rows["Alpha 25"]
+    assert "3rd from Charlie 25" in rows["Bravo 25"] and "1st" not in rows["Bravo 25"]
+
+
 def test_noindex_robots_and_cname(site):
     assert "Disallow: /" in (site / "robots.txt").read_text()
     assert (site / "CNAME").read_text().strip() == "fantasy.example.com"

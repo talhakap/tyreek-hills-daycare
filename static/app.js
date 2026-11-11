@@ -169,4 +169,34 @@
     rosterSelect.addEventListener("change", showYear);
     showYear();
   }
+
+  // ---- Draft picks: filter by draft year (remembered in the URL as #2027) ----
+  var picksFilter = document.querySelector("[data-picks-filter]");
+  if (picksFilter) {
+    var yearSelect = picksFilter.querySelector("select");
+    var sections = document.querySelectorAll("[data-pick-year]");
+    var cards = document.querySelectorAll("[data-pick-years]");
+    var count = document.querySelector("[data-trade-count]");
+    var none = document.querySelector("[data-no-trades]");
+    var valid = Array.prototype.map.call(yearSelect.options, function (o) { return o.value; });
+    function applyYear() {
+      var y = yearSelect.value, shown = 0;
+      sections.forEach(function (s) { s.hidden = s.getAttribute("data-pick-year") !== y; });
+      cards.forEach(function (c) {
+        c.hidden = c.getAttribute("data-pick-years").split(" ").indexOf(y) < 0;
+        if (!c.hidden) shown++;
+      });
+      if (count) count.textContent = shown;
+      if (none) none.hidden = shown > 0;
+    }
+    var fromHash = location.hash.slice(1);
+    var start = valid.indexOf(fromHash) >= 0 ? fromHash : picksFilter.getAttribute("data-default");
+    yearSelect.value = valid.indexOf(start) >= 0 ? start : valid[0];
+    yearSelect.addEventListener("change", function () {
+      history.replaceState(null, "", "#" + yearSelect.value);
+      applyYear();
+    });
+    picksFilter.hidden = false;
+    applyYear();
+  }
 })();

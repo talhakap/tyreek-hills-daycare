@@ -6,6 +6,7 @@ site/
 
 # Current season is refetched every build
 data/current.json
+data/pick_trades.csv
 
 # Python
 __pycache__/

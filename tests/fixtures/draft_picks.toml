@@ -1,0 +1,22 @@
+# Fake pick trades for the offline preview and tests (fixture teams 1-4).
+
+[[trade]]
+season = 2025
+date = 2025-10-14
+note = "Deadline deal"
+[[trade.side]]
+team = 1
+players = ["Fake Player"]
+[[trade.side]]
+team = 2
+picks = [{ year = 2026, round = 1, from = 1 }]
+
+# Team 2 flips that pick on to team 3.
+[[trade]]
+season = 2025
+[[trade.side]]
+team = 2
+picks = [{ year = 2026, round = 3, from = 3 }]
+[[trade.side]]
+team = 3
+picks = [{ year = 2026, round = 1, from = 1 }]

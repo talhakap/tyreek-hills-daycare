@@ -39,6 +39,30 @@
 </div>
 {% endif %}
 
+{% if team_picks %}
+<h2 id="picks">Draft picks</h2>
+{% for u in team_picks.upcoming %}
+<p class="roster-caption"><strong>{{ u.year }} draft</strong>{% if u.total %} · {{ u.total }} picks{% endif %}</p>
+<ul class="tx-items picks-list">
+  {% for i in u.extra %}<li>Has {{ i.team.name }}'s {{ i.round_text }}</li>{% endfor %}
+  {% for i in u.away %}<li>Traded its {{ i.round_text }} to {{ i.team.name }}</li>{% endfor %}
+</ul>
+{% endfor %}
+{% for d in team_picks.past %}
+<p class="roster-caption"><strong>{{ d.year }} draft</strong></p>
+<ul class="tx-items picks-list">
+  {% for r in d.rows %}
+  {% if r.owner_id == team_picks.id %}
+  <li>{{ r.slot or r.round_text }}{% if r.player %} {{ r.player }}{% endif %} <span class="muted">(pick from {{ r.original.name }})</span></li>
+  {% else %}
+  <li>Traded its {{ r.round_text }} to {{ r.owner.name }}{% if r.player %} <span class="muted">({{ r.slot }} {{ r.player }})</span>{% endif %}</li>
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
+<p class="note"><a href="{{ root }}picks.html">All traded picks →</a></p>
+{% endif %}
+
 {% if roster_years %}
 <h2 id="rosters">Rosters</h2>
 <div class="roster-picker">

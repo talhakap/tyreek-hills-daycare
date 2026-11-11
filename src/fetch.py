@@ -8,6 +8,7 @@ lineups, and (current season only) 1 for player names + 1 per 100 transactions.
 """
 import json
 import logging
+import re
 import time
 from pathlib import Path
 
@@ -20,7 +21,7 @@ from espn_api.football.team import Team
 from espn_api.requests.espn_requests import ESPNAccessDenied, ESPNInvalidLeague, ESPNUnknownError
 
 from . import normalize
-from .config import CURRENT_FILE, SEASONS_DIR, load_credentials
+from .config import CURRENT_FILE, PICK_SHEET_FILE, SEASONS_DIR, load_credentials
 
 log = logging.getLogger("league")
 
@@ -155,6 +156,25 @@ def _fetch_transactions(league, year: int) -> list | None:
         return None
 
 
+def _fetch_draft(league, year: int) -> dict | None:
+    """The draft board (who picked whom in each slot) and the original pick order.
+
+    Used by the Draft picks page to show what each traded pick became. Optional:
+    a problem here hides that detail but never fails the build.
+    """
+    try:
+        data = _with_retries(f"load the {year} draft",
+                             lambda: league.espn_request.league_get(params={"view": ["mDraftDetail", "mSettings"]}))
+        if not getattr(league, "player_map", None):
+            _with_retries("load player names", league._fetch_players)
+        return normalize.normalize_draft(data, league.player_map)
+    except FetchError:
+        raise
+    except Exception as e:
+        log.warning("  Warning: couldn't read the %s draft (%s: %s).", year, type(e).__name__, e)
+        return None
+
+
 def fetch_season(cfg: dict, year: int, s2, swid, is_current: bool) -> dict:
     league = League(cfg["league"]["id"], year, espn_s2=s2, swid=swid, fetch_league=False)
     raw = _with_retries(f"load the {year} season",
@@ -174,13 +194,14 @@ def fetch_season(cfg: dict, year: int, s2, swid, is_current: bool) -> dict:
     in_progress = any(not m["final"] and not m["is_bye"] for m in matchups)
     lineups, live = _fetch_lineups(league, raw, matchups, year, in_progress)
     _apply_live_scores(raw, live)
-    rosters = transactions = None
+    rosters = transactions = draft = None
     if is_current:
         rosters = {str(t.team_id): normalize.normalize_roster(t) for t in league.teams}
         transactions = _fetch_transactions(league, year)
+        draft = _fetch_draft(league, year)
 
     return normalize.build_season(year=year, settings_obj=league.settings, raw=raw, teams=league.teams,
-                                  lineups=lineups, transactions=transactions, rosters=rosters)
+                                  lineups=lineups, transactions=transactions, rosters=rosters, draft=draft)
 
 
 def _summary(season: dict) -> str:
@@ -241,6 +262,52 @@ def fetch_all(cfg: dict, only_season: int | None = None, force: bool = False) ->
         if not is_current or season["status"]["state"] == "complete":
             _write_json(cached, season)
             log.info("  Cached to data/seasons/%s.json", year)
+
+    fetch_pick_sheet(cfg)
+
+
+SHEET_HELP = (
+    "Couldn't read the pick trades Google Sheet ({why}).\n"
+    "In the sheet, click Share and set General access to \"Anyone with the link\" (Viewer),\n"
+    "and check [picks] sheet_url in config.toml is the sheet's normal link."
+)
+
+
+def sheet_csv_url(url: str) -> str:
+    """The CSV download link for a normal Google Sheets link (keeps the tab, if the link has one)."""
+    m = re.search(r"/spreadsheets/d/([A-Za-z0-9_-]+)", url or "")
+    if not m:
+        raise FetchError("[picks] sheet_url in config.toml doesn't look like a Google Sheets link.")
+    gid = re.search(r"[#&?]gid=(\d+)", url)
+    return (f"https://docs.google.com/spreadsheets/d/{m.group(1)}/export?format=csv"
+            + (f"&gid={gid.group(1)}" if gid else ""))
+
+
+def fetch_pick_sheet(cfg: dict) -> None:
+    """Downloads the trades sheet to data/pick_trades.csv. Stops the run if it can't, so the
+    live site keeps its last good version instead of losing the Draft picks page."""
+    url = (cfg.get("picks", {}).get("sheet_url") or "").strip()
+    if not url:
+        return
+    log.info("Fetching the pick trades sheet…")
+    csv_url = sheet_csv_url(url)
+    last = None
+    for attempt in range(1, 4):
+        try:
+            r = requests.get(csv_url, timeout=30)
+            text = r.content.decode("utf-8-sig")
+            if r.status_code == 200 and not text.lstrip().lower().startswith(("<!doctype", "<html")):
+                PICK_SHEET_FILE.write_text(text, encoding="utf-8")
+                log.info("  %s rows", max(text.count("\n"), 1))
+                return
+            last = "it isn't shared for viewing" if r.status_code in (200, 401, 403) else f"HTTP {r.status_code}"
+            if r.status_code in (200, 401, 403, 404):
+                break
+        except requests.RequestException as e:
+            last = type(e).__name__
+        if attempt < 3:
+            time.sleep(2 ** attempt)
+    raise FetchError(SHEET_HELP.format(why=last))
 
 
 def _log_managers(season: dict) -> None:

@@ -21,6 +21,7 @@
               ("teams", "Teams", "teams/index.html"), ("history", "History", "history.html"),
               ("h2h", "Head-to-head", "h2h.html"), ("records", "Records", "records.html")] %}
 {% if show_transactions %}{% set nav = nav + [("transactions", "Transactions", "transactions.html")] %}{% endif %}
+{% if show_picks %}{% set nav = nav + [("picks", "Draft picks", "picks.html")] %}{% endif %}
 <header class="site-header">
   <div class="wrap header-bar">
     <a class="brand" href="{{ root }}index.html"><span class="brand-ball" aria-hidden="true">🏈</span><span class="brand-name">{{ league_name }}</span></a>

@@ -247,7 +247,34 @@ def compute_status(matchups: list, teams: list, settings: dict, current_matchup_
     return {"state": "in_progress", "current_week": week}
 
 
-def build_season(*, year, settings_obj, raw, teams, lineups, transactions, rosters) -> dict:
+def normalize_draft(data: dict, player_map: dict) -> dict | None:
+    """Draft board from the mDraftDetail + mSettings views.
+
+    Keeps only slot, team and player; ESPN's memberId (a raw SWID) is never stored.
+    """
+    detail = data.get("draftDetail") or {}
+    ds = (data.get("settings") or {}).get("draftSettings") or {}
+    raw_picks = detail.get("picks") or []
+    if not raw_picks and not ds.get("pickOrder"):
+        return None
+    picks = [{
+        "round": p["roundId"],
+        "pick": p["roundPickNumber"],
+        "overall": p.get("overallPickNumber"),
+        "team_id": p.get("teamId"),
+        "player": clean_name(player_map.get(p.get("playerId"), "Unknown player")) if p.get("playerId") else None,
+        "keeper": bool(p.get("keeper")),
+    } for p in raw_picks if p.get("roundId") and p.get("roundPickNumber")]
+    return {
+        "type": ds.get("type") or "SNAKE",
+        "pick_order": list(ds.get("pickOrder") or []),
+        "complete": bool(detail.get("drafted")),
+        "rounds": max((p["round"] for p in picks), default=None),
+        "picks": sorted(picks, key=lambda p: (p["round"], p["pick"])),
+    }
+
+
+def build_season(*, year, settings_obj, raw, teams, lineups, transactions, rosters, draft=None) -> dict:
     settings = normalize_settings(settings_obj, raw.get("settings", {}))
     raw_teams = {t["id"]: t for t in raw.get("teams", [])}
     norm_teams = [normalize_team(t, raw_teams.get(t.team_id)) for t in teams]
@@ -267,4 +294,5 @@ def build_season(*, year, settings_obj, raw, teams, lineups, transactions, roste
         "lineups": lineups,
         "rosters": rosters,
         "transactions": transactions,
+        "draft": draft,
     }

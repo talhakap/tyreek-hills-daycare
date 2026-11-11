@@ -29,6 +29,13 @@ points_for_weight = 0.35
 recent_form_weight = 0.25
 recent_form_weeks = 3
 
+# Traded draft picks are logged in a shared Google Sheet (README: "Logging traded draft picks").
+# Paste the sheet's normal link here. Its sharing must be "Anyone with the link: Viewer" so
+# the site can read it; only people you add as editors can change it.
+# Leave "" to use data/draft_picks.toml instead.
+[picks]
+sheet_url = "https://docs.google.com/spreadsheets/d/1rO1M3gcxyONofya-22ujY3cV-U7MOZwbMLYcsHT9NWw/edit"
+
 # Written recaps.
 [recaps]
 # If recaps/{season}-week{N}.md exists:
