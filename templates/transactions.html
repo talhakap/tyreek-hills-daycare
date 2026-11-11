@@ -16,6 +16,19 @@
 {%- endmacro %}
 {% block content %}
 <h1>Transactions <span class="h-sub">{{ season }}</span></h1>
+
+{% if seasons|length > 1 %}
+<nav class="pills" aria-label="Seasons">
+  {% for s in seasons %}
+  <a href="{{ root }}{{ s.href }}"{% if s.year == season %} aria-current="page"{% endif %}>{{ s.year }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% if partial_trades %}
+<p class="note">Adds, drops and waiver claims are complete. ESPN only keeps a few of the trades from past seasons, so most {{ season }} trades are missing here{% if show_picks %}; trades involving draft picks are on the <a href="{{ root }}picks.html">Draft picks</a> page{% endif %}.</p>
+{% endif %}
+
 {% if trades %}
 <h2>Trades</h2>
 <ol class="tx-list">{% for t in trades %}{{ tx(t) }}{% endfor %}</ol>

@@ -320,7 +320,6 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
             shutil.copy2(f, out_dir / "static" / f.name)
 
     updated_text, updated_iso = to_local(cur["fetched_at"], tz)
-    transactions = cur["raw"].get("transactions") or []
     pick_view = _picks_view(league, cfg, offline)
     league_id = cfg["league"]["id"]
     colors = {"primary": "#202123", "secondary": "#B0A381", "secondary_text": "#7A6B44", "cream": "#EEE6C1",
@@ -330,7 +329,8 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
         "noindex": cfg["site"].get("hide_from_search_engines", True),
         "updated_text": updated_text, "updated_iso": updated_iso, "timezone": tz,
         "espn_url": f"https://fantasy.espn.com/football/league?leagueId={league_id}",
-        "show_transactions": bool(transactions), "show_picks": bool(pick_view), "offline": offline,
+        "show_transactions": any(s.get("transactions") for s in league.seasons.values()),
+        "show_picks": bool(pick_view), "offline": offline,
         # Changes whenever style.css/app.js change, so browsers never mix new pages with old CSS.
         "asset_version": _asset_version(),
     }
@@ -413,17 +413,22 @@ def build_site(cfg: dict, offline: bool = False, out_dir: Path = SITE_DIR) -> No
     render("records.html", "records.html", "records", "Records", rec=_records_view(league),
            current_year=cur["year"])
 
-    # Transactions
-    if transactions:
-        teams = cur["teams"]
+    # Transactions: one page per season (current season at transactions.html)
+    tx_years = [y for y in reversed(league.years) if league.seasons[y].get("transactions")]
+    tx_links = [{"year": y, "href": "transactions.html" if y == cur["year"] else f"transactions-{y}.html"}
+                for y in tx_years]
+    for y in tx_years:
+        teams = league.season_views[y]["teams"]
         items = []
-        for t in transactions:
+        for t in league.seasons[y]["transactions"]:
             items.append({**t, "date_text": fmt_date(t["date"], tz),
                           "rows": [{**i, "team": teams.get(i["team_id"])} for i in t["items"]]})
         trades = [t for t in items if t["type"] == "trade"]
         moves = [t for t in items if t["type"] != "trade"]
-        render("transactions.html", "transactions.html", "transactions", "Transactions",
-               trades=trades, moves=moves, season=cur["year"])
+        link = next(l for l in tx_links if l["year"] == y)
+        render("transactions.html", link["href"], "transactions", f"{y} transactions",
+               trades=trades, moves=moves, season=y, seasons=tx_links,
+               partial_trades=y != cur["year"])
 
     # Draft picks
     if pick_view:

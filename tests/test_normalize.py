@@ -102,3 +102,35 @@ def test_live_scores_fill_unfinished_games_only():
     live, final = normalize.normalize_matchups(raw["schedule"])
     assert (live["home_score"], live["away_score"], live["final"]) == (38.9, 0.0, False)
     assert (final["home_score"], final["away_score"]) == (110.0, 90.0)     # final games keep ESPN's totals
+
+
+def test_past_season_transactions_from_mtransactions2():
+    from src.normalize import normalize_transactions2
+    players = {1: "Adder", 2: "Dropper", 3: "Claimed", 4: "Traded A", 5: "Traded B"}
+    raw = [
+        {"id": "fa", "type": "FREEAGENT", "status": "EXECUTED", "processDate": 1_700_000_000_000, "memberId": "{SECRET}",
+         "items": [{"type": "ADD", "playerId": 1, "toTeamId": 3, "fromTeamId": 0},
+                   {"type": "DROP", "playerId": 2, "fromTeamId": 3, "toTeamId": 0}]},
+        {"id": "wv", "type": "WAIVER", "status": "EXECUTED", "bidAmount": 12, "processDate": 1_700_000_100_000,
+         "items": [{"type": "ADD", "playerId": 3, "toTeamId": 4}]},
+        {"id": "wv2", "type": "WAIVER", "status": "FAILED_INVALIDPLAYERSOURCE", "items": [{"type": "ADD", "playerId": 3}]},
+        {"id": "lu", "type": "ROSTER", "status": "EXECUTED", "items": [{"type": "LINEUP", "playerId": 1}]},
+        # A finished trade: the accept points at the proposal that holds the players.
+        {"id": "prop", "type": "TRADE_PROPOSAL", "status": "PENDING", "proposedDate": 1_700_000_200_000,
+         "items": [{"type": "TRADE", "playerId": 4, "fromTeamId": 3, "toTeamId": 4},
+                   {"type": "TRADE", "playerId": 5, "fromTeamId": 4, "toTeamId": 3}]},
+        {"id": "acc", "type": "TRADE_ACCEPT", "status": "EXECUTED", "relatedTransactionId": "prop",
+         "processDate": 1_700_000_300_000},
+        # Votes and unaccepted proposals aren't trades.
+        {"id": "vote", "type": "TRADE_UPHOLD", "status": "EXECUTED", "relatedTransactionId": "prop"},
+        {"id": "open", "type": "TRADE_PROPOSAL", "status": "PENDING",
+         "items": [{"type": "TRADE", "playerId": 1, "fromTeamId": 3, "toTeamId": 4}]},
+    ]
+    out = normalize_transactions2(raw, players)
+    assert [t["type"] for t in out] == ["trade", "add", "add"]          # newest first
+    trade = out[0]
+    assert ({"team_id": 4, "action": "TRADE_RECEIVED", "player": "Traded A", "bid": None} in trade["items"]
+            and {"team_id": 3, "action": "TRADE_RECEIVED", "player": "Traded B", "bid": None} in trade["items"])
+    assert out[1]["items"] == [{"team_id": 4, "action": "WAIVER ADDED", "player": "Claimed", "bid": 12}]
+    assert [i["action"] for i in out[2]["items"]] == ["FA ADDED", "DROPPED"]
+    assert "SECRET" not in repr(out)

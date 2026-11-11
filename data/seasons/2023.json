@@ -47132,5 +47132,6214 @@
   }
  ],
  "rosters": null,
- "transactions": null
+ "transactions": [
+  {
+   "date": "2023-12-30T16:46:33.774000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Zamir White",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-30T16:08:18.880000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Tom Brady",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-28T20:15:08.066000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Jake Browning",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-27T18:30:30.735000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Chargers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-27T09:34:25.970000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Rams D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Texans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-27T09:34:25.969000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Jason Sanders",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jake Browning",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-24T17:40:51.644000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Bears D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Marquise Brown",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-23T23:56:58.346000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Texans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-23T23:52:15.873000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Commanders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-21T20:43:34.996000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-21T20:43:18.837000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Clyde Edwards-Helaire",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-21T20:43:07.574000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Baker Mayfield",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-21T18:05:12.054000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Ka'imi Fairbairn",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-20T14:01:25.053000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Commanders D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Rams D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-20T09:19:32.314000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jahan Dotson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-20T09:19:32.312000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "WAIVER ADDED",
+     "player": "Broncos D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-20T01:42:56.625000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "DeMario Douglas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-19T17:59:49.389000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Odell Beckham Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-17T22:45:56.097000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Zay Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-17T03:15:00.648000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Eagles D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-16T21:02:29.373000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Russell Wilson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-13T18:37:59.349000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Raiders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-13T15:32:40.037000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Jake Browning",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-13T13:19:02.234000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Rams D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Texans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-13T13:18:29.290000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Odell Beckham Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-13T13:18:05.171000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Zay Jones",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-13T03:46:20.980000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Tyler Allgeier",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-12T21:12:48.344000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Joshua Palmer",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-12T18:31:13.373000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Brevin Jordan",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-12T18:30:55.379000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-12T03:36:20.969000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Kyler Murray",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Rondale Moore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-09T06:57:38.886000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Russell Wilson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-09T03:45:22.162000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Clyde Edwards-Helaire",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-09T01:52:29.127000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Brevin Jordan",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Josh Downs",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-08T22:55:38.249000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Colts D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Khalil Herbert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-07T11:53:33.534000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Matthew Stafford",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-07T08:46:18.365000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Justin Fields",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-07T07:13:59.787000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Vikings D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Samaje Perine",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-07T07:03:29.905000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T19:52:41.354000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Tyjae Spears",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T19:52:17.561000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Rashid Shaheed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T19:07:25.486000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T16:36:39.987000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Alexander Mattison",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Miles Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T16:33:41.097000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Colts D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T10:04:29.028000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Russell Wilson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-06T08:00:45.956000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T19:08:06.651000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T19:08:02.609000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Rams D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T19:07:57.045000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Justin Fields",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T18:27:59.753000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jake Moody",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T18:27:52.374000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Baker Mayfield",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T13:53:05.024000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T13:33:04.919000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Kyler Murray",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-05T13:31:59.210000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-03T04:08:20.110000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Amari Cooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-01T05:55:12.037000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Samaje Perine",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-01T05:51:17.074000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jayden Reed",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Kyle Pitts",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-12-01T05:15:53.663000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Texans D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Amari Cooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-30T22:45:16.827000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Cade Otton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-30T02:50:54.259000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Jake Moody",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jayden Reed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-30T02:48:46.202000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Miles Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T18:07:29.879000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Jayden Reed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T17:22:59.356000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Colts D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T16:31:00.569000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Rams D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T16:26:06.317000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jordan Love",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Alexander Mattison",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T13:07:36.040000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T13:07:13.257000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T12:18:37.460000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jets D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T12:18:05.173000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T12:16:13.010000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T11:56:11.542000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T08:14:02.934000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T08:14:02.933000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T08:14:02.932000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Baker Mayfield",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Joshua Dobbs",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T08:14:02.931000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Pat Freiermuth",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Seahawks D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-29T05:13:43.840000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Patriots D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-28T20:47:01.194000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Emari Demercado",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-28T17:59:09.587000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-28T17:37:49.303000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Lions D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-28T15:56:56.801000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Riley Patterson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-23T06:19:27.234000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Ezekiel Elliott",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jaleel McLaughlin",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-23T06:17:12.569000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-23T03:38:58.229000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Tyjae Spears",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-23T03:35:54.035000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Zay Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-22T15:34:42.850000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Commanders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-22T11:54:13.479000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Jets D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-22T11:14:19.653000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Darrell Henderson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-22T09:23:08.316000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Tutu Atwell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-22T09:23:08.315000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Isaiah Likely",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-22T07:37:20.860000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Evan McPherson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-21T18:37:00.614000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Antonio Gibson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-21T18:05:48.686000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Matt Prater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-21T11:38:49.456000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Chargers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-19T17:30:21.992000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-19T10:36:57.870000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Tyjae Spears",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-18T21:18:06.122000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Patriots D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-17T15:55:31.338000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Brock Purdy",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-17T03:51:37.363000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Roschon Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-16T00:33:50.307000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Chargers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Brock Purdy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T15:46:46.531000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Matt Prater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T13:31:59.169000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T12:07:19.973000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Rondale Moore",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Khalil Shakir",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T11:56:47.244000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Evan McPherson",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Jerry Jeudy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T09:46:15.673000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Antonio Gibson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T09:46:15.655000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T09:46:15.655000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Noah Brown",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Cade Otton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T09:46:15.653000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "WAIVER ADDED",
+     "player": "Ty Chandler",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Ezekiel Elliott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T09:46:15.653000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Brandon McManus",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Blake Grupe",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T04:53:12.883000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Bears D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-15T04:36:54.839000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Colts D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-14T18:31:02.052000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Curtis Samuel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-14T17:46:35.494000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Baker Mayfield",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-14T17:01:44.622000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-12T17:32:24.029000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Raiders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-11T18:03:40.317000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Irv Smith Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-11T18:03:34.284000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Cade Otton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-11T17:29:34.503000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Nick Folk",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Gerald Everett",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-10T13:05:16.515000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Leonard Fournette",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-10T06:48:02.479000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Khalil Shakir",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Tutu Atwell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-09T23:14:31.229000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "D'Onta Foreman",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Romeo Doubs",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-09T23:02:34.320000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Irv Smith Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Cade Otton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-09T21:29:55.054000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Tyler Boyd",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T19:40:41.360000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jaleel McLaughlin",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T19:40:01.438000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Younghoe Koo",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Evan McPherson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T19:36:01.132000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Baker Mayfield",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T18:18:43.038000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T18:18:14.314000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Riley Patterson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T17:26:25.834000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Brock Purdy",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Derek Carr",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T14:25:20.495000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Commanders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T11:55:27.840000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Bears D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Patriots D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T08:14:07.997000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "DeMario Douglas",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Royce Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T08:14:07.996000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Joshua Dobbs",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Tyjae Spears",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T08:14:07.996000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Colts D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T08:14:07.995000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Cade Otton",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-08T08:14:07.994000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Keaton Mitchell",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T18:55:39.712000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Chargers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T12:47:45.359000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Cam Akers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T12:20:25.105000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T12:20:02.463000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Justice Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T12:19:49.227000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Keaontay Ingram",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T12:09:16.432000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T11:45:16.417000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "K.J. Osborn",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-07T04:38:16.096000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Jerry Jeudy",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Brock Purdy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-05T03:09:47.295000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Derek Carr",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-05T02:36:31.695000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "K.J. Osborn",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "DeMario Douglas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-05T01:49:18.736000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Keaontay Ingram",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Josh Reynolds",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-05T01:31:42.504000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Devin Singletary",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-05T01:29:49.617000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-03T16:20:58.341000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-03T02:16:38.291000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Jordan Mason",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-03T01:34:35.727000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Leonard Fournette",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-02T05:20:40.119000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Lions D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-02T02:24:22.616000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Ezekiel Elliott",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Kenneth Gainwell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T21:14:13.677000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Gerald Everett",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Kirk Cousins",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T20:52:28.457000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Jake Ferguson",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Jerry Jeudy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T17:55:15.009000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "DeMario Douglas",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Jonnu Smith",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T17:36:17.050000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Patriots D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Matthew Stafford",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.223000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Matt Gay",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Ka'imi Fairbairn",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.222000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.221000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Taysom Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.220000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Chargers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jaleel McLaughlin",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.219000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.219000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.218000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Sam Howell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.193000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Dak Prescott",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.192000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "WAIVER ADDED",
+     "player": "David Njoku",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Craig Reynolds",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T08:24:09.191000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Trey McBride",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-11-01T05:01:49.772000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "D'Onta Foreman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-31T18:17:10.609000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Devin Singletary",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-31T17:50:59.607000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Kendrick Bourne",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-31T17:19:38.991000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Elijah Mitchell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-31T13:37:44.298000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-29T03:09:58.926000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Justice Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-28T01:01:56.641000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Cameron Dicker",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Daniel Carlson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-27T03:53:40.325000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Vikings D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Jake Moody",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-27T03:27:08.866000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Kenneth Gainwell",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Zach Evans",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-26T21:37:43.267000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Geno Smith",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T20:58:33.033000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Wan'Dale Robinson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T18:39:31.650000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Tyler Allgeier",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T18:38:53.734000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T17:29:52.851000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Royce Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T10:13:03.686000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Brandon Aubrey",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "K.J. Osborn",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.007000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Jared Goff",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.005000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Cam Akers",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Elijah Moore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.004000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.004000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Kendrick Bourne",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "DJ Chark Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.003000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Blake Grupe",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Brett Maher",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.002000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Devin Singletary",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T08:36:27.002000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Dalton Kincaid",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-25T07:03:08.799000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-24T19:19:44.218000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Commanders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-24T17:20:59.017000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Brandon McManus",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-24T17:20:42.599000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Luke Musgrave",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-24T16:45:37.422000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Anders Carlson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-24T16:45:15.176000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jamaal Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-24T15:13:04.595000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-22T14:52:15.011000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Darrell Henderson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-22T07:55:46.295000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-22T02:35:55.593000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Pat Freiermuth",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-21T07:43:08.712000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Najee Harris",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-21T03:16:13.269000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Luke Musgrave",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-20T10:34:21.931000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T22:45:08.629000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T21:10:40.609000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Seahawks D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Tyler Boyd",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T21:09:49.729000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Geno Smith",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Najee Harris",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T18:38:11.920000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Rondale Moore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T18:37:12.104000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Jahan Dotson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T18:25:01.394000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Craig Reynolds",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Tyler Higbee",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T18:15:12.886000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Devin Singletary",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T18:14:30.963000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Devin Singletary",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-19T18:12:39.101000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Cam Akers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T21:43:20.501000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Wan'Dale Robinson",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Julio Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T21:22:11.651000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Julio Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T17:10:18.103000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Anders Carlson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T17:09:31.786000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T17:09:20.791000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Kyler Murray",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T14:16:56.443000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Dustin Hopkins",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T14:15:02.951000+00:00",
+   "type": "trade",
+   "team_ids": [
+    4,
+    9
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "TRADE_SENT",
+     "player": "Justin Jefferson",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "TRADE_RECEIVED",
+     "player": "Justin Jefferson",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "TRADE_SENT",
+     "player": "Amari Cooper",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "TRADE_RECEIVED",
+     "player": "Amari Cooper",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "TRADE_SENT",
+     "player": "Alexander Mattison",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "TRADE_RECEIVED",
+     "player": "Alexander Mattison",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T12:55:44.398000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T11:54:51.045000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Brandon McManus",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T11:16:08.005000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Jonnu Smith",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T11:14:03.602000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Commanders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.756000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Romeo Doubs",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.594000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Jets D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Michael Wilson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.594000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Rashid Shaheed",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jahan Dotson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.591000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "AJ Dillon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.589000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Chuba Hubbard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.510000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Raiders D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Texans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.509000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Jordan Mason",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Keaontay Ingram",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.509000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Kareem Hunt",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T10:37:03.508000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "WAIVER ADDED",
+     "player": "Zach Evans",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T02:17:00.581000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Lions D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-18T02:15:52.973000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Jake Ferguson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T22:37:56.475000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Hunter Henry",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T20:47:56.329000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Anthony Richardson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T20:45:19.818000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T20:45:12.598000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Seahawks D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T14:55:51.212000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Tyler Allgeier",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T12:13:19.294000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Brandon Aubrey",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T12:07:00.272000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Justice Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T12:04:05.448000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Matt Breida",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-17T12:02:31.440000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-16T21:19:47.572000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-16T21:19:26.886000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Romeo Doubs",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-15T13:49:04.905000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Matt Breida",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Chuba Hubbard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-14T21:44:14.768000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jameson Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-14T21:42:48.394000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Rondale Moore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-14T21:20:06.303000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Dalvin Cook",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-14T21:19:37.029000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "DJ Chark Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-14T04:08:30.936000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-14T03:31:44.680000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "D'Onta Foreman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-13T15:54:17.258000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Chuba Hubbard",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Matt Breida",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-12T16:54:31.575000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "AJ Dillon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-12T15:54:46.187000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Bengals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-12T08:30:05.267000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jets D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-12T01:22:59.488000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Curtis Samuel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T18:32:33.186000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T18:28:37.171000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Vikings D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Colts D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T18:28:12.311000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Zach Ertz",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Jordan Love",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T18:26:45.284000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Keaontay Ingram",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T10:38:17.619000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Matthew Stafford",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T08:14:26.453000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Josh Downs",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T08:14:26.451000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Dalton Schultz",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Dalton Kincaid",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T08:14:26.420000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T08:14:26.363000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "K.J. Osborn",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T08:14:26.362000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-11T08:14:26.361000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Emari Demercado",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-10T19:26:36.941000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Daniel Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-10T16:38:11.348000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-10T15:49:35.157000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Robert Woods",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-10T11:41:08.687000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Commanders D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-09T20:03:27.227000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "AJ Dillon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-09T20:03:19.563000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Kareem Hunt",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-08T20:12:54.321000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-08T16:15:11.349000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Rashee Rice",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-05T22:10:03.391000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Robert Woods",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Ezekiel Elliott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-05T20:07:20.426000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Darnell Mooney",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-05T13:35:06.655000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Jordan Love",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Joshua Dobbs",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T23:49:12.253000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jaleel McLaughlin",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "JuJu Smith-Schuster",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T20:58:29.012000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Tyjae Spears",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T18:28:54.689000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Texans D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Kendrick Bourne",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T16:07:25.472000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Jets D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Samaje Perine",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T14:06:37.672000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Colts D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Joshua Kelley",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T14:05:24.111000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Joshua Dobbs",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T13:56:39.474000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T07:37:07.347000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Brett Maher",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T07:37:07.347000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Ka'imi Fairbairn",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Younghoe Koo",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T07:37:07.346000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Lions D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "DJ Chark Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T07:37:07.346000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Michael Wilson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-04T07:37:07.335000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Jameson Williams",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Kenneth Gainwell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-03T13:13:35.331000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Quentin Johnston",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-10-01T16:05:28.172000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Ezekiel Elliott",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Skyy Moore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-28T17:40:05.461000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Rashod Bateman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T18:04:05.736000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "C.J. Stroud",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T15:14:05.545000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Quentin Johnston",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "AJ Dillon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T11:08:54.892000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Seahawks D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T11:08:48.362000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Romeo Doubs",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Rashid Shaheed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T10:58:36.331000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Bengals D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Patriots D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T07:42:20.080000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T07:42:20.079000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Joshua Palmer",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T07:42:20.050000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Adam Thielen",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T07:42:20.049000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Brock Purdy",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Odell Beckham Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-27T07:42:20.048000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "De'Von Achane",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Mike Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-26T12:22:47.423000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-26T12:22:29.133000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jets D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-26T12:21:56.333000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Craig Reynolds",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-23T13:45:21.948000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Craig Reynolds",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-23T13:01:03.383000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Dak Prescott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-21T16:41:02.908000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Rashid Shaheed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T19:55:26.113000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T14:41:55.515000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Brandon Aubrey",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jason Myers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T13:41:46.635000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Deon Jackson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T12:54:17.030000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Patriots D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Broncos D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T10:47:20.310000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.961000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Matt Breida",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "David Njoku",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.960000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Jake Ferguson",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Ezekiel Elliott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.960000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Tank Dell",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Rondale Moore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.959000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.958000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Sam LaPorta",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.957000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "WAIVER ADDED",
+     "player": "Josh Reynolds",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Rashaad Penny",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.956000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Kirk Cousins",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-20T07:08:50.955000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Jerome Ford",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Antonio Gibson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-19T20:17:02.974000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Nick Chubb",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-19T15:35:05.762000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Quentin Johnston",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-19T15:35:01.850000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-15T19:46:11.451000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Hunter Henry",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "De'Von Achane",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-15T07:52:03.966000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Gabe Davis",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Adam Thielen",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-14T14:51:04.030000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Zack Moss",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-14T03:08:22.630000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Allen Lazard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T22:10:33.240000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Hunter Renfrow",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T17:12:00.369000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Tutu Atwell",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Marquez Valdes-Scantling",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T17:08:55.752000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Justice Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T17:08:45.854000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T14:42:58.788000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Roschon Johnson",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Tank Bigsby",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T13:14:09.546000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Zay Jones",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jameson Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T13:05:50.252000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Kenneth Gainwell",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Devin Singletary",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T13:03:07.496000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jake Moody",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Greg Zuerlein",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T13:01:49.358000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Kareem Hunt",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Gabe Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T10:20:21.250000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Broncos D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.199000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.198000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Browns D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.196000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Kendrick Bourne",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Treylon Burks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.193000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Giants D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Van Jefferson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.137000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Puka Nacua",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Sam LaPorta",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.136000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Kyren Williams",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "J.K. Dobbins",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-13T07:47:09.135000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Tua Tagovailoa",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Marvin Mims Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-12T07:13:47.094000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Graham Gano",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-06T22:24:52.690000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Van Jefferson",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Noah Gray",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-06T21:23:25.085000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Anthony Richardson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-06T04:32:50.895000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Sam LaPorta",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-06T04:32:40.356000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Roschon Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-05T19:52:43.193000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Noah Gray",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Patriots D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-05T16:05:11.078000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Jaguars D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Browns D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-05T15:03:23.681000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Commanders D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Kadarius Toney",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2023-09-05T07:02:12.868000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Ravens D/ST",
+     "bid": null
+    }
+   ]
+  }
+ ]
 }

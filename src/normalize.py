@@ -233,6 +233,67 @@ def normalize_activity(activity, player_map: dict) -> dict | None:
     }
 
 
+def normalize_transactions2(raw: list, player_map: dict) -> list:
+    """Transactions from the mTransactions2 view (works for every season back to 2018, unlike
+    the activity feed), in the same shape as normalize_activity. Newest first.
+
+    Adds, drops and waiver claims here are complete. Trades are not: ESPN keeps few finished
+    trades in past seasons, and TRADE_UPHOLD / TRADE_VETO rows are individual league votes,
+    not outcomes. So a trade is only included when a TRADE_ACCEPT is EXECUTED; its players
+    come from that row or the proposal it points to. Lineup moves, draft picks, failed or
+    cancelled claims and memberIds (raw SWIDs) are left out.
+    """
+    by_id = {t["id"]: t for t in raw if t.get("id")}
+
+    def name(pid):
+        return clean_name(player_map.get(pid) or "Unknown player")
+
+    def when(t):
+        ms = t.get("processDate") or t.get("proposedDate") or 0
+        return datetime.fromtimestamp(ms / 1000, tz=timezone.utc).isoformat()
+
+    def chain(t):
+        seen = []
+        while t and t["id"] not in [s["id"] for s in seen]:
+            seen.append(t)
+            t = by_id.get(t.get("relatedTransactionId"))
+        return seen
+
+    out, trades_done = [], {}
+    for t in raw:
+        kind, status = t.get("type"), t.get("status")
+        if kind == "TRADE_ACCEPT" and status == "EXECUTED":
+            root = next((s for s in chain(t) if any(i.get("type") == "TRADE" for i in s.get("items") or [])), None)
+            if root and (root["id"] not in trades_done or when(t) > trades_done[root["id"]][1]):
+                trades_done[root["id"]] = (root, when(t))
+        elif kind in ("FREEAGENT", "WAIVER", "ROSTER") and status == "EXECUTED":
+            items = []
+            for i in t.get("items") or []:
+                if i.get("type") == "ADD":
+                    items.append({"team_id": i.get("toTeamId"), "action": "WAIVER ADDED" if kind == "WAIVER" else "FA ADDED",
+                                  "player": name(i.get("playerId")),
+                                  "bid": (t.get("bidAmount") or None) if kind == "WAIVER" else None})
+                elif i.get("type") == "DROP":
+                    items.append({"team_id": i.get("fromTeamId"), "action": "DROPPED",
+                                  "player": name(i.get("playerId")), "bid": None})
+            if items:
+                out.append({"date": when(t), "type": "add" if any(x["action"] != "DROPPED" for x in items) else "drop",
+                            "team_ids": list(dict.fromkeys(x["team_id"] for x in items)), "items": items})
+    for root, date in trades_done.values():
+        items = []
+        for i in root.get("items") or []:
+            if i.get("type") == "TRADE":
+                player = name(i.get("playerId"))
+                items.append({"team_id": i.get("fromTeamId"), "action": "TRADE_SENT", "player": player, "bid": None})
+                items.append({"team_id": i.get("toTeamId"), "action": "TRADE_RECEIVED", "player": player, "bid": None})
+            elif i.get("type") == "DROP":
+                items.append({"team_id": i.get("fromTeamId"), "action": "DROPPED", "player": name(i.get("playerId")),
+                              "bid": None})
+        out.append({"date": date, "type": "trade", "team_ids": list(dict.fromkeys(x["team_id"] for x in items)),
+                    "items": items})
+    return sorted(out, key=lambda x: x["date"], reverse=True)
+
+
 def compute_status(matchups: list, teams: list, settings: dict, current_matchup_period: int) -> dict:
     played = [m for m in matchups if m["final"] or m["home_score"] or m["away_score"]]
     if not played:

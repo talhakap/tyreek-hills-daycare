@@ -44397,5 +44397,7120 @@
   }
  ],
  "rosters": null,
- "transactions": null
+ "transactions": [
+  {
+   "date": "2020-12-25T19:11:40.934000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Malcolm Brown",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Salvon Ahmed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-25T17:00:49.372000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "AJ Dillon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-25T03:53:33.246000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Panthers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-25T03:52:59.622000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-25T03:52:27.506000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Jared Cook",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-24T18:26:18.581000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Austin Hooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-24T16:18:46.043000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jonnu Smith",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-23T19:13:43.577000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Jalen Hurts",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-23T18:26:49.109000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Salvon Ahmed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-23T08:57:35.287000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Keke Coutee",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-23T08:57:35.286000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Le'Veon Bell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-23T08:57:35.284000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Tony Pollard",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Sony Michel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-20T09:51:13.236000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-20T09:50:58.175000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Le'Veon Bell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-20T09:50:52.514000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Sony Michel",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-17T16:06:40.495000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Hayden Hurst",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-17T16:06:29.384000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Keke Coutee",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-17T08:27:00.434000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "WAIVER ADDED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T19:16:13.471000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Adrian Peterson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T19:16:07.120000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Peyton Barber",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T16:37:15.967000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Logan Thomas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T12:24:52.535000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Patriots D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T08:38:16.516000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Panthers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T08:38:16.515000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Titans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-16T08:38:16.513000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Robert Tonyan",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T16:59:09.273000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Duke Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T16:59:04.346000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Nelson Agholor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T16:58:58.624000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T16:58:53.248000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Austin Hooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T12:38:28.171000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T12:38:11.273000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Deebo Samuel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-15T12:14:47.677000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Justin Jackson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-13T18:47:52.824000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Will Dissly",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Derek Carr",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-13T17:22:55.312000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-13T17:22:45.971000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Robert Tonyan",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Devontae Booker",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-13T14:24:55.415000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Keke Coutee",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-13T02:12:45.989000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "DeAndre Washington",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-12T20:52:59.023000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "DeAndre Washington",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-12T19:54:59.681000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Peyton Barber",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-11T01:50:05.790000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Panthers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-11T01:49:58.798000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-10T15:18:06.938000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "T.Y. Hilton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-10T14:14:36.750000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-10T08:19:24.556000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-10T08:19:24.555000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "49ers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-10T05:46:09.326000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-09T11:35:51.366000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Taysom Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-09T11:34:46.573000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Kyle Rudolph",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-06T17:35:22.189000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Graham Gano",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Chris Boswell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-06T09:59:36.581000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-06T01:40:21.052000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Sterling Shepard",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Sony Michel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-05T22:53:59.416000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jalen Reagor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-05T09:14:53.334000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-05T05:56:53.613000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T21:22:48.124000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Salvon Ahmed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T20:05:40.822000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "James White",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T16:53:56.384000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Kyle Rudolph",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T15:21:27.866000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Devin Singletary",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Gus Edwards",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T15:15:28.392000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Adrian Peterson",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Darius Slayton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T15:15:08.149000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Harrison Butker",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Ryan Succop",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T15:12:13.193000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Brian Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T13:03:59.057000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jason Myers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T08:11:14.522000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Bears D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Michael Gallup",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T08:11:14.521000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Benny Snell Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T08:11:14.520000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Jarvis Landry",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Sterling Shepard",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Daniel Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T08:11:14.519000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Cam Akers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T08:11:14.518000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Raiders D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-04T08:11:14.517000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Robert Tonyan",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Broncos D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-03T15:47:32.475000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Matt Prater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-03T13:04:58.627000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Will Fuller V",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-12-03T13:04:44.126000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Kalen Ballage",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-29T19:16:23.647000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Jimmy Graham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-29T17:45:46.402000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Mike Gesicki",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jared Cook",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-29T16:16:11.033000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-28T23:14:19.364000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "James White",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-28T02:58:06.838000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-27T20:21:40.934000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Brian Hill",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Malcolm Brown",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-27T01:06:08.325000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Daniel Jones",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-26T18:24:19.762000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Gus Edwards",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-26T17:11:25.389000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Sterling Shepard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-26T07:26:39.328000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jamaal Williams",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Devin Singletary",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-26T00:32:32.179000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Broncos D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-25T10:58:49.397000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Bills D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-25T10:57:59.499000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Tyler Bass",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-25T08:36:55.353000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Seahawks D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Panthers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-25T08:36:55.352000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-25T08:36:55.351000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Nelson Agholor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T21:39:28.226000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Sterling Shepard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T17:13:27.828000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Adrian Peterson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T17:13:22.817000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Kerryon Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T17:12:55.954000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Joe Burrow",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T13:29:31.631000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T13:29:25.717000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Harrison Butker",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-24T12:56:21.881000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Dalton Schultz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-21T08:26:55.743000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Panthers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Bears D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-21T03:05:26.617000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Joe Burrow",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-20T17:09:28.469000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Jameis Winston",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-20T15:05:57.945000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Taysom Hill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T21:04:22.793000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Kerryon Johnson",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Phillip Lindsay",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T21:02:51.635000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Adrian Peterson",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Alshon Jeffery",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T17:37:32.410000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Jameis Winston",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T17:31:58.327000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T15:27:13.132000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Washington D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T15:25:16.383000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Cam Newton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-19T03:34:56.786000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Carlos Hyde",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jarvis Landry",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T17:45:40.857000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "DeeJay Dallas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T10:44:54.058000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Devontae Booker",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Nelson Agholor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T08:52:24.105000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Michael Pittman Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T08:52:24.104000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Nyheim Hines",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T08:52:24.103000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Browns D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T08:52:24.102000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Chargers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Washington D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T08:52:24.101000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Rams D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-18T08:52:24.100000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Salvon Ahmed",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T20:33:57.281000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Jared Goff",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T18:56:26.720000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Chris Thompson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T18:05:28.841000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T18:05:23.670000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T18:04:24.654000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Randy Bullock",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T17:51:55.708000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Kyle Rudolph",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-17T13:45:09.637000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Darnell Mooney",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-14T22:22:14.725000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Kyle Rudolph",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Robert Tonyan",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-14T18:48:56.553000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-14T18:05:26.481000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Tim Patrick",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-14T05:48:39.127000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Alshon Jeffery",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-14T05:45:40.139000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Patriots D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-14T00:54:41.393000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Jarvis Landry",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Devonta Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-13T19:29:22.125000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Kalen Ballage",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Matt Breida",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-12T08:31:28.020000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Giants D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Jarvis Landry",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-12T02:07:02.214000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Malcolm Brown",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Tevin Coleman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-12T00:02:06.115000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jared Goff",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T22:43:55.561000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T22:30:25.202000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T22:26:43.359000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Devonta Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T22:21:37.898000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Nelson Agholor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T20:11:01.193000+00:00",
+   "type": "trade",
+   "team_ids": [
+    9,
+    1
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "TRADE_SENT",
+     "player": "Mike Evans",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "TRADE_RECEIVED",
+     "player": "Mike Evans",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "TRADE_SENT",
+     "player": "Darrell Henderson Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "TRADE_RECEIVED",
+     "player": "Darrell Henderson Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "TRADE_SENT",
+     "player": "Jakobi Meyers",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "TRADE_RECEIVED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Devonta Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T20:01:35.248000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Chris Thompson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T19:28:08.224000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Randy Bullock",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T18:54:31.352000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Matthew Stafford",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T18:53:24.619000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Drew Lock",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T18:53:19.608000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "JaMycal Hasty",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T18:17:37.600000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Duke Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T17:45:43.020000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Tevin Coleman",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Gus Edwards",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T16:56:15.357000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Eagles D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T16:38:51.109000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Dez Bryant",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T15:26:52.399000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Dalton Schultz",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Boston Scott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T15:23:56.184000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Jakobi Meyers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T13:49:29.141000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T09:22:10.691000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T09:22:10.691000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Devonta Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T09:22:10.690000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "J.D. McKissic",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T09:22:10.689000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Packers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T02:00:55.704000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jamaal Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-11T02:00:32.282000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Tyler Ervin",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T19:45:36.428000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Laviska Shenault Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T18:18:10.488000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T18:07:24.878000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Bills D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T18:04:35.913000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "La'Mical Perine",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T18:04:21.132000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T17:32:52.338000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Mecole Hardman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T17:32:42.698000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Jordan Howard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-10T17:32:20.352000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Keelan Cole Sr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-08T20:32:45.933000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Tony Pollard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-08T17:52:04.263000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Wayne Gallman",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jordan Wilkins",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-08T06:28:50.719000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-07T23:31:12.680000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Dez Bryant",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-07T18:07:14.527000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Tony Pollard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-06T20:04:59.782000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Gus Edwards",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Randall Cobb",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-06T20:03:42.580000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Laviska Shenault Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-06T20:03:23.175000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Randall Cobb",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-06T03:54:27.963000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Randy Bullock",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T22:07:37.242000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Jordan Howard",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T20:27:34.771000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T15:53:24.169000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Henry Ruggs III",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T03:44:01.623000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Mecole Hardman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T03:43:48.210000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Curtis Samuel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T03:43:30.702000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T03:42:58.869000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Devonta Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-05T02:11:59.106000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Tim Patrick",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "A.J. Green",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T21:56:39.536000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Drew Lock",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T21:40:13.709000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Tyler Ervin",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T19:50:36.565000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Malcolm Brown",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T19:01:46.210000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Joshua Kelley",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T19:01:17.695000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Derek Carr",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T18:04:34.217000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Ryan Succop",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Robbie Gould",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T17:00:04.285000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Jalen Reagor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T16:49:14.491000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T15:02:09.016000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Jerry Jeudy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T09:32:53.569000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Emmanuel Sanders",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Henry Ruggs III",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T09:32:53.569000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Washington D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Rams D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T09:32:53.568000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Matt Breida",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T09:32:53.568000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Jordan Wilkins",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T09:32:53.567000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Damien Harris",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T05:12:49.863000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "James White",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-04T04:34:07.866000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Cam Newton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T21:58:44.699000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Tevin Coleman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T17:23:17.459000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Adrian Peterson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T17:23:09.649000+00:00",
+   "type": "drop",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T15:59:33.412000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Carson Wentz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T15:25:43.052000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Nelson Agholor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T12:20:54.087000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-03T09:08:52.183000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Chargers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-02T19:07:48.150000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Washington D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T21:45:18.506000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Giants D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "J.D. McKissic",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T20:13:42.112000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T17:46:50.475000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Saints D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Carlos Hyde",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T15:02:41.183000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Matt Prater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T15:02:31.701000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Mason Crosby",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T01:12:48.312000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Richard Rodgers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-11-01T00:47:32.515000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Malcolm Brown",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-31T20:45:09.705000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Tevin Coleman",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-31T19:19:17.982000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Chase Claypool",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-30T22:17:47.195000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "DeeJay Dallas",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-30T20:18:45.302000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Darnell Mooney",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-30T13:38:42.789000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Justin Herbert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-30T04:35:19.165000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Julian Edelman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-29T18:34:24.635000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Zack Moss",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Trace McSorley",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-29T02:34:29.799000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Richard Rodgers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-29T01:38:31.332000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Dallas Goedert",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Tim Patrick",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-29T01:19:14.385000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Mike Gesicki",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Justin Herbert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T21:08:09.812000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Nelson Agholor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T18:54:33.675000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Chargers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T18:54:15.854000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Washington D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T11:02:14.304000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Daniel Carlson",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Greg Zuerlein",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T11:01:08.906000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Trace McSorley",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T08:03:23.902000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Allen Lazard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T08:03:23.901000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Carson Wentz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T08:03:23.900000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Carlos Hyde",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Chase Claypool",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T08:03:23.899000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "JaMycal Hasty",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T08:03:23.899000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Brandon Aiyuk",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-28T01:27:36.950000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Dalton Schultz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T17:10:10.865000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Frank Gore",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T17:09:58.808000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Dez Bryant",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T14:08:42.040000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Browns D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T09:59:42.166000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Odell Beckham Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T07:21:54.937000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Laviska Shenault Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T07:04:15.758000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Graham Gano",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-27T07:04:10.341000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "D'Ernest Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-26T21:12:22.859000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Gus Edwards",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-25T06:24:19.281000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Jamaal Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-24T06:57:50.830000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Giovani Bernard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-23T17:57:13.349000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-23T16:48:13.507000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Jimmy Graham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-23T00:35:55.843000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Randy Bullock",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Nyheim Hines",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-23T00:04:25.252000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Zach Ertz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-22T16:06:48.737000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Dez Bryant",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-22T07:47:29.016000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Corey Davis",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Damien Harris",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T21:23:58.503000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Jimmy Graham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T20:07:02.730000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Antonio Brown",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T18:03:17.154000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T17:43:01.915000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Graham Gano",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T17:15:33.979000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Gus Edwards",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T16:19:57.111000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Browns D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Mark Ingram II",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T16:07:59.812000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "J.D. McKissic",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T12:22:01.793000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T12:21:51.723000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T07:31:22.345000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Boston Scott",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Corey Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T07:31:22.345000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T07:31:22.344000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Justin Herbert",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T07:31:22.343000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Rob Gronkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T07:31:22.343000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "A.J. Green",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Sammy Watkins",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-21T07:31:22.341000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Zack Moss",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-20T20:40:20.473000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-20T19:35:59.711000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Washington D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-20T17:42:07.675000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Jerry Jeudy",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-20T17:35:14.181000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Ryan Fitzpatrick",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-20T12:18:32.035000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Cam Akers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-19T18:31:22.949000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Dalton Schultz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-18T16:59:27.506000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Zane Gonzalez",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-18T16:58:58.522000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Mason Crosby",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-18T01:24:39.546000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Jimmy Graham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-17T07:11:23.107000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Hunter Henry",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-16T17:52:36.834000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Travis Fulgham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T23:04:39.279000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Cam Akers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T21:39:39.435000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Chiefs D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T21:35:06.112000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Giants D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T20:24:47.281000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Mike Gesicki",
+     "bid": null
+    },
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Hunter Henry",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T17:59:31.227000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "La'Mical Perine",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Hunter Renfrow",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T16:10:44.426000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Jason Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T16:10:36.565000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Marquez Valdes-Scantling",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T15:49:33.866000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Ryan Tannehill",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T15:45:33.247000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Dak Prescott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:56:43.352000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Ryan Fitzpatrick",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Travis Fulgham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:53:08.611000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Washington D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:51:05.178000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Younghoe Koo",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Randy Bullock",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:51:05.177000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Austin Hooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:51:05.177000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Travis Fulgham",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "A.J. Green",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:51:05.176000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Dolphins D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:51:05.175000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Chase Claypool",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Tre'Quan Smith",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T07:51:05.175000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "WAIVER ADDED",
+     "player": "Mike Williams",
+     "bid": null
+    },
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Matt Prater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-15T00:26:22.498000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Malcolm Brown",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T18:46:35.136000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Brandon Aiyuk",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T17:51:49.243000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Gardner Minshew II",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T17:47:28.698000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Emmanuel Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T17:46:58.773000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Rob Gronkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T17:45:51.454000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Gabriel Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T14:01:49.816000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Justin Herbert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T13:50:52.960000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "N'Keal Harry",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T13:48:18.229000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Dalton Schultz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T10:33:50.926000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Teddy Bridgewater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-14T10:33:38.133000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-13T21:48:16.503000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Gabriel Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-11T19:43:56.659000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Emmanuel Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-11T18:07:14.818000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Saints D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "T.Y. Hilton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-11T05:25:21.889000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Tim Patrick",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-10T06:28:50.091000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-08T22:19:46.231000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Teddy Bridgewater",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-08T17:46:26.940000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Eric Ebron",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jimmy Graham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-08T17:46:01.538000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Mason Crosby",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-08T03:19:39.291000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Rob Gronkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T23:37:17.164000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Brandon Aiyuk",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T21:32:25.654000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Justin Herbert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T21:27:27.046000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Cam Akers",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T19:56:13.594000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T16:58:55.531000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Rodrigo Blankenship",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T16:58:37.842000+00:00",
+   "type": "drop",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "DROPPED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T16:58:16.100000+00:00",
+   "type": "add",
+   "team_ids": [
+    11
+   ],
+   "items": [
+    {
+     "team_id": 11,
+     "action": "FA ADDED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T14:20:47.887000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Tee Higgins",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.419000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "D'Ernest Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.418000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Dalton Schultz",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Brandin Cooks",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.417000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Laviska Shenault Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.416000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Justin Jackson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.416000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Gardner Minshew II",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.415000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Damien Harris",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Younghoe Koo",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T08:01:56.415000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Robert Tonyan",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T01:32:03.543000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Benny Snell Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-07T01:31:53.981000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Mo Alie-Cox",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T21:14:05.271000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T18:24:36.774000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Darrius Shepherd",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T18:24:16.435000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Malik Taylor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T18:14:40.144000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Anthony Miller",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T11:34:12.696000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Russell Gage",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T11:31:20.084000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T11:31:09.098000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Broncos D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-06T11:29:48.188000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Joe Burrow",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T23:10:29.351000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Mo Alie-Cox",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T22:26:57.739000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Joe Burrow",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Dalton Schultz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T05:21:13.444000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Jeff Wilson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T05:20:21.565000+00:00",
+   "type": "drop",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Tevin Coleman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T03:42:02.429000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Jimmy Graham",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T02:07:08.054000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "FA ADDED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-03T01:50:40.248000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Mike Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-02T03:48:37.348000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Darrius Shepherd",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-02T03:47:59.557000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Allen Lazard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-01T23:52:14.269000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Malik Taylor",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-10-01T23:46:27.517000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Mason Crosby",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T23:25:15.754000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Randy Bullock",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T17:41:24.576000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Benny Snell Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T17:35:15.140000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Seahawks D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T17:35:04.844000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Damien Harris",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T15:38:12.458000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Chase Edmonds",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T15:37:38.159000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Tarik Cohen",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T15:20:50.480000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Adrian Peterson",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Kerryon Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T15:11:41.400000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "FA ADDED",
+     "player": "Stephen Gostkowski",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Matt Breida",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T11:01:03.810000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T10:57:52.544000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Browns D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T07:42:26.610000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Tom Brady",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T07:42:26.610000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Anthony Miller",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T07:42:26.609000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Justin Jefferson",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "DeSean Jackson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-30T07:42:26.608000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Rams D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-29T17:34:38.867000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Laviska Shenault Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-29T17:32:37.384000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Dion Lewis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-29T14:24:26.004000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Chargers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-29T09:48:16.267000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Dallas Goedert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-27T10:28:30.082000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Marquez Valdes-Scantling",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-25T21:56:11.046000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Broncos D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-25T21:54:56.912000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Parris Campbell",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T18:54:09.811000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Vikings D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T18:53:58.649000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Falcons D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T15:08:29.349000+00:00",
+   "type": "drop",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "DROPPED",
+     "player": "Danny Amendola",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T12:45:37.765000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Browns D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T10:36:08.171000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Keelan Cole Sr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T10:34:56.057000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T08:32:16.559000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Chargers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Jordan Howard",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T08:15:36.216000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Mike Gesicki",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.439000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Laviska Shenault Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.438000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Wayne Gallman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.436000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Dalton Schultz",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Emmanuel Sanders",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.435000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Dion Lewis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.434000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Jerick McKinnon",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Benny Snell Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.433000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Darrell Henderson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.432000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Buccaneers D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Titans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.432000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Russell Gage",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.431000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Mike Davis",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Saquon Barkley",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-23T07:22:55.430000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "WAIVER ADDED",
+     "player": "Myles Gaskin",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T21:04:17.830000+00:00",
+   "type": "drop",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Chase Edmonds",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T20:24:54.005000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Darrel Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T17:26:27.516000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Anthony Miller",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T17:26:22.363000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Tom Brady",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T14:41:55.857000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Austin Hooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T14:41:46.946000+00:00",
+   "type": "drop",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Peyton Barber",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T11:35:57.873000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Adrian Peterson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T11:35:52.030000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Scotty Miller",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-22T11:35:36.139000+00:00",
+   "type": "drop",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Courtland Sutton",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-21T17:44:27.302000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Devonta Freeman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-19T20:29:51.601000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Scotty Miller",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-19T19:11:21.217000+00:00",
+   "type": "add",
+   "team_ids": [
+    12
+   ],
+   "items": [
+    {
+     "team_id": 12,
+     "action": "FA ADDED",
+     "player": "Danny Amendola",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-18T21:47:52.804000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Jonnu Smith",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-17T21:22:23.845000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Golden Tate",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-17T20:30:00.287000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Austin Hooper",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Curtis Samuel",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T16:21:55.506000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Rob Gronkowski",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T14:17:34.507000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "FA ADDED",
+     "player": "Corey Davis",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T14:01:13.215000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "FA ADDED",
+     "player": "Tre'Quan Smith",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Marlon Mack",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T10:56:32.138000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Darrel Williams",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T10:54:14.432000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Cardinals D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T08:44:33.856000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Vikings D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Eagles D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.425000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Adrian Peterson",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Mecole Hardman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.425000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Joshua Kelley",
+     "bid": null
+    },
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Duke Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.425000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "Benny Snell Jr.",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Justin Jefferson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.424000+00:00",
+   "type": "add",
+   "team_ids": [
+    1
+   ],
+   "items": [
+    {
+     "team_id": 1,
+     "action": "WAIVER ADDED",
+     "player": "Peyton Barber",
+     "bid": null
+    },
+    {
+     "team_id": 1,
+     "action": "DROPPED",
+     "player": "Austin Hooper",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.423000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "WAIVER ADDED",
+     "player": "Frank Gore",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Chris Thompson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.423000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "WAIVER ADDED",
+     "player": "Dallas Goedert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-16T07:01:39.422000+00:00",
+   "type": "add",
+   "team_ids": [
+    6
+   ],
+   "items": [
+    {
+     "team_id": 6,
+     "action": "WAIVER ADDED",
+     "player": "Malcolm Brown",
+     "bid": null
+    },
+    {
+     "team_id": 6,
+     "action": "DROPPED",
+     "player": "Breshad Perriman",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-15T21:45:14.835000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Darrell Henderson Jr.",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-15T12:37:23.566000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Carson Wentz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-15T12:36:59.794000+00:00",
+   "type": "drop",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Boston Scott",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-15T10:29:04.189000+00:00",
+   "type": "drop",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Lions D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-12T20:43:39.084000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Titans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-12T20:25:49.744000+00:00",
+   "type": "add",
+   "team_ids": [
+    5
+   ],
+   "items": [
+    {
+     "team_id": 5,
+     "action": "FA ADDED",
+     "player": "Lions D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 5,
+     "action": "DROPPED",
+     "player": "Saints D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-12T20:24:59.044000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Boston Scott",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Titans D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-12T16:40:06.074000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Titans D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 4,
+     "action": "DROPPED",
+     "player": "Chargers D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-11T21:21:48.673000+00:00",
+   "type": "add",
+   "team_ids": [
+    4
+   ],
+   "items": [
+    {
+     "team_id": 4,
+     "action": "FA ADDED",
+     "player": "Carson Wentz",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-11T20:00:40.508000+00:00",
+   "type": "add",
+   "team_ids": [
+    8
+   ],
+   "items": [
+    {
+     "team_id": 8,
+     "action": "FA ADDED",
+     "player": "Eagles D/ST",
+     "bid": null
+    },
+    {
+     "team_id": 8,
+     "action": "DROPPED",
+     "player": "Broncos D/ST",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-10T13:45:47.644000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "FA ADDED",
+     "player": "Duke Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-09T07:10:29.590000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Tom Brady",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-09T07:10:29.590000+00:00",
+   "type": "add",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "WAIVER ADDED",
+     "player": "Damien Harris",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-09T07:10:29.589000+00:00",
+   "type": "add",
+   "team_ids": [
+    7
+   ],
+   "items": [
+    {
+     "team_id": 7,
+     "action": "WAIVER ADDED",
+     "player": "James Robinson",
+     "bid": null
+    },
+    {
+     "team_id": 7,
+     "action": "DROPPED",
+     "player": "Duke Johnson",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-09T07:10:29.589000+00:00",
+   "type": "add",
+   "team_ids": [
+    9
+   ],
+   "items": [
+    {
+     "team_id": 9,
+     "action": "WAIVER ADDED",
+     "player": "Ben Roethlisberger",
+     "bid": null
+    },
+    {
+     "team_id": 9,
+     "action": "DROPPED",
+     "player": "Dallas Goedert",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-08T17:24:23.898000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Devine Ozigbo",
+     "bid": null
+    }
+   ]
+  },
+  {
+   "date": "2020-09-08T17:10:28.760000+00:00",
+   "type": "drop",
+   "team_ids": [
+    10
+   ],
+   "items": [
+    {
+     "team_id": 10,
+     "action": "DROPPED",
+     "player": "Justin Jackson",
+     "bid": null
+    }
+   ]
+  }
+ ]
 }

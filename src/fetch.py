@@ -156,6 +156,48 @@ def _fetch_transactions(league, year: int) -> list | None:
         return None
 
 
+def _fetch_past_transactions(league, year: int, last_period: int) -> list | None:
+    """Adds, drops, waiver claims (and the few trades ESPN still keeps) for a finished season.
+
+    The activity feed only works for the current season; the mTransactions2 view still has
+    old seasons, one scoring period per request. Optional: a problem here never fails the run.
+    """
+    try:
+        _with_retries(f"load {year} player names", league._fetch_players)
+        raw, seen = [], set()
+        for sp in range(0, last_period + 2):
+            data = _with_retries(f"load {year} transactions",
+                                 lambda: league.espn_request.league_get(params={"view": "mTransactions2",
+                                                                               "scoringPeriodId": sp}))
+            for t in data.get("transactions") or []:
+                if t.get("id") and t["id"] not in seen:
+                    seen.add(t["id"])
+                    raw.append(t)
+        return normalize.normalize_transactions2(raw, league.player_map)
+    except FetchError:
+        raise
+    except Exception as e:
+        log.warning("  Warning: couldn't read %s transactions (%s: %s).", year, type(e).__name__, e)
+        return None
+
+
+def _backfill_transactions(cfg: dict, path: Path, s2, swid) -> None:
+    """Saved seasons from before transactions were kept: add them once."""
+    season = json.loads(path.read_text(encoding="utf-8"))
+    if season.get("transactions") is not None:
+        return
+    year = season["season"]
+    periods = season.get("settings", {}).get("matchup_periods") or {}
+    last = max((sp for sps in periods.values() for sp in sps), default=18)
+    league = League(cfg["league"]["id"], year, espn_s2=s2, swid=swid, fetch_league=False)
+    tx = _fetch_past_transactions(league, year, last)
+    if tx is None:
+        return
+    season["transactions"] = tx
+    _write_json(path, season)
+    log.info("  Added %s transactions to data/seasons/%s.json", len(tx), year)
+
+
 def _fetch_draft(league, year: int) -> dict | None:
     """The draft board (who picked whom in each slot) and the original pick order.
 
@@ -199,6 +241,11 @@ def fetch_season(cfg: dict, year: int, s2, swid, is_current: bool) -> dict:
         rosters = {str(t.team_id): normalize.normalize_roster(t) for t in league.teams}
         transactions = _fetch_transactions(league, year)
         draft = _fetch_draft(league, year)
+    else:
+        last = max((m["matchupPeriodId"] for m in raw.get("schedule", [])), default=17)
+        periods = raw.get("settings", {}).get("scheduleSettings", {}).get("matchupPeriods", {})
+        last = max((sp for sps in periods.values() for sp in sps), default=last)
+        transactions = _fetch_past_transactions(league, year, last)
 
     return normalize.build_season(year=year, settings_obj=league.settings, raw=raw, teams=league.teams,
                                   lineups=lineups, transactions=transactions, rosters=rosters, draft=draft)
@@ -244,6 +291,7 @@ def fetch_all(cfg: dict, only_season: int | None = None, force: bool = False) ->
         is_current = year == current
         if not is_current and cached.exists() and not force:
             log.info("Season %s: cached, skipping.", year)
+            _backfill_transactions(cfg, cached, s2, swid)
             continue
         log.info("Fetching %s season…", year)
         try:
