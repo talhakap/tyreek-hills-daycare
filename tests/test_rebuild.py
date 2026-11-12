@@ -59,3 +59,21 @@ def test_live_rosters_count_as_the_latest_week():
     s = season(rosters={"1": [{"player_id": 20}], "2": [{"player_id": 21}], "3": [{"player_id": 10}]})
     moves, _ = rebuild.player_moves(s)
     assert {"pid": 10, "from": 2, "to": 3, "window": (3, 4)} in moves
+
+
+def test_commissioner_moves_count_as_the_sheet_trade_happening():
+    # Team 3 "picked up" 31 in week 2 (how a manual move by the commissioner looks), but the sheet
+    # says team 2 traded 31 to team 3 for a pick. Start 31 on team 2 in week 1.
+    s = season()
+    s["lineups"].append(lineup(1, 2, 31))
+    sheet = [{"season": 2025, "note": "Manual", "sides": [
+        {"team": 2, "players": [], "picks": [{"year": 2026, "round": 7, "from": 3}]},
+        {"team": 3, "players": ["P31"], "picks": []}]}]
+    trades = rebuild.attach_picks(rebuild.rebuild_trades(s), 2025, None, sheet, s)
+    manual = trades[-1]
+    assert not manual.get("sheet_only") and manual["window"] == (1, 2) and manual["got"][3] == ["P31"]
+    # Not moved on ESPN yet: stays sheet-only.
+    pending = rebuild.attach_picks(rebuild.rebuild_trades(season()), 2025, None,
+                                   [{**sheet[0], "sides": [sheet[0]["sides"][0],
+                                                            {"team": 3, "players": ["P99"], "picks": []}]}], season())
+    assert pending[-1]["sheet_only"]

@@ -49,7 +49,6 @@ def test_cannot_receive_your_own_pick(tmp_path):
     (trade(2025, 1, [], 9, [(2026, 1, 1)]), "no team number 9"),
     (trade(2025, 1, [], 2, [(2026, 17, 1)]), "round 17 doesn't exist"),
     ("[[trade]]\nseason = 2025\n[[trade.side]]\nteam = 1\n", "at least two"),
-    (trade(2025, 1, [], 2, []), "no draft picks changed hands"),
     ('[[trade]]\nseason = 2025\ndate = "Oct 3"\n', "date should look like"),
     ("[[trade]\n", "formatting mistake"),
 ])
@@ -144,3 +143,14 @@ def test_lenient_owners_skip_a_trade_that_gives_away_a_pick_twice():
     owners, kept, bad = picks.resolve_owners_lenient(trades, name=lambda i: f"T{i}")
     assert owners == {(2027, 4, 1): 2} and len(kept) == 1
     assert bad[0]["row"] == 3 and "belongs to T2" in bad[0]["message"]
+
+
+def test_player_only_sheet_trades_are_allowed():
+    rows = sheet(["2026", "", "Alpha 25", "Josh Allen", "", "Bravo 25", "Kyren Williams", ""])
+    trades, problems = picks.parse_sheet(rows, NAMES, 16)
+    assert problems == [] and trades[0]["sides"][1]["players"] == ["Kyren Williams"]
+
+
+def test_player_key_ignores_suffixes():
+    assert picks.player_key("Travis Etienne") == picks.player_key("Travis Etienne Jr.")
+    assert picks.player_key("Michael Pittman Jr") == picks.player_key("michael pittman")

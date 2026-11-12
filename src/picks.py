@@ -147,6 +147,14 @@ def name_key(name: str) -> str:
     return "".join(c for c in name.lower() if c.isalnum())
 
 
+_SUFFIX = re.compile(r"\s+(jr|sr|ii|iii|iv|v)\.?$", re.I)
+
+
+def player_key(name: str) -> str:
+    """Player names compared loosely: "Travis Etienne" matches "Travis Etienne Jr."."""
+    return name_key(_SUFFIX.sub("", name.strip()))
+
+
 def _split(cell: str) -> list[str]:
     return [x.strip() for x in re.split(r"[\n,;]", cell or "") if x.strip()]
 
@@ -221,8 +229,6 @@ def parse_sheet(rows: list[list[str]], team_names: dict, max_round: int | None =
                                             "e.g. \"2027 1st (Billieve)\".")
                         frm = others[0]
                     s["picks"].append({"year": year, "round": rnd, "from": frm})
-            if not any(s["picks"] for s in sides):
-                raise PickError(f"{where}: no draft picks changed hands, so it belongs on ESPN, not here.")
             for s in sides:
                 if not s["players"] and not s["picks"]:
                     raise PickError(f"{where}: one team doesn't receive anything.")

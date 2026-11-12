@@ -605,7 +605,7 @@ def _rebuilt_trades_view(league: League, year: int, pick_view: dict | None, trad
     latest = max((lu["scoring_period"] for lu in season.get("lineups") or []), default=0)
     sheet = pick_view["raw_trades"] if pick_view and year >= trading_since else []
     next_draft = (league.seasons.get(year + 1) or {}).get("draft") if year >= trading_since else None
-    trades = [t for t in rebuild.attach_picks(rebuild.rebuild_trades(season), year, next_draft, sheet)
+    trades = [t for t in rebuild.attach_picks(rebuild.rebuild_trades(season), year, next_draft, sheet, season)
               if not t.get("sheet_only")]
     later_drafts = {y: s.get("draft") for y, s in league.seasons.items() if s.get("draft")}
 

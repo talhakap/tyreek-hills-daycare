@@ -86,35 +86,58 @@ def board_traded_picks(draft: dict | None) -> list[dict]:
     return out
 
 
-def attach_picks(trades: list, season: int, next_draft: dict | None, sheet_trades: list) -> list:
+def _sheet_trade_window(st: dict, timeline: dict, names: dict) -> tuple | None:
+    """When a sheet trade's players moved on ESPN, however the move was made (a real trade, or a
+    commissioner dropping and adding them). None if no received player is on his new team yet."""
+    by_key = defaultdict(list)
+    for pid, name in names.items():
+        by_key[picks.player_key(name)].append(pid)
+    teams = {s["team"] for s in st["sides"]}
+    windows = []
+    for s in st["sides"]:
+        for player in s["players"]:
+            for pid in by_key.get(picks.player_key(player), []):
+                seq = sorted(timeline.get(pid, {}).items())
+                for (pa, a), (pb, b) in zip(seq, seq[1:]):
+                    if b == s["team"] and a in teams and a != b:
+                        windows.append((pa, pb))
+    return max(windows) if windows else None
+
+
+def attach_picks(trades: list, season: int, next_draft: dict | None, sheet_trades: list,
+                 season_data: dict | None = None) -> list:
     """Adds the draft picks that went with each rebuilt trade.
 
     1. Sheet trades made in `season`: matched to the rebuilt trade with the same players and
-       teams; their picks (exact) are attached. Sheet trades with no player moves become
-       pick-only trades.
+       teams; their players and picks (exact) are used. If the rosters show the players moved but
+       not as a trade (a commissioner's manual move), the sheet trade still counts as done on
+       ESPN. Otherwise it's marked sheet_only (pick-only, or not processed on ESPN yet).
     2. Picks on the next finished draft board that changed hands and aren't explained by the
        sheet: attached to the latest rebuilt trade between those two teams, else a pick-only trade.
     """
+    timeline, names = roster_timeline(season_data) if season_data else ({}, {})
     explained = set()
     for st in (t for t in sheet_trades if t["season"] == season):
         teams = {s["team"] for s in st["sides"]}
-        players = {p.lower() for s in st["sides"] for p in s["players"]}
+        players = {picks.player_key(p) for s in st["sides"] for p in s["players"]}
         match = None
         for t in trades:
-            rebuilt_players = {p.lower() for ps in t["got"].values() for p in ps}
+            rebuilt_players = {picks.player_key(p) for ps in t["got"].values() for p in ps}
             if set(t["teams"]) <= teams and players & rebuilt_players:
                 match = t
-        if match is None:   # no players moved on ESPN (pick-only, or not processed on ESPN yet)
-            match = {"window": None, "teams": sorted(teams), "got": {tid: [] for tid in teams},
-                     "picks": {tid: [] for tid in teams}, "pick_only": not players, "sheet_only": True}
+        if match is None:
+            window = _sheet_trade_window(st, timeline, names) if players else None
+            match = {"window": window, "teams": sorted(teams), "got": {tid: [] for tid in teams},
+                     "picks": {tid: [] for tid in teams}, "pick_only": not players,
+                     "sheet_only": window is None}
             trades.append(match)
         match["from_sheet"] = True
         match["note"] = st.get("note") or ""
         for s in st["sides"]:
             match["got"].setdefault(s["team"], [])
             match["picks"].setdefault(s["team"], [])
-            have = {p.lower() for p in match["got"][s["team"]]}
-            match["got"][s["team"]] += [p for p in s["players"] if p.lower() not in have]
+            have = {picks.player_key(p) for p in match["got"][s["team"]]}
+            match["got"][s["team"]] += [p for p in s["players"] if picks.player_key(p) not in have]
             for p in s["picks"]:
                 match["picks"][s["team"]].append({"year": p["year"], "round": p["round"], "from": p["from"]})
                 explained.add((p["year"], p["round"], p["from"]))
