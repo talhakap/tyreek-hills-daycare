@@ -2,7 +2,7 @@
 
 A website for our ESPN fantasy football league: standings, weekly recaps, power rankings,
 team pages with rosters by year, league history, head-to-head records, all-time records
-and transactions. It rebuilds itself four times a week during the season (Sunday night, Monday, Tuesday and Friday), and you never have to touch it.
+and transactions. It rebuilds itself twice a day (about 7 AM and 7 PM Toronto time), plus after Sunday, Monday and Thursday games, and you never have to touch it.
 
 **Contents**
 
@@ -24,7 +24,7 @@ and transactions. It rebuilds itself four times a week during the season (Sunday
 **It costs nothing.** Everything runs on GitHub's free services:
 
 - **GitHub Pages** hosts the website.
-- **GitHub Actions** is a free robot that, four times a week, downloads the latest results from ESPN,
+- **GitHub Actions** is a free robot that, twice a day and after game nights, downloads the latest results from ESPN,
   rebuilds the site and publishes it.
 
 No paid services, no AI services, no server to look after. The written recaps come from
@@ -287,8 +287,8 @@ each traded pick was used on (read from ESPN).
 
 The site reads the sheet every time it rebuilds. Once the one-time setup below is done, a
 change to the sheet starts a rebuild by itself and shows on the site about 3–5 minutes after
-the last edit. Without it, changes wait for the scheduled rebuilds (Sunday night, Monday,
-Tuesday, Friday), or go to the repository's **Actions** tab → **Build and deploy site** →
+the last edit. Without it, changes wait for the next scheduled rebuild (twice a day, about
+7 AM and 7 PM Toronto time), or go to the repository's **Actions** tab → **Build and deploy site** →
 **Run workflow**.
 
 If a row can't be used (a misspelled team, or a team trading away a pick it doesn't own), it's

@@ -10,7 +10,9 @@ on:
     - cron: "0 14 * * 1"   # Monday: live scores after Sunday Night Football
     - cron: "0 14 * * 2"   # Tuesday: after Monday Night Football; the week is final
     - cron: "0 14 * * 5"   # Friday: after Thursday Night Football
-  workflow_dispatch:        # the "Run workflow" button on the Actions tab
+    - cron: "17 12 * * *"  # Every day, 7:17 AM Toronto (8:17 AM in summer): pick up transactions and sheet changes
+    - cron: "17 0 * * *"   # Every day, 7:17 PM Toronto (8:17 PM in summer)
+  workflow_dispatch:       # the "Run workflow" button on the Actions tab
   push:
     branches: [main]
 
